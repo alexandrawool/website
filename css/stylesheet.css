@@ -52,11 +52,17 @@ a:hover, a:active, a:focus {
   text-decoration: none;
   color: #ffbb00;
 }
+.img-container{
+	display: block;
+	width: 900px; 
+    height: 440px;
+}
 ul li img {
 	display: block;
-    height: 440px;
-    width:auto; /* you can use % */
-
+    height: auto; 
+    width: auto; 
+    max-width: 900px; 
+    max-height: 440px;
 }
 p {
 	color: #ffbb00;

@@ -44,7 +44,11 @@
 						<!-- <h3>{{category.category}}</h3> -->
 						<p>{{category.paintings[panel.current].name}}</p>
 						<ul>
-							<li><img ng-src="{{category.paintings[panel.current].img}}"></li>
+							<li>
+								<div class="img-container">
+									<img ng-src="{{category.paintings[panel.current].img}}">
+								</div>
+							</li>
 						</ul>
 						<ul>
 							<li class="bottom-button" ng-repeat="painting in category.paintings">

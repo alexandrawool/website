@@ -18,10 +18,6 @@ app.controller('PanelCtrl', function(){
 	}
 })
 
-// app.controller('PaintingCtrl', function(){
-// 	this.
-// })
-
 
 var categories = [
 	{category: "paintings", paintings: []},

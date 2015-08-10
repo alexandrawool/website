@@ -19,6 +19,7 @@ app.controller('PanelCtrl', function(){
 }) 
 
 
+
 var categories = [
 	{category: "paintings", paintings: []},
 	{category: "mixed media", paintings: [

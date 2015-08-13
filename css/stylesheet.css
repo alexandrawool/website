@@ -29,15 +29,20 @@ hr {
 }
 hr.hide-me {
 	visibility: hidden;
+	margin-top: 35px;
 }
 ul {
 	list-style:none;
 	display: block;
-	text-align: left;
+	text-align: left;	
+}
+.left-nav-panel {
+	margin-top: 30px;
 }
 a {
 	color: white;
 	font: Arial,Verdana, sans-serif;
+	font-size: 90%;
 }
 a:visited, a:link {
 	text-decoration: none;

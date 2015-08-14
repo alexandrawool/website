@@ -19,7 +19,7 @@ h2 {
 }*/
 .name-title {
 	/*margin-right: 270px;*/
-  	padding: 1.65625em 2.55em 0;
+  	padding: 3.6em 2.55em 0;
 }
 hr {
     border: 0;
@@ -29,7 +29,7 @@ hr {
 }
 hr.hide-me {
 	visibility: hidden;
-	margin-top: 35px;
+	margin-top: 20px;
 }
 ul {
 	list-style:none;
@@ -37,7 +37,7 @@ ul {
 	text-align: left;	
 }
 .left-nav-panel {
-	margin-top: 30px;
+	margin-top: 35px;
 }
 a {
 	color: white;
@@ -56,6 +56,9 @@ a:hover, a:active, a:focus {
   font-weight: normal;
   text-decoration: none;
   color: #ffbb00;
+}
+.gallary-display {
+	margin-top: -7px;
 }
 .img-container{
 	display: block;

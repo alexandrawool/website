@@ -26,10 +26,11 @@ hr {
     height: 0;
     border-top: 1px dotted rgba(0, 0, 0, 0.1);
     border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
+    visibility: hidden;
 }
 hr.hide-me {
 	visibility: hidden;
-	margin-top: 20px;
+	margin-top: 22px;
 }
 ul {
 	list-style:none;
@@ -37,7 +38,7 @@ ul {
 	text-align: left;	
 }
 .left-nav-panel {
-	margin-top: 35px;
+	margin-top: 50px;
 }
 a {
 	color: white;
@@ -58,7 +59,7 @@ a:hover, a:active, a:focus {
   color: #ffbb00;
 }
 .gallary-display {
-	margin-top: -7px;
+	margin-top: 9px;
 }
 .img-container{
 	display: block;

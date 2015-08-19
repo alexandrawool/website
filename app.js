@@ -49,7 +49,7 @@ var categories = [
 	{category: "flowers", paintings: [
 		{name: "anemone triptych", img: "public/Flowers/ANEMONE TRIPTYCH   48''x48''.JPG"},
 		{name: "anemones", img: "public/Flowers/ANEMONES 44x44in.JPG"},
-		{name: "anemones (smaller file)", img: "public/Flowers/smaller.jpg"},
+		{name: "anemones (smaller file)", img: "ANEMONES 44x44in SMALLER.jpg"},
 		{name: "daffodils and vase", img: "public/Flowers/Daffodils and Vase   chalk pencil paint  9x12in.JPG"},
 		{name: "geraniums out of florence", img: "public/Flowers/Geraniums out of Florence 24x48in.jpg"},
 		{name: "pink and blue hydrangeas", img: "public/Flowers/PINK AND BLUE HYDRANGEAS    8x10 in.jpg"},

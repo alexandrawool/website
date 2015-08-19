@@ -50,7 +50,7 @@ var categories = [
 		{name: "anemone triptych", img: "public/Flowers/ANEMONE TRIPTYCH   48''x48''.JPG"},
 		// {name: "anemone triptych (smaller size)", img: "public/Flowers/ANEMONE TRIPTYCH   48''x48'' SMALLER IMAGE SIZE.JPG"},
 		{name: "anemones", img: "public/Flowers/ANEMONES 44x44in.JPG"},
-		{name: "anemones (smaller file)", img: "public/Flowers/ANEMONES 44x44in SMALLER IMAGE SIZE.JPG"},
+		{name: "anemones (smaller file)", img: "public/Flowers/ANEMONES 44x44in SMALLER IMAGE.JPG"},
 		{name: "daffodils and vase", img: "public/Flowers/Daffodils and Vase   chalk pencil paint  9x12in.JPG"},
 		{name: "geraniums out of florence", img: "public/Flowers/Geraniums out of Florence 24x48in.jpg"},
 		{name: "pink and blue hydrangeas", img: "public/Flowers/PINK AND BLUE HYDRANGEAS    8x10 in.jpg"},

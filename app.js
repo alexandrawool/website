@@ -168,7 +168,7 @@ var categories = [
 		{name: "self portrait", img: "public/People/SELF-PORTRAIT.jpg"}
 	]},
 	{category: "horses", paintings: [
-		{name: "after the ball", img: "public/Horses/AFTER THE BALL.jpg"}, 
+		// {name: "after the ball", img: "public/Horses/AFTER THE BALL.jpg"}, // fix this one
 		{name: "blondie and tcherepnine", img: "public/Horses/BLONDIE AND TCHEREPNINE  9x20in.jpg"}, 
 		{name: "chukker", img: "public/Horses/CHUKKER  12x16in.JPG"},
 		{name: "chukker 2", img: "public/Horses/CHUKKER 2  12x16in.JPG"},

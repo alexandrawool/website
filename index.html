@@ -40,7 +40,7 @@
 				<div class="col-sm-8 col-md-8 col-lg-8 gallary-display">
 					<div ng-repeat="category in panel.categories" ng-show="panel.tab === $index">
 						<!-- <h3>{{category.category}}</h3> -->
-						<p>{{category.paintings[panel.current].name}}</p>
+						<p class="show-left">{{category.paintings[panel.current].name}}</p><p class="show-right">{{category.paintings[panel.current].size}}</p>
 						<ul>
 							<li>
 								<div class="img-container">
@@ -48,13 +48,16 @@
 								</div>
 							</li>
 						</ul>
-						<ul>
+						<ul class="bottom-dots">
 							<li class="bottom-button" ng-repeat="painting in category.paintings">
 								<a href ng-click="panel.setCurrent($index)">
 									<i class="fa fa-circle-o" ng-class="{ 'fa-circle' : panel.isCurrent($index) }"></i>
 								</a>
 							</li>
 						</ul>
+<!-- 						<div class="bottom-button arrows">
+							<i class="fa fa-arrow-left show-left"></i><i class="fa fa-arrow-right show-right"></i>
+						</div> -->
 					</div>	
 				</div>
 			</div>		

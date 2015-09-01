@@ -21,6 +21,16 @@ h2 {
 	/*margin-right: 270px;*/
   	padding: 3.6em 2.55em 0;
 }
+.show-left {
+	float: left;
+	width:33.33333%;
+	text-align:left;
+}
+.show-right {
+	float: left;
+	width:50%;
+	text-align:right;
+}
 hr {
     border: 0;
     height: 0;
@@ -30,7 +40,7 @@ hr {
 }
 hr.hide-me {
 	visibility: hidden;
-	margin-top: 89px;
+	margin-top: 49px;
 }
 ul {
 	list-style:none;
@@ -62,6 +72,7 @@ a:hover, a:active, a:focus {
 	margin-top: 9px;
 }
 .img-container{
+	clear: both;
 	display: block;
 	width: 900px; 
     height: 440px;
@@ -72,12 +83,23 @@ ul li img {
     width: auto; 
     max-width: 900px; 
     max-height: 440px;
+    /*float: left;*/
 }
 p {
 	color: #ffbb00;
 	padding-left: 40px;
+	/*display: inline-block;*/
 }
 .bottom-button {
 	display: inline;
 	padding: 0.2em;
 }
+.bottom-dots {
+	clear: both;
+	display: block;
+	width: 340px; 
+}
+/*.arrows {
+	padding-left: 20px;
+	clear: both;
+}*/

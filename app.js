@@ -55,8 +55,6 @@ var categories = [
 		{name: "remember", img: "public/Pastel/remember  pastel  canvas  12x9in.JPG", size: ""},
 		{name: "roman afternoon", img: "public/Pastel/roman afternoon      pastel on canvas     9x12in.JPG", size: ""}		
 	]},
-	{category: "oils", paintings: [
-	]},
 	{category: "monotypes", paintings: [
 		{name: "landscape with tree", img: "public/Monotype/Landscape with Tree   monotype.Jpg", size: ""},
 		{name: "race", img: "public/Monotype/Race (monotype on paper) 12.5x5.75 image.jpg", size: ""},
@@ -170,18 +168,18 @@ var categories = [
 		{name: "self portrait", img: "public/People/SELF-PORTRAIT.jpg", size: ""}
 	]},
 	{category: "horses (and the hunt)", paintings: [
-		{name: "after the ball", img: "public/Horses/AFTER THE BALL.JPG", size: ""}, 
-		{name: "blondie and tcherepnine", img: "public/Horses/BLONDIE AND TCHEREPNINE  9x20in.jpg", size: ""}, 
-		{name: "chukker", img: "public/Horses/CHUKKER  12x16in.JPG", size: ""},
-		{name: "chukker 2", img: "public/Horses/CHUKKER 2  12x16in.JPG", size: ""},
-		{name: "match", img: "public/Horses/MATCH      8x10in.JPG", size: ""},
-		{name: "mika transported", img: "public/Horses/MIKA TRANSPORTED     60x96in.JPG", size: ""},
+		// {name: "mika transported", img: "public/Horses/MIKA TRANSPORTED     60x96in.JPG", size: ""},
 		{name: "present time transported", img: "public/Horses/PRESENT TIME TRANSPORTED  (6' x 7' - 1985).JPG", size: ""},
 		{name: "riders", img: "public/Horses/RIDERS (monotype)11.75x10.5 in.JPG", size: ""},
 		{name: "the hunt", img: "public/Horses/THE HUNT   16x20in.JPG", size: ""},
 		{name: "yes, my darling jumps", img: "public/Horses/Yes, my Darling Jumps   9x16in.JPG", size: ""}
 	]},
 	{category: "polo", paintings: [
+		{name: "after the ball", img: "public/Horses/AFTER THE BALL.JPG", size: ""}, 
+		{name: "blondie and tcherepnine", img: "public/Horses/BLONDIE AND TCHEREPNINE  9x20in.jpg", size: ""}, 
+		{name: "chukker", img: "public/Horses/CHUKKER  12x16in.JPG", size: ""},
+		{name: "chukker 2", img: "public/Horses/CHUKKER 2  12x16in.JPG", size: ""},
+		{name: "match", img: "public/Horses/MATCH      8x10in.JPG", size: ""},
 	]},
 	{category: "prints", paintings: [
 		{name: "dressing", img: "public/Print/DRESSING , diazo print  10x14in  1988.jpg", size: ""},
@@ -214,6 +212,9 @@ var categories = [
 		{name: "we three", img: "public/Shakespeare-Bible/we three    19x24in.JPG", size: ""},
 		{name: "where you go, i will go", img: "public/Shakespeare-Bible/where you go, I will go  charcoal and chalk    19x24in.JPG", size: ""},
 		{name: "wife of lot", img: "public/Shakespeare-Bible/wife of Lot  mixed media panel  20x30in  .JPG", size: ""}
+	]},
+	{category: "oils", paintings: [
 	]}]
+
 
 

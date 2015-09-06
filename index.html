@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- Stylesheet -->
     <link href="css/stylesheet.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
   </head>
 	<body>
 		<!-- angular scripts -->
@@ -26,7 +28,7 @@
 			<div class="row" ng-controller="PanelCtrl as panel">
 				<div class="col-sm-3 col-md-3 col-lg-3">
 					<ul class="nav-stacked left-nav-panel">
-						<li ng-repeat="category in panel.categories" >
+						<li ng-repeat="category in panel.categories" class="left-nav-item">
 							<a href ng-click="panel.selectTab($index)" ng-class="{ 'active-orange' : panel.isSelected($index) }">{{category.category}}</a>
 						</li>
 					</ul>
@@ -38,9 +40,11 @@
 					</ul>
 				</div>
 				<div class="col-sm-8 col-md-8 col-lg-8 gallary-display">
-					<div ng-repeat="category in panel.categories" ng-show="panel.tab === $index">
+					<div ng-repeat="category in panel.categories" ng-show="panel.tab === $index" class="slideshow-panel">
 						<!-- <h3>{{category.category}}</h3> -->
-						<p class="show-left">{{category.paintings[panel.current].name}}</p><p class="show-right">{{category.paintings[panel.current].size}}</p>
+						<div class="img-title-info">
+							<p class="show-left">{{category.paintings[panel.current].name}}</p><p class="show-middle">{{category.paintings[panel.current].info}}</p><p class="show-right">{{category.paintings[panel.current].size}}</p>
+						</div>
 						<ul>
 							<li>
 								<div class="img-container">
@@ -65,6 +69,7 @@
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
 	    <!-- Include all compiled plugins (below), or include individual files as needed -->
 	    <script src="js/bootstrap.min.js"></script>
 	</body>

@@ -21,14 +21,27 @@ h2 {
 	/*margin-right: 270px;*/
   	padding: 3.6em 2.55em 0;
 }
+/*.slideshow-panel {
+	display: table;
+	width: 1px; 
+}
+.img-title-info {
+	display: table-caption;
+	caption-side: top;
+}*/
 .show-left {
 	float: left;
-	width:33.33333%;
+	width:47%;
 	text-align:left;
+}
+.show-middle {
+	float: left;
+	width:23%;
+	text-align: center;
 }
 .show-right {
 	float: left;
-	width:50%;
+	width:5%;
 	text-align:right;
 }
 hr {

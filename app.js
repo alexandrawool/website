@@ -33,39 +33,40 @@ app.controller('PanelCtrl', function(){
 // 	});
 // });
 
-
+// store width in ng-repeat
+// compute widths?? -- they are all on page, select with jQuery and get widths
+// array of widths
+// add widths to each painting
 
 var categories = [
 	// {category: "paintings", paintings: []},
 	{category: "mixed media", paintings: [
 		{name: "flower and memory", img: "public/Mixed-Media/FLOWER AND MEMORY 15x20in.jpg", size: "15x20in"},
 		{name: "generative green", img: "public/Mixed-Media/Generative_Green_on_panel_15x16in.jpg", size: "15x16in"},
-		{name: "light after rain", img: "public/Mixed-Media/light after rain  mixed media  panel  36x30in.jpg", size: "36x30in"},
+		{name: "light after rain", img: "public/Mixed-Media/light after rain  mixed media  panel  36x30in.jpg", size: "48x35in"}, // size corrected by Alexandra
 		{name: "postcard from lucca", img: "public/Mixed-Media/postcard from lucca  mixed media on panel    32x24in.JPG", size: "32x24in"},
 		{name: "red flowers in a somewhat grey vase", img: "public/Mixed-Media/red flowers in a somewhat grey vase              mixed media  panel  9.5x16.5.JPG", size: "9.5x16.5in"},
 		{name: "shower", img: "public/Mixed-Media/SHOWER  panel   12x12in.JPG", size: "12x12in"},
-		{name: "traumerai", img: "public/Mixed-Media/traumerai   mixed media panel  36x30in.JPG", size: "36x30in"},
-		{name: "wife of lot", img: "public/Mixed-Media/wife of Lot  mixed media panel  20x30in  .JPG", size: "0x30in"},
+		{name: "traumerai", img: "public/Mixed-Media/traumerai   mixed media panel  36x30in.JPG", size: "48x35in"}, // size corrected by Alexandra
+		{name: "wife of lot", img: "public/Mixed-Media/wife of Lot  mixed media panel  20x30in  .JPG", size: "20x30in"},
 		{name: "young woman in feathered hat", img: "public/Mixed-Media/YOUNG WOMAN IN FEATHERED HAT 48x48in.JPG", size: "48x48in"}
 	]},
 	{category: "pastels", paintings: [
-		{name: "anemones in a blue vase", img: "public/Pastel/anemones in a blue vase   pastel on paper   10x18in.JPG", size: "10x18in"},
 		{name: "book and cofffee", img: "public/Pastel/book and cofffee  pastel on paper  30x30in.JPG", size: "30x30in"},
+		{name: "anemones in a blue vase", img: "public/Pastel/anemones in a blue vase   pastel on paper   10x18in.JPG", size: "10x18in"},	
 		{name: "bottega oscura", img: "public/Pastel/bottega oscura  pastel on canvas  9x12in.JPG", size: "9x12in"},
 		{name: "hydrageas", img: "public/Pastel/hydrageas  pastel canvas  10x10in.JPG", size: "10x10in"},
 		{name: "hydrangea brightness in b.c.", img: "public/Pastel/hydrangea brightness in b.c.  pastel on canvas   10x8in.JPG", size: "10x8in"},
-		{name: "hydrageas", img: "public/Pastel/HYDRANGEAS    canvas   10x10in.JPG", size: "10x10in"},
 		{name: "hydrageas (mixed color)", img: "public/Pastel/HYDRANGEAS (mixed color) 10x10in.JPG", size: "10x10in"},
-		{name: "hydrangeas in blue pot", img: "public/Pastel/hydrangeas in blue pot  pastel  on canvas   10x10 in.JPG", size: "10x10 in"},
+		{name: "hydrangeas in blue pot", img: "public/Pastel/hydrangeas in blue pot  pastel  on canvas   10x10 in.JPG", size: "10x10in"},
 		{name: "hydrangeas on the terrace", img: "public/Pastel/hydrangeas on the terrace pastel on canvas   18x36in - Copy.JPG", size: "18x36in"},
 		{name: "hydrangeas, blue-violet, for maya the dying swan", img: "public/Pastel/hydrangeas, blue-violet, for maya the  dying swan               pastel on canvas                                 12x9in.JPG", size: "12x9in"},
 		{name: "hydrangeas, elan", img: "public/Pastel/hydrangeas, elan   pastel  canvas  10x9in.JPG", size: "10x9in"},
-		{name: "hydrangeas, mixed pastel on canvas", img: "public/Pastel/hydrangeas, mixed   pastel on canvas           10x10in.JPG", size: "10x10in"},
+		{name: "hydrangeas, mixed", img: "public/Pastel/hydrangeas, mixed   pastel on canvas           10x10in.JPG", size: "10x10in"},
 		{name: "hydrangeas,pink and violet", img: "public/Pastel/hydrangeas,pink and violet   pastel on canvas  10x8in.JPG", size: "10x8in"},
 		{name: "lay your sleeping head (auden)", img: "public/Pastel/lay your sleeping head (auden) pastel canvas   8x10in.JPG", size: "8x10in"},
 		{name: "mika with jump rope", img: "public/Pastel/mika with jump rope pastel on paper, mounted on board  24x48in.JPG", size: "24x48in"},
 		{name: "mixed hydrangeas", img: "public/Pastel/mixed hydrangeas  pastel   canvas   10x10in.JPG", size: "10x10in"},
-		{name: "morning with book", img: "public/Pastel/MORNING WITH BOOK pastel on paper.JPG", size: ""}, // what size?
 		{name: "remember", img: "public/Pastel/remember  pastel  canvas  12x9in.JPG", size: "12x9in"},
 		{name: "roman afternoon", img: "public/Pastel/roman afternoon      pastel on canvas     9x12in.JPG", size: "9x12in"}		
 	]},
@@ -154,6 +155,7 @@ var categories = [
 		{name: "green field, blue sky", img: "public/Landscape/green field, blue sky.JPG", size: ""}, // what size?
 		{name: "night on the hill with pink moon", img: "public/Landscape/night on the hill with pink moon  16x12in.JPG", size: "16x12in"},
 		{name: "seaside walk", img: "public/Landscape/seaside walk   9x20in.JPG", size: "9x20in"},
+		{name: "seaside, bright day", img: "public/Landscape/seaside, bright day 9x15in.JPG", size: "9x15in"},
 		{name: "spring on our hill", img: "public/Landscape/spring on our hill   oil on panel  10x4in.JPG", size: "10x4in"},
 		{name: "studio view", img: "public/Landscape/studio view   panel  10.5x4.75in.JPG", size: "10.5x4.75in"},
 		{name: "sunsetting in poughquag", img: "public/Landscape/sunsetting in poughquag  panel  11.25x9.5in.JPG", size: "11.25x9.5in"},
@@ -177,8 +179,8 @@ var categories = [
 		{name: "hart", img: "public/People/HART   9 x11in.jpg", size: "9x11in"},
 		{name: "hart in black jacket", img: "public/People/HART IN BLACK JACKET  48x48in.Jpg", size: "48x48in"},
 		{name: "mika", img: "public/People/MIKA  red chalk.jpg", size: ""}, // what size?
-		{name: "painter's sister", img: "public/People/Painter's Sister  monotype.JPG", size: ""}, // what size?
-		{name: "rose eisenberg wool, painter's mother", img: "public/People/Rose Eisenberg Wool, Painter's Mother.JPG", size: ""}, // what size?
+		// {name: "painter's sister", img: "public/People/Painter's Sister  monotype.JPG", size: ""}, // what size?
+		// {name: "rose eisenberg wool, painter's mother", img: "public/People/Rose Eisenberg Wool, Painter's Mother.JPG", size: ""}, // what size?
 		{name: "self portrait", img: "public/People/SELF-PORTRAIT.jpg", size: ""} // what size?
 	]},
 	{category: "horses (and the hunt)", paintings: [

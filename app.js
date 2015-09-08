@@ -41,15 +41,15 @@ app.controller('PanelCtrl', function(){
 var categories = [
 	// {category: "paintings", paintings: []},
 	{category: "mixed media", paintings: [
-		{name: "flower and memory", img: "public/Mixed-Media/FLOWER AND MEMORY 15x20in.jpg", size: "15x20in"},
-		{name: "generative green", img: "public/Mixed-Media/Generative_Green_on_panel_15x16in.jpg", size: "15x16in"},
-		{name: "light after rain", img: "public/Mixed-Media/light after rain  mixed media  panel  36x30in.jpg", size: "48x35in"}, // size corrected by Alexandra
+		{name: "flower and memory", img: "public/Mixed-Media/FLOWER AND MEMORY 15x20in.jpg", size: "20x15in"},
+		{name: "generative green", img: "public/Mixed-Media/Generative_Green_on_panel_15x16in.jpg", size: "20x15in"},
+		{name: "light after rain", img: "public/Mixed-Media/light after rain  mixed media  panel  36x30in.jpg", size: "48x36in"}, // size corrected by Alexandra
 		{name: "postcard from lucca", img: "public/Mixed-Media/postcard from lucca  mixed media on panel    32x24in.JPG", size: "32x24in"},
 		{name: "red flowers in a somewhat grey vase", img: "public/Mixed-Media/red flowers in a somewhat grey vase              mixed media  panel  9.5x16.5.JPG", size: "9.5x16.5in"},
 		{name: "shower", img: "public/Mixed-Media/SHOWER  panel   12x12in.JPG", size: "12x12in"},
-		{name: "traumerai", img: "public/Mixed-Media/traumerai   mixed media panel  36x30in.JPG", size: "48x35in"}, // size corrected by Alexandra
+		{name: "traumerai", img: "public/Mixed-Media/traumerai   mixed media panel  36x30in.JPG", size: "48x36in"}, // size corrected by Alexandra
 		{name: "wife of lot", img: "public/Mixed-Media/wife of Lot  mixed media panel  20x30in  .JPG", size: "20x30in"},
-		{name: "young woman in feathered hat", img: "public/Mixed-Media/YOUNG WOMAN IN FEATHERED HAT 48x48in.JPG", size: "48x48in"}
+		{name: "young woman in feathered hat", img: "public/Mixed-Media/YOUNG WOMAN IN FEATHERED HAT 48x48in.JPG", size: "24x48in"}
 	]},
 	{category: "pastels", paintings: [
 		{name: "book and cofffee", img: "public/Pastel/book and cofffee  pastel on paper  30x30in.JPG", size: "30x30in"},

@@ -22,7 +22,7 @@ h1 {
 }*/
 .show-left {
 	float: left;
-	width:47%;
+	width:55%;
 	text-align:left;
 }
 .show-middle {
@@ -32,7 +32,7 @@ h1 {
 }
 .show-right {
 	float: left;
-	width:5%;
+	width:20%;
 	text-align:right;
 }
 
@@ -79,14 +79,14 @@ a:hover, a:active, a:focus {
 .img-container{
 	clear: both;
 	display: block;
-	width: 800px; 
+	width: 700px; 
     height: 440px;
 }
 ul li img {
 	display: block;
     height: auto; 
     width: auto; 
-    max-width: 800px; 
+    max-width: 700px; 
     max-height: 440px;
     /*float: left;*/
 }
@@ -102,7 +102,7 @@ p {
 .bottom-dots {
 	clear: both;
 	display: block;
-	width: 340px; 
+	width: 500px; 
 }
 /*.arrows {
 	padding-left: 20px;

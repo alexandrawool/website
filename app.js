@@ -54,9 +54,9 @@ var categories = [
 	{category: "pastels", paintings: [
 		{name: "book and cofffee", img: "public/Pastel/book and cofffee  pastel on paper  30x30in.JPG", size: "30x30in"},
 		{name: "anemones in a blue vase", img: "public/Pastel/anemones in a blue vase   pastel on paper   10x18in.JPG", size: "10x18in"},	
-		{name: "bottega oscura", img: "public/Pastel/bottega oscura  pastel on canvas  9x12in.JPG", size: "9x12in"},
-		{name: "hydrageas", img: "public/Pastel/hydrageas  pastel canvas  10x10in.JPG", size: "10x10in"},
-		{name: "hydrangea brightness in b.c.", img: "public/Pastel/hydrangea brightness in b.c.  pastel on canvas   10x8in.JPG", size: "10x8in"},
+		{name: "bottega oscura", img: "public/Pastel/bottega oscura  pastel on canvas  9x12in.JPG", size: "canvas 9x12in"},
+		{name: "hydrageas", img: "public/Pastel/hydrageas  pastel canvas  10x10in.JPG", size: "canvas10x10in"},
+		{name: "hydrangea brightness in b.c.", img: "public/Pastel/hydrangea brightness in b.c.  pastel on canvas   10x8in.JPG", size: "canvas, 10x8in"},
 		{name: "hydrageas (mixed color)", img: "public/Pastel/HYDRANGEAS (mixed color) 10x10in.JPG", size: "10x10in"},
 		{name: "hydrangeas in blue pot", img: "public/Pastel/hydrangeas in blue pot  pastel  on canvas   10x10 in.JPG", size: "10x10in"},
 		{name: "hydrangeas on the terrace", img: "public/Pastel/hydrangeas on the terrace pastel on canvas   18x36in - Copy.JPG", size: "18x36in"},
@@ -98,28 +98,28 @@ var categories = [
 		{name: "generative green", img: "public/Flowers/generative_green_20_39_39_x_15_39_39_mixed_media_p.jpg", size: ""}, // what size?
 		{name: "geranium", img: "public/Flowers/geranium  48x24in.JPG", size: "48x24in"},
 		{name: "geranium in dutchess county morning light", img: "public/Flowers/geranium in dutchesss county morning light  48x24in.jpg", size: "48x24in"},
-		{name: "geranium in moonlight,as a philosopher friend addressed it", img: "public/Flowers/geranium in moonlight,as a philosopher friend addressed it   panel   12x12in.jpg", size: "12x12in"},
+		{name: "geranium in moonlight, as a philosopher friend addressed it", img: "public/Flowers/geranium in moonlight,as a philosopher friend addressed it   panel   12x12in.jpg", size: "12x12in"},
 		{name: "geranium, magenta", img: "public/Flowers/geranium, magenta   panel    9x8in.jpg", size: "9x8in"},
 		{name: "geraniums oil on panel", img: "public/Flowers/geraniums    oil on  panel   8x10in.JPG", size: "8x10in"},
-		{name: "geraniums out of florence", img: "public/Flowers/Geraniums out of Florence 24x48in.jpg", size: "24x48in"},
-		{name: "hydrangeas pastel canvas", img: "public/Flowers/hydrageas   pastel  canvas 10x10in.JPG", size: "10x10in"},
+		// {name: "geraniums out of florence", img: "public/Flowers/Geraniums out of Florence 24x48in.jpg", size: "24x48in"}, // duplicate
+		{name: "hydrangeas", img: "public/Flowers/hydrageas   pastel  canvas 10x10in.JPG", size: "10x10in"},
 		{name: "hydrangea fresco", img: "public/Flowers/hydrangea fresco 10x10in.JPG", size: "10x10in"},
-		{name: "hydrangeas", img: "public/Flowers/hydrangeas 24x12in.JPG", size: "24x12in"},
+		// {name: "hydrangeas", img: "public/Flowers/hydrangeas 24x12in.JPG", size: "24x12in"}, // duplicate
 		{name: "hydrangeas gathered in a pot", img: "public/Flowers/hydrangeas gathered in a pot  panel  12x8.5in.JPG", size: "12x8.5in"},
 		{name: "hydrangeas in a bowl", img: "public/Flowers/hydrangeas in a bowl 12x24in.JPG", size: "12x24in"},
 		{name: "hydrangeas in a tall vase", img: "public/Flowers/hydrangeas in a tall vase     pastel   36x18 in.JPG", size: "36x18in"},
-		{name: "hydrangeas observed pastel canvas", img: "public/Flowers/hydrangeas observed  pastel  canvas  10x10in.JPG", size: "10x10in"},
+		{name: "hydrangeas observed", img: "public/Flowers/hydrangeas observed  pastel  canvas  10x10in.JPG", size: "10x10in"},
 		{name: "hydrangeas on grey", img: "public/Flowers/hydrangeas on grey  23x8in.JPG", size: "23x8in"},
-		{name: "hydrangeas on the terrace canvas", img: "public/Flowers/hydrangeas on the terrace  canvas   18x36in.JPG", size: "18x36in"},
-		{name: "hydrangeas, elan pastel on canvas", img: "public/Flowers/hydrangeas, elan  pastel on  canvas        10x9in.JPG", size: "10x9in"},
+		{name: "hydrangeas on the terrace", img: "public/Flowers/hydrangeas on the terrace  canvas   18x36in.JPG", size: "18x36in"},
+		{name: "hydrangeas, elan", img: "public/Flowers/hydrangeas, elan  pastel on  canvas        10x9in.JPG", size: "10x9in"},
 		{name: "lap san", img: "public/Flowers/lap san       10x8in.JPG", size: "10x8in"},
 		{name: "little pot of flowers", img: "public/Flowers/little pot of flowers    panel  8.5x7in.JPG", size: "8.5x7in"},
 		{name: "on first seeing oslo", img: "public/Flowers/on first seeing oslo  panel   20x14.16in.JPG", size: "20x14.16in"},
-		{name: "pink pigment on panel", img: "public/Flowers/pink   pigment on panel   12x8in.JPG", size: "12x8in"},
+		{name: "pink pigment", img: "public/Flowers/pink   pigment on panel   12x8in.JPG", size: "12x8in"},
 		{name: "pink and blue hydrangeas", img: "public/Flowers/PINK AND BLUE HYDRANGEAS    8x10 in.jpg", size: "8x10in"},
 		{name: "portuguese geraniums", img: "public/Flowers/portuguese geraniums 48x24in.jpg", size: "48x24in"},
 		{name: "postcard from lucca", img: "public/Flowers/POSTCARD_FROM_LUCCA_24x32in.jpg", size: "24x32in"},
-		{name: "postcard from lucca mixed media panel", img: "public/Flowers/postcard from lucca  mixed media   panel      32x24in.JPG", size: "32x24in"},
+		{name: "postcard from lucca", img: "public/Flowers/postcard from lucca  mixed media   panel      32x24in.JPG", size: "32x24in"},
 		{name: "red flowers in a somewhat grey vase", img: "public/Flowers/red flowers in a somewhat grey vase  mixed media on panel  9.5x16.5in.JPG", size: "9.5x16.5in"},
 		{name: "red geraniums in terracotta pot", img: "public/Flowers/red geranium in terracotta pot   18 x 22in.JPG", size: "18x22in"},
 		{name: "red, very red", img: "public/Flowers/red,very red  panel   12x9.5in.jpg", size: "12x9.5in"},
@@ -190,12 +190,12 @@ var categories = [
 		{name: "yes, my darling jumps", img: "public/Horses/Yes, my Darling Jumps   9x16in.JPG", size: "9x16in"}
 	]},
 	{category: "polo", paintings: [
-		{name: "match under a pink sky", img: "public/Polo/01  match under a pink sky.JPG", size: ""}, // what size?
+		{name: "match under a pink sky", img: "public/Polo/01  match under a pink sky.JPG", size: "20x10in"}, // what size?
 		{name: "polo sunday", img: "public/Polo/02 polo sunday    20x12in.JPG", size: "20x12in"},
 		{name: "1'oclock match", img: "public/Polo/03  1'oclock match    20x10in.JPG", size: "20x10in"},
 		{name: "first chukker", img: "public/Polo/04  first chukker 16x12in.JPG", size: "16x12in"},
 		{name: "5 seconds in", img: "public/Polo/05  5 seconds in     16x12in.JPG", size: "16x12in"},
-		{name: "chukker chalk and paint", img: "public/Polo/06 Chukker   chalk and paint   16x12in.JPG", size: "16x12in"},
+		{name: "chukker", img: "public/Polo/06 Chukker   chalk and paint   16x12in.JPG", size: "16x12in"},
 		{name: "after the ball", img: "public/Polo/08 After the Ball   10x8in.JPG", size: "10x8in"},
 		{name: "match", img: "public/Polo/09  match  10x8in.jpg", size: "10x8in"},
 		{name: "match on a golden afternoon", img: "public/Polo/match on a golden afternoon       25x9in.JPG", size: "25x9in"},
@@ -209,7 +209,7 @@ var categories = [
 		{name: "goodbye to sheba", img: "public/Mural-Sketches/Goodbye to Sheba  60x84in.jpg", size: "60x84in"},
 		{name: "goodbye to solomon", img: "public/Mural-Sketches/Goodbye to Solomon 60x84in.jpg", size: "60x84in"},
 		{name: "grove mural proposal", img: "public/Mural-Sketches/GROVE   mural proposal for 30 Crosby.JPG", size: ""}, // what size?
-		{name: "study for the guide to the later crises of life ", img: "public/Mural-Sketches/Study for the Guide to the Later Crises of Life (26'' x 38'', 1972 -  chalk and oil).jpg", size: "26x38in"}
+		{name: "study for the guide to the later crises of life", img: "public/Mural-Sketches/Study for the Guide to the Later Crises of Life (26'' x 38'', 1972 -  chalk and oil).jpg", size: "26x38in"}
 	]},
 	// {category: "books", paintings: []},
 	{category: "Shakespeare, Bible, etc.", paintings: [

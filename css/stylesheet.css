@@ -22,17 +22,17 @@ h1 {
 }*/
 .show-left {
 	float: left;
-	width:55%;
+	width:54%;
 	text-align:left;
 }
 .show-middle {
 	float: left;
-	width:23%;
+	width:27%;
 	text-align: center;
 }
 .show-right {
 	float: left;
-	width:20%;
+	width:19%;
 	text-align:right;
 }
 
@@ -79,14 +79,14 @@ a:hover, a:active, a:focus {
 .img-container{
 	clear: both;
 	display: block;
-	width: 700px; 
+	width: 650px; 
     height: 440px;
 }
 ul li img {
 	display: block;
     height: auto; 
     width: auto; 
-    max-width: 700px; 
+    max-width: 650px; 
     max-height: 440px;
     /*float: left;*/
 }

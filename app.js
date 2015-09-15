@@ -54,21 +54,21 @@ var categories = [
 	{category: "pastels", paintings: [
 		{name: "book and cofffee", img: "public/Pastel/book and cofffee  pastel on paper  30x30in.JPG", size: "30x30in"},
 		{name: "anemones in a blue vase", img: "public/Pastel/anemones in a blue vase   pastel on paper   10x18in.JPG", size: "10x18in"},	
-		{name: "bottega oscura", img: "public/Pastel/bottega oscura  pastel on canvas  9x12in.JPG", size: "canvas 9x12in"},
+		{name: "botteghe oscure", img: "public/Pastel/bottega oscura  pastel on canvas  9x12in.JPG", size: "canvas 9x12in"},
 		{name: "hydrageas", img: "public/Pastel/hydrageas  pastel canvas  10x10in.JPG", size: "canvas10x10in"},
-		{name: "hydrangea brightness in b.c.", img: "public/Pastel/hydrangea brightness in b.c.  pastel on canvas   10x8in.JPG", size: "canvas, 10x8in"},
-		{name: "hydrageas (mixed color)", img: "public/Pastel/HYDRANGEAS (mixed color) 10x10in.JPG", size: "10x10in"},
-		{name: "hydrangeas in blue pot", img: "public/Pastel/hydrangeas in blue pot  pastel  on canvas   10x10 in.JPG", size: "10x10in"},
-		{name: "hydrangeas on the terrace", img: "public/Pastel/hydrangeas on the terrace pastel on canvas   18x36in - Copy.JPG", size: "18x36in"},
-		{name: "hydrangeas blue-violet, for maya plisetskaya", img: "public/Pastel/hydrangeas, blue-violet, for maya the  dying swan               pastel on canvas                                 12x9in.JPG", size: "12x9in"},
-		{name: "hydrangeas, elan", img: "public/Pastel/hydrangeas, elan   pastel  canvas  10x9in.JPG", size: "10x9in"},
-		{name: "hydrangeas, mixed", img: "public/Pastel/hydrangeas, mixed   pastel on canvas           10x10in.JPG", size: "10x10in"},
-		{name: "hydrangeas,pink and violet", img: "public/Pastel/hydrangeas,pink and violet   pastel on canvas  10x8in.JPG", size: "10x8in"},
-		{name: "lay your sleeping head (auden)", img: "public/Pastel/lay your sleeping head (auden) pastel canvas   8x10in.JPG", size: "8x10in"},
+		{name: "hydrangea brightness in b.c.", img: "public/Pastel/hydrangea brightness in b.c.  pastel on canvas   10x8in.JPG", size: "canvas 10x8in"},
+		{name: "hydrageas (mixed color)", img: "public/Pastel/HYDRANGEAS (mixed color) 10x10in.JPG", size: "canvas 10x10in"},
+		{name: "hydrangeas in blue pot", img: "public/Pastel/hydrangeas in blue pot  pastel  on canvas   10x10 in.JPG", size: "canvas 10x10in"},
+		{name: "hydrangeas on the terrace", img: "public/Pastel/hydrangeas on the terrace pastel on canvas   18x36in - Copy.JPG", size: "canvas 18x36in"},
+		{name: "hydrangeas blue-violet, for maya plisetskaya, dying swan", img: "public/Pastel/hydrangeas, blue-violet, for maya the  dying swan               pastel on canvas                                 12x9in.JPG", size: "canvas 12x9in"},
+		{name: "hydrangeas, elan", img: "public/Pastel/hydrangeas, elan   pastel  canvas  10x9in.JPG", size: "canvas 10x9in"},
+		{name: "hydrangeas, mixed", img: "public/Pastel/hydrangeas, mixed   pastel on canvas           10x10in.JPG", size: "canvas 10x10in"},
+		{name: "hydrangeas,pink and violet", img: "public/Pastel/hydrangeas,pink and violet   pastel on canvas  10x8in.JPG", size: "canvas 10x8in"},
+		{name: "lay your sleeping head (auden)", img: "public/Pastel/lay your sleeping head (auden) pastel canvas   8x10in.JPG", size: "canvas 10x8in"},
 		{name: "mika with jump rope", img: "public/Pastel/mika with jump rope pastel on paper, mounted on board  24x48in.JPG", size: "24x48in"},
-		{name: "mixed hydrangeas", img: "public/Pastel/mixed hydrangeas  pastel   canvas   10x10in.JPG", size: "10x10in"},
-		{name: "remember", img: "public/Pastel/remember  pastel  canvas  12x9in.JPG", size: "12x9in"},
-		{name: "roman afternoon", img: "public/Pastel/roman afternoon      pastel on canvas     9x12in.JPG", size: "9x12in"}		
+		{name: "mixed hydrangeas canvas10x10in", img: "public/Pastel/mixed hydrangeas  pastel   canvas   10x10in.JPG", size: ""},//, size: "canvas 10x10in"},
+		{name: "remember", img: "public/Pastel/remember  pastel  canvas  12x9in.JPG", size: "canvas 12x9in"},
+		{name: "roman afternoon", img: "public/Pastel/roman afternoon      pastel on canvas     9x12in.JPG", size: "canvas 9x12in"}		
 	]},
 	{category: "monotypes", paintings: [
 		{name: "landscape with tree", img: "public/Monotype/Landscape with Tree   monotype.Jpg", size: ""}, // what size?
@@ -77,10 +77,9 @@ var categories = [
 		{name: "yellow roses", img: "public/Monotype/YELLOW ROSES monotype 14x16.5in.jpg", size: "14x16.5in"}
 	]},
 	{category: "drawings", paintings: [
-		{name: "conversation", img: "public/Drawings/CONVERSATION  charcoal and  red chalk   48x24in  1979.jpg", size: "48x24in"},
-		{name: "geranium (brown chalk)", img: "public/Drawings/Geranium (brown chalk).jpg", size: ""}, // what size
-		{name: "geranium re-potted", img: "public/Drawings/Geranium Re-potted    brown chalk on white paper.JPG", size: ""}, // what size?
-		{name: "goodbye to sodom (homage to akmatova)", img: "public/Drawings/Goodbye to Sodom (Homage to Akmatova) lithograph 16.5x11in.JPG", size: "16.5x11in"}
+		{name: "conversation", img: "public/Drawings/CONVERSATION  charcoal and  red chalk   48x24in  1979.jpg", size: "24x48in"},
+		{name: "geranium (brown chalk)", img: "public/Drawings/Geranium (brown chalk).jpg", size: "11x16in"},
+		{name: "geranium re-potted", img: "public/Drawings/Geranium Re-potted    brown chalk on white paper.JPG", size: "11x16in"}
 	]},
 	{category: "flowers", paintings: [
 		{name: "anemone triptych", img: "public/Flowers/ANEMONE TRIPTYCH   48''x48''.JPG", size: "48x48in"},
@@ -167,9 +166,9 @@ var categories = [
 	]},
 	{category: "history, philosophy, etc.", paintings: [
 		{name: "corsage", img: "public/History-Philosophy/CORSAGE  27.75x47in.JPG", size: "27.75x47in"},
-		{name: "dance of the oospheres", img: "public/History-Philosophy/Dance of the oospheres.JPG", size: ""}, // what size?
+		{name: "dance of the oospheres", img: "public/History-Philosophy/Dance of the oospheres.JPG", size: "39x28in"},
 		{name: "freud's london library", img: "public/History-Philosophy/FREUDS LONDON LIBRARY  16x23 in.JPG", size: "16x23in"},
-		{name: "introspection is no longer epistemically privileged", img: "public/History-Philosophy/Introspection is no longer Epistemically Privileged 16x23 in 001 (931x1280) (2).jpg", size: "16x23in"},
+		{name: "introspection is no longer epistemically privileged", img: "public/History-Philosophy/Introspection is no longer Epistemically Privileged 16x23 in 001 (931x1280) (2).jpg", size: "23x16in"},
 		{name: "joy of dolphins", img: "public/History-Philosophy/joy of dolphins   38x29.5in.JPG", size: "38x29.5in"},
 		{name: "the milk-drinkers marathon", img: "public/History-Philosophy/the milk-drinkers marathon  40x30in.JPG", size: "40x30in"},
 		{name: "the sun is sometimes a danger", img: "public/History-Philosophy/the sun is sometimes a danger  39x28in.JPG", size: "39x28in"}
@@ -187,7 +186,7 @@ var categories = [
 		{name: "present time transported", img: "public/Horses/PRESENT TIME TRANSPORTED  (6' x 7' - 1985).JPG", size: "72x96in"},
 		{name: "riders", img: "public/Horses/RIDERS (monotype)11.75x10.5 in.JPG", size: "11.75x10.5in"},
 		{name: "the hunt", img: "public/Horses/THE HUNT   16x20in.JPG", size: "20x9in"},
-		{name: "yes, my darling jumps", img: "public/Horses/Yes, my Darling Jumps   9x16in.JPG", size: "9x16in"}
+		{name: "yes, my darling jumps", img: "public/Horses/Yes, my Darling Jumps   9x16in.JPG", size: "16x9in"}
 	]},
 	{category: "polo", paintings: [
 		{name: "match under a pink sky", img: "public/Polo/01  match under a pink sky.JPG", size: "20x10in"}, // what size?
@@ -213,11 +212,11 @@ var categories = [
 	]},
 	// {category: "books", paintings: []},
 	{category: "Shakespeare, Bible, etc.", paintings: [
-		{name: "goodbye, sodom", img: "public/Shakespeare-Bible/goodbye, sodom.jpg", size: ""}, // what size?
+		{name: "goodbye, sodom", img: "public/Shakespeare-Bible/goodbye, sodom.jpg", size: "monotype13x9.5in"},
 		{name: "bathsheba", img: "public/Shakespeare-Bible/bathsheba  charcoal and chalk on board  8.14x9.75in.JPG", size: "8.14x9.75in"},
 		{name: "daughters of lot", img: "public/Shakespeare-Bible/daughters of Lot  brown chalk on panel   5.5x18.5.JPG", size: "5.5x18.5in"},
 		{name: "exile from sodom", img: "public/Shakespeare-Bible/exile from Sodom  monotype   17.75x24.5in.JPG", size: "17.75x24.5in"},
-		{name: "after sodom (homage to akmatova)", img: "public/Shakespeare-Bible/after Sodom (homage to Akmatova) lithograph   11x16in.JPG", size: "11x16in"},
+		{name: "after sodom (homage to akmatova)", img: "public/Shakespeare-Bible/after Sodom (homage to Akmatova) lithograph   11x16in.JPG", size: "lithograph/50  11x16in"},
 		// {name: "lot's wife", img: "public/Shakespeare-Bible/lot's wife   charcoal and chalk on board   14x20in.jpg", size: "14x20in"}, // repeat
 		{name: "pillar of salt", img: "public/Shakespeare-Bible/pillar of salt  monotype  5x5.25 in.JPG", size: "5x5.25in"},
 		{name: "r and j", img: "public/Shakespeare-Bible/R and J  red chalk and charcoal  24x48in.JPG", size: "24x48in"},

@@ -51,6 +51,7 @@
 								</div>
 							</li>
 						</ul>
+						<p>{{category.paintings[panel.current].bottomNotes}}</p>
 						<ul class="bottom-dots">
 							<li class="bottom-button" ng-repeat="painting in category.paintings">
 								<a href ng-click="panel.setCurrent($index)">

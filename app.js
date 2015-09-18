@@ -60,8 +60,8 @@ var categories = [
 		{name: "hydrageas (mixed color)", img: "public/Pastel/HYDRANGEAS (mixed color) 10x10in.JPG", size: "canvas 10x10in"},
 		{name: "hydrangeas in blue pot", img: "public/Pastel/hydrangeas in blue pot  pastel  on canvas   10x10 in.JPG", size: "canvas 10x10in"},
 		{name: "hydrangeas on the terrace", img: "public/Pastel/hydrangeas on the terrace pastel on canvas   18x36in - Copy.JPG", size: "canvas 18x36in"},
-		{name: "hydrangeas blue-violet, for maya plisetskaya, dying swan", img: "public/Pastel/hydrangeas, blue-violet, for maya the  dying swan               pastel on canvas                                 12x9in.JPG", size: "canvas 12x9in"},
-		{name: "hydrangeas, elan", img: "public/Pastel/hydrangeas, elan   pastel  canvas  10x9in.JPG", size: "canvas 10x9in"},
+		{name: "hydrangeas blue-violet, for maya plisetskaya, dying swan,    ", img: "public/Pastel/hydrangeas, blue-violet, for maya the  dying swan               pastel on canvas                                 12x9in.JPG", info: "canvas 12x9in", size: ""}, // size moved per Alexandra's request
+		{name: "hydrangeas, elan", img: "public/Pastel/hydrangeas, elan   pastel  canvas  10x9in.JPG", size: "", bottomNotes: "canvas 10x9in"},// size moved per Alexandra's request
 		{name: "hydrangeas, mixed", img: "public/Pastel/hydrangeas, mixed   pastel on canvas           10x10in.JPG", size: "canvas 10x10in"},
 		{name: "hydrangeas,pink and violet", img: "public/Pastel/hydrangeas,pink and violet   pastel on canvas  10x8in.JPG", size: "canvas 10x8in"},
 		{name: "lay your sleeping head (auden)", img: "public/Pastel/lay your sleeping head (auden) pastel canvas   8x10in.JPG", size: "canvas 10x8in"},
@@ -78,7 +78,7 @@ var categories = [
 	]},
 	{category: "drawings", paintings: [
 		{name: "conversation", img: "public/Drawings/CONVERSATION  charcoal and  red chalk   48x24in  1979.jpg", size: "24x48in"},
-		{name: "geranium (brown chalk)", img: "public/Drawings/Geranium (brown chalk).jpg", size: "11x16in"},
+		{name: "leafy geranium", img: "public/Drawings/Geranium (brown chalk).jpg", size: "11x16in"},
 		{name: "geranium re-potted", img: "public/Drawings/Geranium Re-potted    brown chalk on white paper.JPG", size: "11x16in"}
 	]},
 	{category: "flowers", paintings: [
@@ -139,9 +139,9 @@ var categories = [
 		{name: "grove", img: "public/Tree/GROVE  9 x 12 in.jpg", size: "9x12 in"},
 		{name: "light after rain", img: "public/Tree/light after rain  mixed media  panel  36x30in.jpg", size: "36x30in"},
 		{name: "spring in poughquag", img: "public/Tree/Spring in Poughquag  19x17in.JPG", size: "19x17in"},
-		{name: "spring on the hill", img: "public/Tree/Spring on the hill    pastel.JPG", size: ""}, // what size?
+		// {name: "spring on the hill", img: "public/Tree/Spring on the hill    pastel.JPG", size: ""}, // what size?
 		{name: "traumerai", img: "public/Tree/traumerai   mixed media panel  36x30in.JPG", size: "36x30in"},
-		{name: "tree among trees on a green  hill", img: "public/Tree/tree among trees on a green  hill    panel  7x9in.jpg", size: "7x9in"},
+		// {name: "tree among trees on a green  hill", img: "public/Tree/tree among trees on a green  hill    panel  7x9in.jpg", size: "7x9in"},
 		{name: "tree, bright night", img: "public/Tree/tree,bright night  panel    36x48in.JPG", size: "36x48in"},
 		{name: "trees", img: "public/Tree/trees   oil     12x5in.JPG", size: "12x5in"},
 		{name: "trees", img: "public/Tree/trees 30x24in.JPG", size: "30x24in"},

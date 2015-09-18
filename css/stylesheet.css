@@ -22,17 +22,18 @@ h1 {
 }*/
 .show-left {
 	float: left;
-	width:54%;
+	/*width:60%;*/
 	text-align:left;
 }
 .show-middle {
 	float: left;
-	width:21%;
-	text-align: center;
+	display: inline-block;
+	width:20%;
+	/*text-align: center;*/
 }
 .show-right {
 	float: left;
-	width:25%;
+	width:20%;
 	text-align:right;
 }
 

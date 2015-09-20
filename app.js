@@ -68,7 +68,7 @@ var categories = [
 		{name: "mika with jump rope", img: "public/Pastel/mika with jump rope pastel on paper, mounted on board  24x48in.JPG", size: "24x48in"},
 		{name: "mixed hydrangeas canvas10x10in", img: "public/Pastel/mixed hydrangeas  pastel   canvas   10x10in.JPG", size: ""},//, size: "canvas 10x10in"},
 		{name: "remember", img: "public/Pastel/remember  pastel  canvas  12x9in.JPG", size: "canvas 12x9in"},
-		{name: "roman afternoon", img: "public/Pastel/roman afternoon      pastel on canvas     9x12in.JPG", size: "canvas 9x12in"}		
+		{name: "roman afternoon", img: "public/Pastel/roman afternoon      pastel on canvas     9x12in.JPG", size: "", bottomNotes: "roman afternoon", bottomSize: "canvas 9x12in"}		
 	]},
 	{category: "monotypes", paintings: [
 		{name: "landscape with tree", img: "public/Monotype/Landscape with Tree   monotype.Jpg", size: ""}, // what size?
@@ -77,7 +77,7 @@ var categories = [
 		{name: "yellow roses", img: "public/Monotype/YELLOW ROSES monotype 14x16.5in.jpg", size: "14x16.5in"}
 	]},
 	{category: "drawings", paintings: [
-		{name: "conversation", img: "public/Drawings/CONVERSATION  charcoal and  red chalk   48x24in  1979.jpg", size: "24x48in"},
+		{name: "conversation", bottomNotes: "red chalk, charcoal on canvas 24x48in", img: "public/Drawings/CONVERSATION  charcoal and  red chalk   48x24in  1979.jpg", size: ""}, // size removed per Alexandra's request
 		{name: "leafy geranium", img: "public/Drawings/Geranium (brown chalk).jpg", size: "11x16in"},
 		{name: "geranium re-potted", img: "public/Drawings/Geranium Re-potted    brown chalk on white paper.JPG", size: "11x16in"}
 	]},
@@ -135,12 +135,12 @@ var categories = [
 		// {name: "anemones (smaller file)", img: "public/Flowers/ANEMONES-44x44in-min.jpg", size: ""}
 	]},
 	{category: "trees", paintings: [
-		{name: "green view", img: "public/Tree/GREEN VIEW.jpg", size: ""}, // what size?
+		{name: "green view", img: "public/Tree/GREEN VIEW.jpg", size: "28x38in"},
 		{name: "grove", img: "public/Tree/GROVE  9 x 12 in.jpg", size: "9x12 in"},
-		{name: "light after rain", img: "public/Tree/light after rain  mixed media  panel  36x30in.jpg", size: "36x30in"},
+		{name: "light after rain", img: "public/Tree/light after rain  mixed media  panel  36x30in.jpg", size: "48x36in"},
 		{name: "spring in poughquag", img: "public/Tree/Spring in Poughquag  19x17in.JPG", size: "19x17in"},
 		// {name: "spring on the hill", img: "public/Tree/Spring on the hill    pastel.JPG", size: ""}, // what size?
-		{name: "traumerai", img: "public/Tree/traumerai   mixed media panel  36x30in.JPG", size: "36x30in"},
+		{name: "traumerai", img: "public/Tree/traumerai   mixed media panel  36x30in.JPG", size: "48x36in"},
 		// {name: "tree among trees on a green  hill", img: "public/Tree/tree among trees on a green  hill    panel  7x9in.jpg", size: "7x9in"},
 		{name: "tree, bright night", img: "public/Tree/tree,bright night  panel    36x48in.JPG", size: "36x48in"},
 		{name: "trees", img: "public/Tree/trees   oil     12x5in.JPG", size: "12x5in"},

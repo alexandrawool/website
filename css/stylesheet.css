@@ -15,8 +15,9 @@ h1 {
 /*.slideshow-panel {
 	display: table;
 	width: 1px; 
-}
-.img-title-info {
+}*/
+/*.img-title-info {
+	display: block;
 	display: table-caption;
 	caption-side: top;
 }*/
@@ -36,6 +37,10 @@ h1 {
 	width:20%;
 	text-align:right;
 }
+/*.secondLineInfo {
+	display: block;
+	clear: both;
+}*/
 
 hr {
     border: 0;
@@ -103,7 +108,8 @@ p {
 .bottom-dots {
 	clear: both;
 	display: block;
-	width: 500px; 
+	/*width: 270px;*/
+	width: 515px; 
 }
 /*.arrows {
 	padding-left: 20px;

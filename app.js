@@ -77,7 +77,7 @@ var categories = [
 		{name: "yellow roses", img: "public/Monotype/YELLOW ROSES monotype 14x16.5in.jpg", size: "14x16.5in"}
 	]},
 	{category: "drawings", paintings: [
-		{name: "conversation", bottomNotes: "red chalk, charcoal on canvas 24x48in", img: "public/Drawings/CONVERSATION  charcoal and  red chalk   48x24in  1979.jpg", size: ""}, // size removed per Alexandra's request
+		{name: "conversation", bottomNotes: "red chalk, charcoal on canvas", secondBottomLine: "24x48in", img: "public/Drawings/CONVERSATION  charcoal and  red chalk   48x24in  1979.jpg", size: ""}, // size removed per Alexandra's request
 		{name: "leafy geranium", img: "public/Drawings/Geranium (brown chalk).jpg", size: "11x16in"},
 		{name: "geranium re-potted", img: "public/Drawings/Geranium Re-potted    brown chalk on white paper.JPG", size: "11x16in"}
 	]},
@@ -166,7 +166,7 @@ var categories = [
 	]},
 	{category: "history, philosophy, etc.", paintings: [
 		{name: "corsage", img: "public/History-Philosophy/CORSAGE  27.75x47in.JPG", size: "27.75x47in"},
-		{name: "dance of the oospheres", img: "public/History-Philosophy/Dance of the oospheres.JPG", size: "39x28in"},
+		{name: "dance of the oospheres", img: "public/History-Philosophy/DANCE OF THE OOSPHERES    28x39in.jpg", size: "39x28in"},
 		{name: "freud's london library", img: "public/History-Philosophy/FREUDS LONDON LIBRARY  16x23 in.JPG", size: "16x23in"},
 		{name: "introspection is no longer epistemically privileged", img: "public/History-Philosophy/Introspection is no longer Epistemically Privileged 16x23 in 001 (931x1280) (2).jpg", size: "23x16in"},
 		{name: "joy of dolphins", img: "public/History-Philosophy/joy of dolphins   38x29.5in.JPG", size: "38x29.5in"},
@@ -225,8 +225,6 @@ var categories = [
 		{name: "we three", img: "public/Shakespeare-Bible/we three    19x24in.JPG", size: "19x24in"},
 		{name: "where you go, i will go", img: "public/Shakespeare-Bible/where you go, I will go  charcoal and chalk    19x24in.JPG", size: "19x24in"},
 		{name: "wife of lot", img: "public/Shakespeare-Bible/wife of Lot  mixed media panel  20x30in  .JPG", size: "20x30in"}
-	]},
-	{category: "oils", paintings: [
 	]}]
 
 

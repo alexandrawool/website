@@ -37,10 +37,11 @@ h1 {
 	width:20%;
 	text-align:right;
 }
-/*.secondLineInfo {
-	display: block;
+.on-own-line {
 	clear: both;
-}*/
+	display: block;
+	padding-left: 40%;
+}
 
 hr {
     border: 0;

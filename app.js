@@ -61,14 +61,14 @@ var categories = [
 		{name: "hydrangeas in blue pot", img: "public/Pastel/hydrangeas in blue pot  pastel  on canvas   10x10 in.JPG", size: "canvas 10x10in"},
 		{name: "hydrangeas on the terrace", img: "public/Pastel/hydrangeas on the terrace pastel on canvas   18x36in - Copy.JPG", size: "canvas 18x36in"},
 		{name: "hydrangeas blue-violet, for maya plisetskaya, dying swan,    ", img: "public/Pastel/hydrangeas, blue-violet, for maya the  dying swan               pastel on canvas                                 12x9in.JPG", info: "canvas 12x9in", size: ""}, // size moved per Alexandra's request
-		{name: "hydrangeas, elan", img: "public/Pastel/hydrangeas, elan   pastel  canvas  10x9in.JPG", size: "", bottomNotes: "canvas 10x9in"},// size moved per Alexandra's request
+		{name: "hydrangeas, elan", img: "public/Pastel/hydrangeas, elan   pastel  canvas  10x9in.JPG", size: "10x9in", info: "canvas 10x9in"},
 		{name: "hydrangeas, mixed", img: "public/Pastel/hydrangeas, mixed   pastel on canvas           10x10in.JPG", size: "canvas 10x10in"},
 		{name: "hydrangeas,pink and violet", img: "public/Pastel/hydrangeas,pink and violet   pastel on canvas  10x8in.JPG", size: "canvas 10x8in"},
 		{name: "lay your sleeping head (auden)", img: "public/Pastel/lay your sleeping head (auden) pastel canvas   8x10in.JPG", size: "canvas 10x8in"},
 		{name: "mika with jump rope", img: "public/Pastel/mika with jump rope pastel on paper, mounted on board  24x48in.JPG", size: "24x48in"},
-		{name: "mixed hydrangeas canvas10x10in", img: "public/Pastel/mixed hydrangeas  pastel   canvas   10x10in.JPG", size: ""},//, size: "canvas 10x10in"},
+		{name: "mixed hydrangeas canvas10x10in", img: "public/Pastel/mixed hydrangeas  pastel   canvas   10x10in.JPG", size: "10x10in"},//, size: "canvas 10x10in"},
 		{name: "remember", img: "public/Pastel/remember  pastel  canvas  12x9in.JPG", size: "canvas 12x9in"},
-		{name: "roman afternoon", img: "public/Pastel/roman afternoon      pastel on canvas     9x12in.JPG", size: "", bottomNotes: "roman afternoon", bottomSize: "canvas 9x12in"}		
+		{name: "roman afternoon", img: "public/Pastel/roman afternoon      pastel on canvas     9x12in.JPG", size: "9x12in", info: "roman afternoon", bottomSize: "canvas 9x12in"}		
 	]},
 	{category: "monotypes", paintings: [
 		{name: "landscape with tree", img: "public/Monotype/Landscape with Tree   monotype.Jpg", size: ""}, // what size?
@@ -77,9 +77,15 @@ var categories = [
 		{name: "yellow roses", img: "public/Monotype/YELLOW ROSES monotype 14x16.5in.jpg", size: "14x16.5in"}
 	]},
 	{category: "drawings", paintings: [
-		{name: "conversation", bottomNotes: "red chalk, charcoal on canvas", secondBottomLine: "24x48in", img: "public/Drawings/CONVERSATION  charcoal and  red chalk   48x24in  1979.jpg", size: ""}, // size removed per Alexandra's request
-		{name: "leafy geranium", img: "public/Drawings/Geranium (brown chalk).jpg", size: "11x16in"},
-		{name: "geranium re-potted", img: "public/Drawings/Geranium Re-potted    brown chalk on white paper.JPG", size: "11x16in"}
+		{name: "conversation", info: "red chalk, charcoal on canvas", img: "public/Drawings/CONVERSATION  charcoal and  red chalk   48x24in  1979.jpg", size: "24x48in"}, // removed: secondBottomLine: "24x48in",
+		// {name: "leafy geranium", img: "public/Drawings/Geranium (brown chalk).jpg", size: "11x16in"},
+		{name: "geranium plant", img: "public/Drawings/Geranium Plant   brown chalk on paper  12x17.5in.jpg", info: "brown chalk on paper", size: "12x17.5in"},
+		// {name: "geranium re-potted", img: "public/Drawings/Geranium Re-potted    brown chalk on white paper.JPG", size: "11x16in"},
+		{name: "potted geranium", img: "public/Drawings/potted geranium   brown chalk on white paper 11x16in.jpg", info: "brown chalk on white paper", size: "11x16in"},
+		{name: "woman, three views", img: "public/Drawings/woman, three views    charcoal on brown paper 14x16.25in.jpg", info: "charcoal on brown paper", size: "14x16.25in"},
+		{name: "card game", img: "public/Drawings/card game  chalks on grey paper   10x5.5in.jpg", info: "chalks on grey paper", size: "10x5.5in"},
+		{name: "book and breakfast", img: "public/Drawings/book and breakfast   chalk and charcoal on canvas   48x48in.jpg", info: "chalk and charcoal on canvas", size: "48x48in"},	
+		{name: "mother and baby", img: "public/Drawings/mother and baby   red chalk on paper  19x24in   .jpg", info: "red chalk on paper", size: "19x24in"}
 	]},
 	{category: "flowers", paintings: [
 		{name: "anemone triptych", img: "public/Flowers/ANEMONE TRIPTYCH   48''x48''.JPG", size: "48x48in"},

@@ -26,21 +26,21 @@ h1 {
 	/*width:60%;*/
 	text-align:left;
 }
-.show-middle {
+/*.show-middle {
 	float: left;
 	display: inline-block;
 	width:20%;
-	/*text-align: center;*/
 }
 .show-right {
 	float: left;
 	width:20%;
 	text-align:right;
-}
+}*/
 .on-own-line {
 	clear: both;
 	display: block;
-	padding-left: 40%;
+	line-height: 0.7;
+	/*padding-left: 40%;*/
 }
 
 hr {
@@ -88,6 +88,7 @@ a:hover, a:active, a:focus {
 	display: block;
 	width: 650px; 
     height: 440px;
+    margin-bottom: 18px;
 }
 ul li img {
 	display: block;

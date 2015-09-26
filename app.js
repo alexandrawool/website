@@ -46,7 +46,7 @@ var categories = [
 		{name: "light after rain", img: "public/Mixed-Media/light after rain  mixed media  panel  36x30in.jpg", size: "48x36in"}, // size corrected by Alexandra
 		{name: "postcard from lucca", img: "public/Mixed-Media/postcard from lucca  mixed media on panel    32x24in.JPG", size: "32x24in"},
 		{name: "red flowers in a somewhat grey vase", img: "public/Mixed-Media/red flowers in a somewhat grey vase              mixed media  panel  9.5x16.5.JPG", size: "9.5x16.5in"},
-		{name: "shower", img: "public/Mixed-Media/SHOWER  panel   12x12in.JPG", size: "12x12in"},
+		{name: "shower", img: "public/Mixed-Media/SHOWER  panel   12x12in.JPG", size: "16x16in"},
 		{name: "traumerai", img: "public/Mixed-Media/traumerai   mixed media panel  36x30in.JPG", size: "48x36in"}, // size corrected by Alexandra
 		{name: "wife of lot", img: "public/Mixed-Media/wife of Lot  mixed media panel  20x30in  .JPG", size: "20x30in"},
 		{name: "young woman in feathered hat", img: "public/Mixed-Media/YOUNG WOMAN IN FEATHERED HAT 48x48in.JPG", size: "24x48in"}

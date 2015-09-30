@@ -52,7 +52,7 @@ var categories = [
 		{name: "young woman in feathered hat", img: "public/Mixed-Media/YOUNG WOMAN IN FEATHERED HAT 48x48in.JPG", size: "24x48in"}
 	]},
 	{category: "pastels", paintings: [
-		{name: "book and cofffee", img: "public/Pastel/book and cofffee  pastel on paper  30x30in.JPG", size: "paper 30x30in"},
+		{name: "book and cofffee", img: "public/Pastel/book and coffee   pastel on paper   30x30in.JPG", size: "paper 30x30in"},
 		{name: "anemones in a blue vase", img: "public/Pastel/anemones in a blue vase   pastel on paper   10x18in.JPG", size: "paper 10x18in"},	
 		{name: "botteghe oscure", img: "public/Pastel/bottega oscura  pastel on canvas  9x12in.JPG", size: "canvas 9x12in"},
 		{name: "hydrageas", img: "public/Pastel/hydrageas  pastel canvas  10x10in.JPG", size: "canvas 10x10in"},
@@ -82,10 +82,12 @@ var categories = [
 		{name: "figure, two views", img: "public/Drawings/02 figure, two views  charcoal on tan paper 14x18.75in.JPG", info: "charcoal on tan paper", size: "14x18.75in"},
 		{name: "bathers", img: "public/Drawings/03 bathers  (shown at watercolor show at NY Academy of Design)  12.5x16in.JPG", info: "(shown at watercolor show at NY Academy of Design)", size: "12.5x16in"},
 		{name: "let's see", img: "public/Drawings/04  let's see    ink and wash  on board  17.5x23in.JPG", info: "ink and wash on board", size: "17.5x23in"},
+		{name: "sing along", img: "public/Drawings/04  sing along  watercolor     15x18in.JPG", info: "watercolor", size: "15x18in"},
 		{name: "three figures", img: "public/Drawings/05 three figures   charcoal on green, white board 25x22.5in.JPG", info: "charcoal on green, white board", size: "25x22.5in"},
 		{name: "three figures considered", img: "public/Drawings/06  three figures considered   charcoal and paint on masonite panel   23x30in.JPG", info: "charcoal and paint on masonite panel", size: "23x30in"},
 		{name: "drape  charcoal on board", img: "public/Drawings/07 drape  charcoal on board  20x30in.JPG", info: "charcoal on board", size: "20x30in"},
 		{name: "drape study 1", img: "public/Drawings/08  drape study 1  charcoal on canvas panel  20x25in.JPG", info: "charcoal on canvas panel", size: "20x25in"},
+		{name: "two women and baby", img: "public/Drawings/09  two women and baby    red conte on grey paper  19x24in.JPG", info: "red conte on grey paper", size: "19x24in"},
 		{name: "mother and baby", img: "public/Drawings/09 mother and baby   red chalk on paper  19x24in.JPG", info: "red chalk on paper", size: "19x24in"},
 		{name: "a propos de fibonacci", img: "public/Drawings/010  a propos de Fibonacci   chalk and paint on board mounted paper  25x37in  Mount 34.5x47.75in.JPG", info: "chalk and paint on board mounted paper", size: "25x37in"},
 		{name: "firsrt love in verona", img: "public/Drawings/010 firsrt love in verona  red conte and charcoal  24x48in.jpg", info: "red conte and charcoal", size: "24x48in"},
@@ -93,6 +95,7 @@ var categories = [
 		{name: "christine in a tutu", img: "public/Drawings/012 christine in a tutu  charcoal on brown wrapping paper   15x14in.JPG", info: "charcoal on brown wrapping paper", size: "15x14in"},
 		{name: "on her head, in a tutu", img: "public/Drawings/013  on her head, in a tutu   charcoal, colored chalk on prepared grey paper   40x50in.JPG", info: "charcoal, colored chalk on prepared grey paper", size: "40x50in"},
 		{name: "hart", img: "public/Drawings/014 hart  brown wash, brush and pen  tracing paper mounted on pink paper   12x15in.JPG", info: "brush and pen  tracing paper mounted on pink paper", size: "12x15in"},
+		{name: "arthur lidov", img: "public/Drawings/015 arthur lidov   charcoal on white paper   5x7in.JPG", info: "charcoal on white paper", size: "5x7in"},
 		{name: "daffodils 1", img: "public/Drawings/015 daffodils 1.JPG", info: "", size: ""}, // what size?
 		{name: "daffodils 2", img: "public/Drawings/015 daffodils 2.JPG", info: "", size: ""}, // what size?
 		{name: "geranium", img: "public/Drawings/016  geranium  brown chalk tan paper  18x12in.JPG", info: "brown chalk tan paper", size: "18x12in"},
@@ -104,6 +107,7 @@ var categories = [
 		{name: "what cards I have", img: "public/Drawings/021  what cards I have   charcoal and colored chalk on brown paper   9x7in - Copy - Copy.JPG", info: "charcoal and colored chalk on brown paper", size: "9x7in"},
 		{name: "child looking at a card (the future)", img: "public/Drawings/021 child looking at a card (the future)  charcoal and colored chalks  15x8.5in.JPG", info: "charcoal and colored chalks", size: "15x8.5in"},
 		{name: "card player", img: "public/Drawings/022  card player    charcoal, white chalk on pink laid paper  4.5x7.5in.JPG", info: "charcoal, white chalk on pink laid paper", size: "4.5x7.5in"},
+		{name: "daedalus (homage to arthur lidov  1917-90)", img: "public/Drawings/022 daedalus (homage to Arthur Lidov  1917-90)  13x13in.JPG", info: "", size: "13x13in"},
 		{name: "daedalus with icarus (after lidov)", img: "public/Drawings/023 daedalus with icarus (after Lidov)  charcoal 12x13in.JPG", info: "charcoal", size: "12x13in"},
 		{name: "after the chase", img: "public/Drawings/024  after the chase charcoal    10x8in.JPG", info: "charcoal", size: "10x8in"},
 		{name: "conversation", img: "public/Drawings/025 conversation   charcoal   7x10 in.JPG", info: "charcoal", size: "7x10in"},
@@ -134,8 +138,8 @@ var categories = [
 		{name: "corsage", img: "public/Flowers/corsage   36x27.5in.JPG", size: "36x27.5in"},
 		{name: "daffodils 1", img: "public/Flowers/daffodils 1    8x10in.JPG", size: "8x10in"},
 		{name: "daffodils 2", img: "public/Flowers/daffodils 2   8x10in.JPG", size: "8x10in"},
-		{name: "daffodils 3", img: "public/Flowers/daffodils 3    8x10in.JPG", size: "8x10in"},
-		{name: "daffodils and vase", img: "public/Flowers/Daffodils and Vase   chalk pencil paint  9x12in.JPG", size: "9x12in"},
+		// {name: "daffodils 3", img: "public/Flowers/daffodils 3    8x10in.JPG", size: "8x10in"},
+		// {name: "daffodils and vase", img: "public/Flowers/Daffodils and Vase   chalk pencil paint  9x12in.JPG", size: "9x12in"},
 		{name: "first blooming geraniums", img: "public/Flowers/first blooming geraniums   48x24in.jpg", size: "48x24in"},
 		{name: "florentine geraniums", img: "public/Flowers/florentine geraniums 48x24in.jpg", size: "48x24in"},
 		{name: "flower and memory mixed media", img: "public/Flowers/flower_and_memory_mixed_media_panel_20x15in.jpg", size: "20x15in"},
@@ -147,7 +151,7 @@ var categories = [
 		{name: "geranium, magenta", img: "public/Flowers/geranium, magenta   panel    9x8in.jpg", size: "9x8in"},
 		{name: "geraniums oil on panel", img: "public/Flowers/geraniums    oil on  panel   8x10in.JPG", size: "8x10in"},
 		// {name: "geraniums out of florence", img: "public/Flowers/Geraniums out of Florence 24x48in.jpg", size: "24x48in"}, // duplicate
-		{name: "hydrangeas", img: "public/Flowers/hydrageas   pastel  canvas 10x10in.JPG", size: "10x10in"},
+		// {name: "hydrangeas", img: "public/Flowers/hydrageas   pastel  canvas 10x10in.JPG", size: "10x10in"},
 		{name: "hydrangea fresco", img: "public/Flowers/hydrangea fresco 10x10in.JPG", size: "10x10in"},
 		// {name: "hydrangeas", img: "public/Flowers/hydrangeas 24x12in.JPG", size: "24x12in"}, // duplicate
 		{name: "hydrangeas gathered in a pot", img: "public/Flowers/hydrangeas gathered in a pot  panel  12x8.5in.JPG", size: "12x8.5in"},
@@ -156,21 +160,21 @@ var categories = [
 		{name: "hydrangeas observed", img: "public/Flowers/hydrangeas observed  pastel  canvas  10x10in.JPG", size: "10x10in"},
 		{name: "hydrangeas on grey", img: "public/Flowers/hydrangeas on grey  23x8in.JPG", size: "23x8in"},
 		{name: "hydrangeas on the terrace", img: "public/Flowers/hydrangeas on the terrace  canvas   18x36in.JPG", size: "18x36in"},
-		{name: "hydrangeas, elan", img: "public/Flowers/hydrangeas, elan  pastel on  canvas        10x9in.JPG", size: "10x9in"},
+		// {name: "hydrangeas, elan", img: "public/Flowers/hydrangeas, elan  pastel on  canvas        10x9in.JPG", size: "10x9in"},
 		{name: "lap san", img: "public/Flowers/lap san       10x8in.JPG", size: "10x8in"},
 		{name: "little pot of flowers", img: "public/Flowers/little pot of flowers    panel  8.5x7in.JPG", size: "8.5x7in"},
 		{name: "on first seeing oslo", img: "public/Flowers/on first seeing oslo  panel   20x14.16in.JPG", size: "20x14.16in"},
 		{name: "pink pigment", img: "public/Flowers/pink   pigment on panel   12x8in.JPG", size: "12x8in"},
 		{name: "pink and blue hydrangeas", img: "public/Flowers/PINK AND BLUE HYDRANGEAS    8x10 in.jpg", size: "8x10in"},
 		{name: "portuguese geraniums", img: "public/Flowers/portuguese geraniums 48x24in.jpg", size: "48x24in"},
-		{name: "postcard from lucca", img: "public/Flowers/POSTCARD_FROM_LUCCA_24x32in.jpg", size: "24x32in"},
+		// {name: "postcard from lucca", img: "public/Flowers/POSTCARD_FROM_LUCCA_24x32in.jpg", size: "24x32in"},
 		{name: "postcard from lucca", img: "public/Flowers/postcard from lucca  mixed media   panel      32x24in.JPG", size: "32x24in"},
 		{name: "red flowers in a somewhat grey vase", img: "public/Flowers/red flowers in a somewhat grey vase  mixed media on panel  9.5x16.5in.JPG", size: "9.5x16.5in"},
 		{name: "red geraniums in terracotta pot", img: "public/Flowers/red geranium in terracotta pot   18 x 22in.JPG", size: "18x22in"},
 		{name: "red, very red", img: "public/Flowers/red,very red  panel   12x9.5in.jpg", size: "12x9.5in"},
 		{name: "redblue", img: "public/Flowers/redblue  48x24in.jpg", size: "48x24in"},
-		{name: "remember", img: "public/Flowers/remember   pastel  on canvas   8x10in.JPG", size: "8x10in"},
-		{name: "roses in vases", img: "public/Flowers/roses in vases oil  20x16in.Jpg", size: "20x16in"},
+		// {name: "remember", img: "public/Flowers/remember   pastel  on canvas   8x10in.JPG", size: "8x10in"},
+		// {name: "roses in vases", img: "public/Flowers/roses in vases oil  20x16in.Jpg", size: "20x16in"},
 		{name: "studio works and days", img: "public/Flowers/studio works and days                   48 x 48in.JPG", size: "48x48in"},
 		{name: "the flowers are blue and violet", img: "public/Flowers/the flowers are blue and violet    9x12in.JPG", size: "9x12in"},
 		{name: "white geranium among leaves", img: "public/Flowers/white geranium among leaves 16x12in.JPG", size: "16x12in"},
@@ -222,7 +226,7 @@ var categories = [
 	{category: "people", paintings: [
 		{name: "book and coffee", img: "public/People/BOOK AND COFFE   triptych  48x48in.JPG", size: "48x48in"},
 		{name: "hart", img: "public/People/HART   9 x11in.jpg", size: "9x11in"},
-		{name: "hart in black jacket", img: "public/People/HART IN BLACK JACKET  48x48in.Jpg", size: "48x48in"},
+		// {name: "hart in black jacket", img: "public/People/HART IN BLACK JACKET  48x48in.Jpg", size: "48x48in"},
 		{name: "mika", img: "public/People/MIKA  red chalk.jpg", size: ""}, // what size?
 		// {name: "painter's sister", img: "public/People/Painter's Sister  monotype.JPG", size: ""}, // what size?
 		// {name: "rose eisenberg wool, painter's mother", img: "public/People/Rose Eisenberg Wool, Painter's Mother.JPG", size: ""}, // what size?
@@ -235,7 +239,7 @@ var categories = [
 		{name: "yes, my darling jumps", img: "public/Horses/Yes, my Darling Jumps   9x16in.JPG", size: "16x9in"}
 	]},
 	{category: "polo", paintings: [
-		{name: "match under a pink sky", img: "public/Polo/01  match under a pink sky.JPG", size: "20x10in"}, // what size?
+		{name: "match under a pink sky", img: "public/Polo/match under a pink Sky 20x10in.JPG", size: "20x10in"},
 		{name: "polo sunday", img: "public/Polo/02 polo sunday    20x12in.JPG", size: "20x12in"},
 		{name: "1'oclock match", img: "public/Polo/03  1'oclock match    20x10in.JPG", size: "20x10in"},
 		{name: "first chukker", img: "public/Polo/04  first chukker 16x12in.JPG", size: "16x12in"},
@@ -251,8 +255,8 @@ var categories = [
 		{name: "the joy of dolphins", img: "public/Prints/The Joy of Dolphins   serigraph  edition 25  30x40in.JPG", size: "30x40in", info: "serigraph  edition 25"}
 	]},
 	{category: "mural sketches", paintings: [
-		{name: "goodbye to sheba", img: "public/Mural-Sketches/Goodbye to Sheba  60x84in.jpg", size: "60x84in"},
-		{name: "goodbye to solomon", img: "public/Mural-Sketches/Goodbye to Solomon 60x84in.jpg", size: "60x84in"},
+		// {name: "goodbye to sheba", img: "public/Mural-Sketches/Goodbye to Sheba  60x84in.jpg", size: "60x84in"},
+		// {name: "goodbye to solomon", img: "public/Mural-Sketches/Goodbye to Solomon 60x84in.jpg", size: "60x84in"},
 		{name: "grove mural proposal", img: "public/Mural-Sketches/GROVE   mural proposal for 30 Crosby.JPG", size: ""}, // what size?
 		{name: "study for the guide to the later crises of life", img: "public/Mural-Sketches/Study for the Guide to the Later Crises of Life (26'' x 38'', 1972 -  chalk and oil).jpg", size: "26x38in"}
 	]},

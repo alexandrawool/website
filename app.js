@@ -49,7 +49,12 @@ var categories = [
 		{name: "shower", img: "public/Mixed-Media/SHOWER  panel   12x12in.JPG", size: "16x16in"},
 		{name: "traumerai", img: "public/Mixed-Media/traumerai   mixed media panel  36x30in.JPG", size: "48x36in"}, // size corrected by Alexandra
 		{name: "wife of lot", img: "public/Mixed-Media/wife of Lot  mixed media panel  20x30in  .JPG", size: "20x30in"},
-		{name: "young woman in feathered hat", img: "public/Mixed-Media/YOUNG WOMAN IN FEATHERED HAT 48x48in.JPG", size: "24x48in"}
+		{name: "young woman in feathered hat", img: "public/Mixed-Media/YOUNG WOMAN IN FEATHERED HAT 48x48in.JPG", size: "24x48in"},
+		{name: "after the bath", img: "public/Mixed-Media/after the bath  mixed media  24x48in.jpg", info: "", size: "24x48in"},
+		{name: "drying off", img: "public/Mixed-Media/drying off    mixed media    24x48in.jpg", info: "", size: "24x48in"},
+		{name: "greetings to a fan, on yr. gift canvas", img: "public/Mixed-Media/greetings to a fan, on yr. gift canvas          23.5x35.75in .JPG", info: "", size: "23.5x35.75in"},
+		{name: "the younger girls at baalbec", img: "public/Mixed-Media/the younger girls at baalbec  charcoal,watercolor and paint         paper mounted on  panel     48x48in.jpg", info: "charcoal, watercolor and paint, paper mounted on panel", size: "48x48in"},
+		{name: "young woman, nyc", img: "public/Mixed-Media/young woman,nyc  30x36in.JPG", info: "", size: "30x36in"}
 	]},
 	{category: "pastels", paintings: [
 		{name: "book and cofffee", img: "public/Pastel/book and coffee   pastel on paper   30x30in.JPG", size: "paper 30x30in"},
@@ -75,16 +80,16 @@ var categories = [
 		{name: "thanks for the bracelet", img: "public/Monotype/02 thanks for the bracelet  monotype  15.25x13in.JPG", info: "", size: "15.25x13in"},
 		{name: "dressing or undressing", img: "public/Monotype/03 dressing or undressing   monotype  14x10in.JPG", info: "", size: "14x10in"},
 		{name: "d. (figure against blue)", img: "public/Monotype/04    D. (figure against blue)   monotype        10x14in.JPG", info: "", size: "10x14in"},
-		{name: "leisure time graces", img: "public/Monotype/05  leisure time graces oil monotype on rice  paper 19x24in.JPG", info: "oil monotype on rice paper", size: "19x24in"},
+		{name: "leisure time graces", img: "public/Monotype/05  leisure time graces oil monotype on rice  paper 19x24in.JPG", info: "oil on rice paper", size: "19x24in"},
 		{name: "almost dressed", img: "public/Monotype/06 almost dressed    monotype   5x9.25in.JPG", info: "", size: "5x9.25in"},
 		{name: "mika", img: "public/Monotype/07 mika   monotype   7.5x7in.jpg", info: "", size: "7.5x7in"},
 		{name: "post- shower", img: "public/Monotype/08  post- shower   monotype  6.5x10in.JPG", info: "", size: "6.5x10in"},
 		{name: "after the bath", img: "public/Monotype/09 after the bath   monotype    5.5x7in.JPG", info: "", size: "5.5x7in"},
 		{name: "woman dressing", img: "public/Monotype/010woman dressing   monotype    8.75x6in.JPG", info: "", size: "8.75x6in"},
 		{name: "young woman, considering", img: "public/Monotype/011 young woman, considering  monotype  14.5x13in.jpg", info: "", size: "14.5x13in"},
-		{name: "lovely lady, back #3", img: "public/Monotype/012  lovely lady, back #3  monotype  14.5x19in.JPG", info: "", size: "14.5x19in"},
-		{name: "lovely lady,back #2", img: "public/Monotype/013 lovely lady,back#2  monotype 14.5x19in.JPG", info: "", size: "14.5x19in"},
-		{name: "lovely lady, her back #1", img: "public/Monotype/014 lovely lady, her back #1 monotype 14.75x19.JPG", info: "", size: "14.75x19"},
+		{name: "lovely lady, back 3", img: "public/Monotype/012  lovely lady back 3  monotype  14.5x19in.JPG", info: "", size: "14.5x19in"},
+		{name: "lovely lady, back 2", img: "public/Monotype/013 lovely lady back 2  monotype 14.5x19in.JPG", info: "", size: "14.5x19in"},
+		{name: "lovely lady, her back 1", img: "public/Monotype/014 lovely lady her back 1 monotype 14.75x19.JPG", info: "", size: "14.75x19"},
 		{name: "flowery field view of small hill and phone poles, pawling", img: "public/Monotype/015 flowery field view of small hill and phone poles, Pawling    monotype   5.25x5.25in.JPG", info: "", size: "5.25x5.25in"},
 		{name: "fair day landscape", img: "public/Monotype/016 fair day landscape   monotype   10.25x4.75in.JPG", info: "", size: "10.25x4.75in"},
 		{name: "landscape west", img: "public/Monotype/017 landscape west   monotype 10x9in.JPG", info: "", size: "10x9in"},
@@ -93,11 +98,11 @@ var categories = [
 		{name: "trees on hill", img: "public/Monotype/020 trees on hill       monotype    7.75x8in.JPG", info: "", size: "7.75x8in"},
 		{name: "southwest from our hill", img: "public/Monotype/021 southwest from our hill   monotype    11x 7in.JPG", info: "", size: "11x7in"},
 		{name: "pink moon for us", img: "public/Monotype/022  pink moon for us    monotype   8x7in.JPG", info: "", size: "8x7in"},
-		{name: "more 2x2's", img: "public/Monotype/023m ore 2x2's    monotypes   each 2x2in.JPG", info: "", size: "2x2in"},
 		{name: "twoxtwo's", img: "public/Monotype/024 twoxtwo's   monotypes each  2x2in.JPG", info: "", size: "2x2in"},
+		{name: "more 2x2's", img: "public/Monotype/023m ore 2x2's    monotypes   each 2x2in.JPG", info: "", size: "2x2in"},
 		{name: "yellow roses in blue glass vase", img: "public/Monotype/025  yellow roses in blue glass vase   monotype  14x16.5in.JPG", info: "", size: "14x16.5in"},
-		{name: "geraniums", img: "public/Monotype/026Geraniums   oil monotypes on rice paper   2x2.5in;2x3.5in.JPG", info: "oil monotypes on rice paper", size: "2x2.5in;2x3.5in"},
-		{name: "trees", img: "public/Monotype/027Trees    oil monotype  on rice paper      each 1.5x2.5in.JPG", info: "oil monotype  on rice paper", size: "1.5x2.5in"},
+		{name: "geraniums", img: "public/Monotype/026Geraniums   oil monotypes on rice paper   2x2.5in;2x3.5in.JPG", info: "oil on rice paper", size: "2x2.5in;2x3.5in"},
+		{name: "trees", img: "public/Monotype/027Trees    oil monotype  on rice paper      each 1.5x2.5in.JPG", info: "oil  on rice paper", size: "1.5x2.5in"},
 		{name: "yellow roses in vase", img: "public/Monotype/028 yellow roses in vase  (series) monotype 14.75x19in.jpg", info: "(series) monotype", size: "14.75x19in"},
 		{name: "geranium", img: "public/Monotype/029geranium   monotype on rice paper   2.25x3.75in.JPG", info: "monotype on rice paper", size: "2.25x3.75in"},
 		{name: "geranium", img: "public/Monotype/030 Geranium   oil monotype on rice paper  4.5x2.5in.JPG", info: "", size: "4.5x2.5in"},
@@ -109,22 +114,19 @@ var categories = [
 		{name: "pillar of salt", img: "public/Monotype/036  pillar of salt  monotype  5x5.25 in.JPG", info: "", size: "5x5.25 in"},
 		{name: "draped woman, gathering", img: "public/Monotype/037  draped woman, gathering  monotype 5.5x7in.JPG", info: "", size: "5.5x7in"},
 		{name: "after lidov's adam", img: "public/Monotype/038  after Lidov's Adam   monotype  image 5.75x8.25in.JPG", info: "", size: "5.75x8.25in"},
-		{name: "witch", img: "public/Monotype/040 witch   monotype on rice paper  10.5x12in.JPG", info: "monotype on rice paper", size: "10.5x12in"},
+		{name: "witch", img: "public/Monotype/040 witch   monotype on rice paper  10.5x12in.JPG", info: "oil on rice paper", size: "10.5x12in"},
 		{name: "young woman against favored blue", img: "public/Monotype/041young woman against favored blue   monotype  3.5x5in.JPG", info: "", size: "3.5x5in"},
-		{name: "chloe (profile)", img: "public/Monotype/042 chloe (profile)  oil monotype   7.25x7.75in.JPG", info: "oil monotype", size: "7.25x7.75in"},
-		{name: "virago in feathers on pink paper", img: "public/Monotype/043 virago in feathers on pink paper  monotype on pink paper    8x9.5in.JPG", info: "monotype on pink paper", size: "8x9.5in"},
-		{name: "emily", img: "public/Monotype/044 emily  oil monotype  7x8in.JPG", info: "oil monotype", size: "7x8in"},
-		{name: "emily", img: "public/Monotype/045 emily oil  monotype 2nd pull  7x8in.JPG", info: "oil monotype", size: "7x8in"},
-		{name: "charlene", img: "public/Monotype/046 charlene   oil monotype  1.25x8in.JPG", info: "oil monotype", size: "1.25x8in"},
+		{name: "chloe (profile)", img: "public/Monotype/042 chloe (profile)  oil monotype   7.25x7.75in.JPG", info: "oil", size: "7.25x7.75in"},
+		{name: "virago in feathers on pink paper", img: "public/Monotype/043 virago in feathers on pink paper  monotype on pink paper    8x9.5in.JPG", info: "", size: "8x9.5in"},
+		{name: "emily", img: "public/Monotype/044 emily  oil monotype  7x8in.JPG", info: "oil", size: "7x8in"},
+		{name: "emily (second pull)", img: "public/Monotype/045 emily oil  monotype 2nd pull  7x8in.JPG", info: "oil", size: "7x8in"},
+		{name: "charlene", img: "public/Monotype/046 charlene   oil monotype  1.25x8in.JPG", info: "oil", size: "1.25x8in"},
 		{name: "yes,no or maybe", img: "public/Monotype/047yes,no or maybe    monotype    7.75x7.JPG", info: "", size: "7.75x7in"},
 		{name: "young woman, profile", img: "public/Monotype/048young woman, profile   monotype  7.5x7in.JPG", info: "", size: "7.5x7in"},
 		{name: "primeval soup", img: "public/Monotype/049  primeval soup   monotype  9.25x9in.JPG", info: "", size: "9.25x9in"},
 		
 
-		{name: "landscape with tree", img: "public/Monotype/Landscape with Tree   monotype.Jpg", size: ""}, // what size?
-		{name: "race", img: "public/Monotype/Race (monotype on paper) 12.5x5.75 image.jpg", size: "12.5x5.75in"},
-		{name: "undressing", img: "public/Monotype/UNDRESSING     13x 10in.JPG", size: "13x10in"},
-		{name: "yellow roses", img: "public/Monotype/YELLOW ROSES monotype 14x16.5in.jpg", size: "14x16.5in"}
+		{name: "landscape with tree", img: "public/Monotype/Landscape with Tree   monotype.Jpg", size: "8x7in"}
 	]},
 	{category: "drawings", paintings: [
 		{name: "book and breakfast", img: "public/Drawings/01  book and breakfast charcoal and chalk  and white paint 48x48in.JPG", info: "charcoal and chalk and white paint", size: "48x48in"},
@@ -144,10 +146,10 @@ var categories = [
 		{name: "exercise", img: "public/Drawings/011  exercise  charcoal and sanguine on rice paper     23x12.5in.JPG", info: "charcoal and sanguine on rice paper", size: "23x12.5in"},
 		{name: "christine in a tutu", img: "public/Drawings/012 christine in a tutu  charcoal on brown wrapping paper   15x14in.JPG", info: "charcoal on brown paper", size: "15x14in"},
 		{name: "on her head, in a tutu", img: "public/Drawings/013  on her head, in a tutu   charcoal, colored chalk on prepared grey paper   40x50in.JPG", info: "charcoal, colored chalk on prepared grey paper", size: "40x50in"},
-		{name: "hart", img: "public/Drawings/014 hart  brown wash, brush and pen  tracing paper mounted on pink paper   12x15in.JPG", info: "brush and pen mounted on pink paper", size: "12x15in"},
+		{name: "hart", img: "public/Drawings/014 hart  brown wash, brush and pen  tracing paper mounted on pink paper   12x15in.JPG", info: "brush and pen      ", moreinfo: "mounted on pink paper", size: "12x15in"},
 		{name: "arthur lidov", img: "public/Drawings/015 arthur lidov   charcoal on white paper   5x7in.JPG", info: "charcoal on white paper", size: "5x7in"},
 		{name: "daffodils 1", img: "public/Drawings/015 daffodils 1.JPG", info: "", size: ""}, // what size?
-		{name: "daffodils 2", img: "public/Drawings/015 daffodils 2.JPG", info: "", size: ""}, // what size?
+		{name: "daffodils 4", img: "public/Drawings/015 daffodils 2.JPG", info: "", size: ""}, // what size?
 		{name: "geranium", img: "public/Drawings/016  geranium  brown chalk tan paper  18x12in.JPG", info: "brown chalk on tan paper", size: "18x12in"},
 		{name: "geranium plant", img: "public/Drawings/Geranium Plant   brown chalk on paper  12x17.5in.jpg", info: "brown chalk on tan paper", size: "12x17.5in"},
 		{name: "potted geranium", img: "public/Drawings/potted geranium   brown chalk on white paper 11x16in.jpg", info: "brown chalk on white paper", size: "11x16in"},
@@ -172,13 +174,31 @@ var categories = [
 		{name: "hart (solomon)", img: "public/Drawings/041  hart (Solomon)   brown conte and white chalk on tan board 11.5x8.5.JPG", info: "brown conte and white chalk on tan board", size: "11.5x8.5in"},
 		{name: "lot's wife", img: "public/Drawings/042  lot's wife   charcoal and chalk on board   14x20in.jpg", info: "charcoal and chalk on board", size: "14x20in"},
 		{name: "we three", img: "public/Drawings/043 we three      charcoal and pastel on brown paper  19x24in.JPG", info: "charcoal and pastel on brown paper", size: "19x24in"},
-		{name: "woman, dark hair, dark hat, etc", img: "public/Drawings/045  woman, dark hair,dark hat,etc  charcoal white chalk brown paper 14x16.5in.JPG", info: "charcoal white chalk brown paper", size: "14x16.5in"},
+		// {name: "woman, dark hair, dark hat, etc", img: "public/Drawings/045  woman, dark hair,dark hat,etc  charcoal white chalk brown paper 14x16.5in.JPG", info: "charcoal white chalk brown paper", size: "14x16.5in"},
 
 		{name: "conversation", info: "red chalk, charcoal on canvas", img: "public/Drawings/CONVERSATION  charcoal and  red chalk   48x24in  1979.jpg", size: "24x48in"}, // removed: secondBottomLine: "24x48in",
 		{name: "woman, three views", img: "public/Drawings/woman, three views    charcoal on brown paper 14x16.25in.jpg", info: "charcoal on brown paper", size: "14x16.25in"},
 		{name: "card game", img: "public/Drawings/card game  chalks on grey paper   10x5.5in.jpg", info: "chalks on grey paper", size: "10x5.5in"},
 		// {name: "mother and baby", img: "public/Drawings/mother and baby   red chalk on paper  19x24in   .jpg", info: "red chalk on paper", size: "19x24in"}
-		
+
+		{name: "babies (toward Nasrudin etchin)", img: "public/Drawings/Babies (toward Nasrudin etchin)   pencil  20.5x19in  .JPG", info: "pencil", size: "20.5x19in"},
+		{name: "book and breakfast", img: "public/Drawings/book and breakfast   chalk and charcoal on canvas   48x48in.jpg", info: "chalk and charcoal on canvas", size: "48x48in"},
+		{name: "boundary marker red chalk", img: "public/Drawings/boundary marker red chalk  20x15.75in.JPG", info: "red chalk", size: "20x15.75in"},
+		{name: "c. in sunhat and beach robe", img: "public/Drawings/C. in sunhat and beach robe  charcoal on brown paper   17x24in.JPG", info: "charcoal on brown paper", size: "17x24in"},
+		{name: "carosel", img: "public/Drawings/Carosel brown wash on pink paper  12x 15.24in.JPG", info: "brown wash on pink paper", size: "12x15.24in"},
+		{name: "child at cards", img: "public/Drawings/child at cards  charcoal and colored chalks on brown paper  19.5x23in.JPG", info: "charcoal and colored chalks on brown paper", size: "19.5x23in"},
+		{name: "geranium plant", img: "public/Drawings/Geranium Plant   brown chalk on paper  12x17.5in.jpg", info: "brown chalk on paper", size: "12x17.5in"},
+		{name: "goodbye to sodom (homage to akmatova)", img: "public/Drawings/Goodbye to Sodom (Homage to Akmatova) lithograph 16.5x11in.JPG", info: "lithograph", size: "16.5x11in"},
+		{name: "her mother called her dea", img: "public/Drawings/her mother called her dea  brush and brown ink on tan paper  5x12in.JPG", info: "brush and brown ink on tan paper", size: "5x12in"},
+		{name: "jan sudler (for portrait blue dress)", img: "public/Drawings/Jan Sudler (for portrait BLUE DRESS) charcoal  18.5x23in.JPG", info: "charcoal", size: "18.5x23in"},
+		{name: "jump", img: "public/Drawings/jump  red  chalk  on rice paper  5x12in.JPG", info: "red chalk on rice paper", size: "5x12in"},
+		{name: "mother and baby", img: "public/Drawings/mother and baby   red chalk on paper  19x24in   .jpg", info: "red chalk on paper", size: "19x24in"},
+		{name: "potted geranium", img: "public/Drawings/potted geranium   brown chalk on white paper 11x16in.jpg", info: "brown chalk on white paper", size: "11x16in"},
+		{name: "rider on side-saddle", img: "public/Drawings/rider on side-saddle   pencil    19x15in.JPG", info: "pencil", size: "19x15in"},
+		{name: "school boy", img: "public/Drawings/school boy  brown wash on tan paper  4x14in.JPG", info: "brown wash on tan paper", size: "4x14in"},
+		{name: "the gift necklace they brought me from town", img: "public/Drawings/the gift necklace they brought me from town   charcoal on pink paper  19x15.5in.JPG", info: "charcoal on pink paper", size: "19x15.5in"},
+		{name: "two ballerinas", img: "public/Drawings/two ballerinas   charcoal    17x24in.JPG", info: "charcoal", size: "17x24in"},
+		{name: "woman in opera coat", img: "public/Drawings/woman in opera coat  charcoal  6x7in.JPG", info: "charcoal", size: "6x7in"}		
 		
 	]},
 	{category: "flowers", paintings: [
@@ -217,6 +237,8 @@ var categories = [
 		{name: "pink pigment", img: "public/Flowers/pink   pigment on panel   12x8in.JPG", size: "12x8in"},
 		{name: "pink and blue hydrangeas", img: "public/Flowers/PINK AND BLUE HYDRANGEAS    8x10 in.jpg", size: "8x10in"},
 		{name: "portuguese geraniums", img: "public/Flowers/portuguese geraniums 48x24in.jpg", size: "48x24in"},
+		{name: "postcard from lucca", img: "public/Mixed-Media/postcard from lucca  mixed media on panel    32x24in.JPG", size: "32x24in"}, // this is the livelier one that Alexandra asked to have shown in this slideshow, as a duplicate from another slideshow
+		
 		// {name: "postcard from lucca", img: "public/Flowers/POSTCARD_FROM_LUCCA_24x32in.jpg", size: "24x32in"},
 		// {name: "postcard from lucca", img: "public/Flowers/postcard from lucca  mixed media   panel      32x24in.JPG", size: "32x24in"},
 		{name: "red flowers in a somewhat grey vase", img: "public/Flowers/red flowers in a somewhat grey vase  mixed media on panel  9.5x16.5in.JPG", size: "9.5x16.5in"},
@@ -260,6 +282,11 @@ var categories = [
 		{name: "sunsetting in poughquag", img: "public/Landscape/sunsetting in poughquag  panel  11.25x9.5in.JPG", size: "11.25x9.5in"},
 		{name: "trees", img: "public/Landscape/trees   oil     12x5in.JPG", size: "12x5in"},
 		{name: "view from my studio", img: "public/Landscape/view from my studio   panel   10.5x4.75in.JPG", size: "10.5x4.75in"},
+
+		{name: "april snow in poughquag", img: "public/Landscape/april snow in poughquag 50x26in.JPG", info: "", size: "50x26in"},
+		{name: "italian landscape", img: "public/Landscape/Italian landscape    panel  8.25x4in.JPG", info: "", size: "8.25x4in"},
+		{name: "late afternoon, with gelato, sienna", img: "public/Landscape/late afternoon with gelato Sienna 7.5x6.5in.JPG", info: "", size: "7.5x6.5in"}
+		
 	]},
 	{category: "urban landscapes", paintings: [
 		{name: "city", img: "public/Urban-Landscape/CITY   12x9in.jpg", size: "12x9in"}
@@ -301,6 +328,24 @@ var categories = [
 		{name: "two players", img: "public/Polo/two players    12x9in .JPG", size: "12x9in"}
 	]},
 	{category: "prints", paintings: [
+		{name: "about horses and riders", img: "public/Prints/01 about horses and riders   etching (Nasrudin Press).JPG", info: "etching (nasrudin press)", size: ""}, // what size?
+		{name: "about horses and riders", img: "public/Prints/01 Horses and riders  etching (Nasrudin press) (2).JPG", info: "etching (nasrudin press)", size: ""}, // what size?
+		{name: "baby sees", img: "public/Prints/02 baby sees       etching Nasrudin Press   8x10ln.JPG", info: "etching nasrudin press", size: "8x10in"},
+		{name: "new to life", img: "public/Prints/03  New to Life  etching Nasrudin Press   9x11.in.JPG", info: "etching nasrudin press", size: "9x11in"},
+		{name: "child examining a Something", img: "public/Prints/Child examining a Something      diazo      13x12in.JPG", info: "diazo", size: "13x12in"},
+		{name: "chimp", img: "public/Prints/chimp      diazo    12x13in.JPG", info: "diazo", size: "12x13in"},
+		{name: "drape study", img: "public/Prints/drape study        diazo    11x12in   .JPG", info: "diazo", size: "11x12in"},
+		{name: "dressing", img: "public/Prints/dressing     diazo   6.5x10in.JPG", info: "diazo", size: "6.5x10in"},
+		{name: "dressing", img: "public/Prints/dressing    diazo      16x12in.JPG", info: "diazo", size: "16x12in"},
+		{name: "dressing", img: "public/Prints/Dressing   diazo print      10x14 in (1988).jpg", info: "diazo print", size: "10x14in"},
+		{name: "hart", img: "public/Prints/hart       diazo     11x13in.JPG", info: "diazo", size: "11x13in"},
+		{name: "horses and riders", img: "public/Prints/Horses and riders  etching (Nasrudin press).JPG", info: "etching (nasrudin press)", size: ""}, // what size?
+		{name: "new kimona", img: "public/Prints/new kimona      diazo      13x11in.JPG", info: "diazo", size: "13x11in"},
+		{name: "sleeping child", img: "public/Prints/sleeping child     dizao     9x7in.JPG", info: "diazo", size: "9x7in"},
+		{name: "the wonderful dress", img: "public/Prints/the wonderful dress    diazo    7x13in    .JPG", info: "diazo", size: "7x13in"},
+		{name: "young woman, figure study", img: "public/Prints/Young woman, figure study    diazo    11x15in.JPG", info: "diazo", size: "11x15in"},
+
+		
 		{name: "after sodom", img: "public/Prints/after Sodom  lithograph  edition 40   11x16in.JPG", size: "11x16in", info: "lithograph  edition 40"},
 		{name: "the joy of dolphins", img: "public/Prints/The Joy of Dolphins   serigraph  edition 25  30x40in.JPG", size: "30x40in", info: "serigraph  edition 25"}
 	]},

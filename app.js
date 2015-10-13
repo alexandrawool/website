@@ -144,6 +144,7 @@ var categories = [
 		{name: "a propos de fibonacci", img: "public/Drawings/010  a propos de Fibonacci   chalk and paint on board mounted paper  25x37in  Mount 34.5x47.75in.JPG", info: "chalk and paint on paper mounted on board", size: "25x37in"},
 		{name: "first love in verona", img: "public/Drawings/010 firsrt love in verona  red conte and charcoal  24x48in.jpg", info: "red conte and charcoal on canvas", size: "24x48in"},
 		{name: "exercise", img: "public/Drawings/011  exercise  charcoal and sanguine on rice paper     23x12.5in.JPG", info: "charcoal and sanguine on rice paper", size: "23x12.5in"},
+		{name: "jump", img: "public/Drawings/jump  red  chalk  on rice paper  5x12in.JPG", info: "red chalk on rice paper", size: "5x12in"},
 		{name: "christine in a tutu", img: "public/Drawings/012 christine in a tutu  charcoal on brown wrapping paper   15x14in.JPG", info: "charcoal on brown paper", size: "15x14in"},
 		{name: "on her head, in a tutu", img: "public/Drawings/013  on her head, in a tutu   charcoal, colored chalk on prepared grey paper   40x50in.JPG", info: "charcoal, colored chalk on prepared grey paper", size: "40x50in"},
 		{name: "hart", img: "public/Drawings/014 hart  brown wash, brush and pen  tracing paper mounted on pink paper   12x15in.JPG", info: "brush and pen      ", moreinfo: "mounted on pink paper", size: "12x15in"},
@@ -151,6 +152,7 @@ var categories = [
 		{name: "daffodils 1", img: "public/Drawings/015 daffodils 1.JPG", info: "", size: ""}, // what size?
 		{name: "daffodils 4", img: "public/Drawings/015 daffodils 2.JPG", info: "", size: ""}, // what size?
 		{name: "geranium", img: "public/Drawings/016  geranium  brown chalk tan paper  18x12in.JPG", info: "brown chalk on tan paper", size: "18x12in"},
+		{name: "geranium plant", img: "public/Drawings/Geranium Plant   brown chalk on paper  12x17.5in.jpg", info: "brown chalk on paper", size: "12x17.5in"},
 		{name: "geranium plant", img: "public/Drawings/Geranium Plant   brown chalk on paper  12x17.5in.jpg", info: "brown chalk on tan paper", size: "12x17.5in"},
 		{name: "potted geranium", img: "public/Drawings/potted geranium   brown chalk on white paper 11x16in.jpg", info: "brown chalk on white paper", size: "11x16in"},
 		{name: "geranium orgami", img: "public/Drawings/016 geranium  orgami   brown, red ,white chalk on tan paper     17.5x12in.JPG", info: "brown, red, white chalk on tan paper", size: "17.5x12in"},
@@ -161,6 +163,7 @@ var categories = [
 		{name: "what cards I have", img: "public/Drawings/021  what cards I have   charcoal and colored chalk on brown paper   9x7in - Copy - Copy.JPG", info: "charcoal and colored chalk on brown paper", size: "9x7in"},
 		{name: "child looking at a card (the future)", img: "public/Drawings/021 child looking at a card (the future)  charcoal and colored chalks  15x8.5in.JPG", info: "charcoal and colored chalks on brown paper", size: "15x8.5in"},
 		{name: "card player", img: "public/Drawings/022  card player    charcoal, white chalk on pink laid paper  4.5x7.5in.JPG", info: "charcoal, white chalk on pink paper", size: "4.5x7.5in"},
+		{name: "card game", img: "public/Drawings/card game  chalks on grey paper   10x5.5in.jpg", info: "chalks on grey paper", size: "10x5.5in"},
 		{name: "daedalus (homage to arthur lidov  1917-90)", img: "public/Drawings/022 daedalus (homage to Arthur Lidov  1917-90)  13x13in.JPG", info: "", size: "13x13in"},
 		{name: "daedalus with icarus (after lidov)", img: "public/Drawings/023 daedalus with icarus (after Lidov)  charcoal 12x13in.JPG", info: "charcoal", size: "12x13in"},
 		{name: "after the chase", img: "public/Drawings/024  after the chase charcoal    10x8in.JPG", info: "charcoal", size: "10x8in"},
@@ -178,27 +181,25 @@ var categories = [
 
 		{name: "conversation", info: "red chalk, charcoal on canvas", img: "public/Drawings/CONVERSATION  charcoal and  red chalk   48x24in  1979.jpg", size: "24x48in"}, // removed: secondBottomLine: "24x48in",
 		{name: "woman, three views", img: "public/Drawings/woman, three views    charcoal on brown paper 14x16.25in.jpg", info: "charcoal on brown paper", size: "14x16.25in"},
-		{name: "card game", img: "public/Drawings/card game  chalks on grey paper   10x5.5in.jpg", info: "chalks on grey paper", size: "10x5.5in"},
 		// {name: "mother and baby", img: "public/Drawings/mother and baby   red chalk on paper  19x24in   .jpg", info: "red chalk on paper", size: "19x24in"}
 
-		{name: "babies (toward Nasrudin etchin)", img: "public/Drawings/Babies (toward Nasrudin etchin)   pencil  20.5x19in  .JPG", info: "pencil", size: "20.5x19in"},
-		{name: "book and breakfast", img: "public/Drawings/book and breakfast   chalk and charcoal on canvas   48x48in.jpg", info: "chalk and charcoal on canvas", size: "48x48in"},
+		{name: "babies (toward Nasrudin etching)", img: "public/Drawings/Babies (toward Nasrudin etchin)   pencil  20.5x19in  .JPG", info: "pencil", size: "20.5x19in"},
+		// {name: "book and breakfast", img: "public/Drawings/book and breakfast   chalk and charcoal on canvas   48x48in.jpg", info: "chalk and charcoal on canvas", size: "48x48in"}, // deleted -- repeat of another in this slideshow
 		{name: "boundary marker red chalk", img: "public/Drawings/boundary marker red chalk  20x15.75in.JPG", info: "red chalk", size: "20x15.75in"},
 		{name: "c. in sunhat and beach robe", img: "public/Drawings/C. in sunhat and beach robe  charcoal on brown paper   17x24in.JPG", info: "charcoal on brown paper", size: "17x24in"},
 		{name: "carosel", img: "public/Drawings/Carosel brown wash on pink paper  12x 15.24in.JPG", info: "brown wash on pink paper", size: "12x15.24in"},
 		{name: "child at cards", img: "public/Drawings/child at cards  charcoal and colored chalks on brown paper  19.5x23in.JPG", info: "charcoal and colored chalks on brown paper", size: "19.5x23in"},
-		{name: "geranium plant", img: "public/Drawings/Geranium Plant   brown chalk on paper  12x17.5in.jpg", info: "brown chalk on paper", size: "12x17.5in"},
-		{name: "goodbye to sodom (homage to akmatova)", img: "public/Drawings/Goodbye to Sodom (Homage to Akmatova) lithograph 16.5x11in.JPG", info: "lithograph", size: "16.5x11in"},
+		// {name: "goodbye to sodom (homage to akmatova)", img: "public/Drawings/Goodbye to Sodom (Homage to Akmatova) lithograph 16.5x11in.JPG", info: "lithograph", size: "16.5x11in"}, // deleted -- it is a lithograph, not a drawing
 		{name: "her mother called her dea", img: "public/Drawings/her mother called her dea  brush and brown ink on tan paper  5x12in.JPG", info: "brush and brown ink on tan paper", size: "5x12in"},
 		{name: "jan sudler (for portrait blue dress)", img: "public/Drawings/Jan Sudler (for portrait BLUE DRESS) charcoal  18.5x23in.JPG", info: "charcoal", size: "18.5x23in"},
-		{name: "jump", img: "public/Drawings/jump  red  chalk  on rice paper  5x12in.JPG", info: "red chalk on rice paper", size: "5x12in"},
-		{name: "mother and baby", img: "public/Drawings/mother and baby   red chalk on paper  19x24in   .jpg", info: "red chalk on paper", size: "19x24in"},
-		{name: "potted geranium", img: "public/Drawings/potted geranium   brown chalk on white paper 11x16in.jpg", info: "brown chalk on white paper", size: "11x16in"},
+		{name: "woman in opera coat", img: "public/Drawings/woman in opera coat  charcoal  6x7in.JPG", info: "charcoal", size: "6x7in"},
+		// {name: "mother and baby", img: "public/Drawings/mother and baby   red chalk on paper  19x24in   .jpg", info: "red chalk on paper", size: "19x24in"}, // deleted -- repeat
+		// {name: "potted geranium", img: "public/Drawings/potted geranium   brown chalk on white paper 11x16in.jpg", info: "brown chalk on white paper", size: "11x16in"}, // deleted -- repeat
 		{name: "rider on side-saddle", img: "public/Drawings/rider on side-saddle   pencil    19x15in.JPG", info: "pencil", size: "19x15in"},
 		{name: "school boy", img: "public/Drawings/school boy  brown wash on tan paper  4x14in.JPG", info: "brown wash on tan paper", size: "4x14in"},
 		{name: "the gift necklace they brought me from town", img: "public/Drawings/the gift necklace they brought me from town   charcoal on pink paper  19x15.5in.JPG", info: "charcoal on pink paper", size: "19x15.5in"},
 		{name: "two ballerinas", img: "public/Drawings/two ballerinas   charcoal    17x24in.JPG", info: "charcoal", size: "17x24in"},
-		{name: "woman in opera coat", img: "public/Drawings/woman in opera coat  charcoal  6x7in.JPG", info: "charcoal", size: "6x7in"}		
+				
 		
 	]},
 	{category: "flowers", paintings: [
@@ -273,7 +274,7 @@ var categories = [
 		{name: "above the inlet", img: "public/Landscape/ABOVE THE INLET   9x12in.JPG", size: "9x12in"},
 		{name: "dutchess county landscape with grazing horses", img: "public/Landscape/dutchess county landscape with grazing horses 9inx16 in.JPG", size: "9x16in"},
 		{name: "from hill, outside leghorn", img: "public/Landscape/from hill,outside Leghorn  8x7in.JPG", size: "8x7in"},
-		{name: "green field, blue sky", img: "public/Landscape/green field, blue sky.JPG", size: ""}, // what size?
+		{name: "green field, blue sky", img: "public/Landscape/green field, blue sky.JPG", size: "48x24in"},
 		{name: "night on the hill with pink moon", img: "public/Landscape/night on the hill with pink moon  16x12in.JPG", size: "16x12in"},
 		{name: "seaside walk", img: "public/Landscape/seaside walk   9x20in.JPG", size: "9x20in"},
 		{name: "seaside, bright day", img: "public/Landscape/seaside, bright day 9x15in.JPG", size: "9x15in"},
@@ -285,7 +286,7 @@ var categories = [
 
 		{name: "april snow in poughquag", img: "public/Landscape/april snow in poughquag 50x26in.JPG", info: "", size: "50x26in"},
 		{name: "italian landscape", img: "public/Landscape/Italian landscape    panel  8.25x4in.JPG", info: "", size: "8.25x4in"},
-		{name: "late afternoon, with gelato, sienna", img: "public/Landscape/late afternoon with gelato Sienna 7.5x6.5in.JPG", info: "", size: "7.5x6.5in"}
+		{name: "late afternoon, looking down on sienna, with my son", img: "public/Landscape/late afternoon with gelato Sienna 7.5x6.5in.JPG", info: "", size: "7.5x6.5in"}
 		
 	]},
 	{category: "urban landscapes", paintings: [

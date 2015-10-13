@@ -199,7 +199,7 @@ var categories = [
 		{name: "school boy", img: "public/Drawings/school boy  brown wash on tan paper  4x14in.JPG", info: "brown wash on tan paper", size: "4x14in"},
 		{name: "the gift necklace they brought me from town", img: "public/Drawings/the gift necklace they brought me from town   charcoal on pink paper  19x15.5in.JPG", info: "charcoal on pink paper", size: "19x15.5in"},
 		{name: "two ballerinas", img: "public/Drawings/two ballerinas   charcoal    17x24in.JPG", info: "charcoal", size: "17x24in"},
-				
+			
 		
 	]},
 	{category: "flowers", paintings: [

@@ -143,16 +143,16 @@ var categories = [
 		{name: "mother and baby", img: "public/Drawings/09 mother and baby   red chalk on paper  19x24in.JPG", info: "red chalk on paper", size: "19x24in"},
 		{name: "a propos de fibonacci", img: "public/Drawings/010  a propos de Fibonacci   chalk and paint on board mounted paper  25x37in  Mount 34.5x47.75in.JPG", info: "chalk and paint on paper mounted on board", size: "25x37in"},
 		{name: "first love in verona", img: "public/Drawings/010 firsrt love in verona  red conte and charcoal  24x48in.jpg", info: "red conte and charcoal on canvas", size: "24x48in"},
-		{name: "exercise", img: "public/Drawings/011  exercise  charcoal and sanguine on rice paper     23x12.5in.JPG", info: "charcoal and sanguine on rice paper", size: "23x12.5in"},
+		// {name: "exercise", img: "public/Drawings/011  exercise  charcoal and sanguine on rice paper     23x12.5in.JPG", info: "charcoal and sanguine on rice paper", size: "23x12.5in"},
 		{name: "jump", img: "public/Drawings/jump  red  chalk  on rice paper  5x12in.JPG", info: "red chalk on rice paper", size: "5x12in"},
 		{name: "christine in a tutu", img: "public/Drawings/012 christine in a tutu  charcoal on brown wrapping paper   15x14in.JPG", info: "charcoal on brown paper", size: "15x14in"},
 		{name: "on her head, in a tutu", img: "public/Drawings/013  on her head, in a tutu   charcoal, colored chalk on prepared grey paper   40x50in.JPG", info: "charcoal, colored chalk on prepared grey paper", size: "40x50in"},
 		{name: "hart", img: "public/Drawings/014 hart  brown wash, brush and pen  tracing paper mounted on pink paper   12x15in.JPG", info: "brush and pen      ", moreinfo: "mounted on pink paper", size: "12x15in"},
 		{name: "arthur lidov", img: "public/Drawings/015 arthur lidov   charcoal on white paper   5x7in.JPG", info: "charcoal on white paper", size: "5x7in"},
-		{name: "daffodils 1", img: "public/Drawings/015 daffodils 1.JPG", info: "", size: ""}, // what size?
-		{name: "daffodils 4", img: "public/Drawings/015 daffodils 2.JPG", info: "", size: ""}, // what size?
+		{name: "daffodils 1", img: "public/Drawings/015 daffodils 1.JPG", info: "", size: "10x8in"}, 
+		{name: "daffodils 4", img: "public/Drawings/015 daffodils 2.JPG", info: "", size: "10x8in"}, 
 		{name: "geranium", img: "public/Drawings/016  geranium  brown chalk tan paper  18x12in.JPG", info: "brown chalk on tan paper", size: "18x12in"},
-		{name: "geranium plant", img: "public/Drawings/Geranium Plant   brown chalk on paper  12x17.5in.jpg", info: "brown chalk on paper", size: "12x17.5in"},
+		// {name: "geranium plant", img: "public/Drawings/Geranium Plant   brown chalk on paper  12x17.5in.jpg", info: "brown chalk on paper", size: "12x17.5in"},
 		{name: "geranium plant", img: "public/Drawings/Geranium Plant   brown chalk on paper  12x17.5in.jpg", info: "brown chalk on tan paper", size: "12x17.5in"},
 		{name: "potted geranium", img: "public/Drawings/potted geranium   brown chalk on white paper 11x16in.jpg", info: "brown chalk on white paper", size: "11x16in"},
 		{name: "geranium orgami", img: "public/Drawings/016 geranium  orgami   brown, red ,white chalk on tan paper     17.5x12in.JPG", info: "brown, red, white chalk on tan paper", size: "17.5x12in"},
@@ -329,18 +329,18 @@ var categories = [
 		{name: "two players", img: "public/Polo/two players    12x9in .JPG", size: "12x9in"}
 	]},
 	{category: "prints", paintings: [
-		{name: "about horses and riders", img: "public/Prints/01 about horses and riders   etching (Nasrudin Press).JPG", info: "etching (nasrudin press)", size: ""}, // what size?
-		{name: "about horses and riders", img: "public/Prints/01 Horses and riders  etching (Nasrudin press) (2).JPG", info: "etching (nasrudin press)", size: ""}, // what size?
-		{name: "baby sees", img: "public/Prints/02 baby sees       etching Nasrudin Press   8x10ln.JPG", info: "etching nasrudin press", size: "8x10in"},
-		{name: "new to life", img: "public/Prints/03  New to Life  etching Nasrudin Press   9x11.in.JPG", info: "etching nasrudin press", size: "9x11in"},
-		{name: "child examining a Something", img: "public/Prints/Child examining a Something      diazo      13x12in.JPG", info: "diazo", size: "13x12in"},
+		// {name: "about horses and riders", img: "public/Prints/01 about horses and riders   etching (Nasrudin Press).JPG", info: "etching (nasrudin press)", size: ""}, // what size?
+		{name: "about horses and riders", img: "public/Prints/01 Horses and riders  etching (Nasrudin press) (2).JPG", info: "etching (nasrudin press)", size: "plate size: 9x11.5 in"}, 
+		// {name: "baby sees", img: "public/Prints/02 baby sees       etching Nasrudin Press   8x10ln.JPG", info: "etching nasrudin press", size: "8x10in"},
+		{name: "baby", img: "public/Prints/03  New to Life  etching Nasrudin Press   9x11.in.JPG", info: "etching nasrudin press", size: "plate size: 9x11.5 in"},
+		{name: "Child looking at \“fortune-teller\”", img: "public/Prints/Child examining a Something      diazo      13x12in.JPG", info: "diazo", size: "13x12in"},
 		{name: "chimp", img: "public/Prints/chimp      diazo    12x13in.JPG", info: "diazo", size: "12x13in"},
 		{name: "drape study", img: "public/Prints/drape study        diazo    11x12in   .JPG", info: "diazo", size: "11x12in"},
 		{name: "dressing", img: "public/Prints/dressing     diazo   6.5x10in.JPG", info: "diazo", size: "6.5x10in"},
 		{name: "dressing", img: "public/Prints/dressing    diazo      16x12in.JPG", info: "diazo", size: "16x12in"},
-		{name: "dressing", img: "public/Prints/Dressing   diazo print      10x14 in (1988).jpg", info: "diazo print", size: "10x14in"},
+		// {name: "dressing", img: "public/Prints/Dressing   diazo print      10x14 in (1988).jpg", info: "diazo print", size: "10x14in"},
 		{name: "hart", img: "public/Prints/hart       diazo     11x13in.JPG", info: "diazo", size: "11x13in"},
-		{name: "horses and riders", img: "public/Prints/Horses and riders  etching (Nasrudin press).JPG", info: "etching (nasrudin press)", size: ""}, // what size?
+		// {name: "horses and riders", img: "public/Prints/Horses and riders  etching (Nasrudin press).JPG", info: "etching (nasrudin press)", size: ""}, // what size?
 		{name: "new kimona", img: "public/Prints/new kimona      diazo      13x11in.JPG", info: "diazo", size: "13x11in"},
 		{name: "sleeping child", img: "public/Prints/sleeping child     dizao     9x7in.JPG", info: "diazo", size: "9x7in"},
 		{name: "the wonderful dress", img: "public/Prints/the wonderful dress    diazo    7x13in    .JPG", info: "diazo", size: "7x13in"},

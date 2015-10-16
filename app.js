@@ -79,7 +79,7 @@ var categories = [
 		{name: "hydrangeas in a bowl", img: "public/Pastel/hydrangeas in a bowl      canvas 12x9in.jpg", info: "canvas", size: "12x9in"},
 		{name: "hydrangeas in a dark blue vase", img: "public/Pastel/Hydrangeas in a dark blue vase pastel on canvas 10x12in.JPG", info: "pastel on canvas", size: "10x12in"},
 		{name: "hydrangeas in tall vase", img: "public/Pastel/hydrangeas in tall vase       canvas 18x36in.JPG", info: "canvas", size: "18x36in"}
-			
+		 	
 	]},
 	{category: "monotypes", paintings: [
 		{name: "dressing (or undressing)", img: "public/Monotype/01 dressing (or undressing)  monotype  19x14in.JPG", info: "", size: "19x14in"},

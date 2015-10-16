@@ -112,8 +112,13 @@ p {
 	display: block;
 	/*width: 270px;*/
 	width: 515px; 
+	color: white;
 }
-/*.arrows {
-	padding-left: 20px;
+.arrow-left {
+	padding-left: 40px;
 	clear: both;
-}*/
+}
+.arrow-right {
+	padding-left: 410px;
+	clear: both;
+}

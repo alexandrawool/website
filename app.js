@@ -73,7 +73,13 @@ var categories = [
 		{name: "mika with jump rope", img: "public/Pastel/mika with jump rope pastel on paper, mounted on board  24x48in.JPG", size: "paper on board 24x48in"},
 		{name: "mixed hydrangeas", img: "public/Pastel/mixed hydrangeas  pastel   canvas   10x10in.JPG", size: "canvas 10x10in"},//, size: "canvas 10x10in"},
 		{name: "remember", img: "public/Pastel/remember  pastel  canvas  12x9in.JPG", size: "canvas 12x9in"},
-		{name: "roman afternoon", img: "public/Pastel/roman afternoon      pastel on canvas     9x12in.JPG", size: "canvas 9x12in"}		
+		{name: "roman afternoon", img: "public/Pastel/roman afternoon      pastel on canvas     9x12in.JPG", size: "canvas 9x12in"},
+
+		// added 10/16/2015
+		{name: "hydrangeas in a bowl", img: "public/Pastel/hydrangeas in a bowl      canvas 12x9in.jpg", info: "canvas", size: "12x9in"},
+		{name: "hydrangeas in a dark blue vase", img: "public/Pastel/Hydrangeas in a dark blue vase pastel on canvas 10x12in.JPG", info: "pastel on canvas", size: "10x12in"},
+		{name: "hydrangeas in tall vase", img: "public/Pastel/hydrangeas in tall vase       canvas 18x36in.JPG", info: "canvas", size: "18x36in"}
+			
 	]},
 	{category: "monotypes", paintings: [
 		{name: "dressing (or undressing)", img: "public/Monotype/01 dressing (or undressing)  monotype  19x14in.JPG", info: "", size: "19x14in"},
@@ -254,8 +260,18 @@ var categories = [
 		{name: "white geranium, stretches left", img: "public/Flowers/white geranium, stretches left   8.5x12.jpg", size: "8.5x12"},
 		{name: "white geranium, stretching right", img: "public/Flowers/white geranium, stretching right.jpg", size: ""}, // what size?
 		{name: "white geraniums in black pot", img: "public/Flowers/white geraniums in black pot  48x48in.JPG", size: "48x48in"},
-		{name: "white geraniums in glazed pot", img: "public/Flowers/white geraniums in glazed pot  31x43in.png", size: "31x43in"}
+		{name: "white geraniums in glazed pot", img: "public/Flowers/white geraniums in glazed pot  31x43in.png", size: "31x43in"},
 		// {name: "anemones (smaller file)", img: "public/Flowers/ANEMONES-44x44in-min.jpg", size: ""}
+
+		// added 10/16/2015
+		{name: "astromerius", img: "public/Flowers/Astromerius  10x10in.JPG", info: "", size: "10x10in"},
+		{name: "battenfield anemones in a white vase", img: "public/Flowers/Battenfield anemones in a white vase  9x16.25in.JPG", info: "", size: "9x16.25in"},
+		{name: "blue blue", img: "public/Flowers/BLUE BLUE  8x10in.JPG", info: "", size: "8x10in"},
+		{name: "bowl of hydrangeas", img: "public/Flowers/bowl of hydrangeas     12x9in.jpg", info: "", size: "12x9in"},
+		{name: "consideration of blue, pink, violet", img: "public/Flowers/consideration of blue ,pink,violet   12x9in    .JPG", info: "", size: "12x9in"},
+		{name: "daffodils and vases", img: "public/Flowers/daffodils and vases 12x9in.JPG", info: "", size: "12x9in"},
+		{name: "hydrangeas in terrine", img: "public/Flowers/hydrangeas in terrine       12x12in                                .JPG", info: "", size: "12x12in"}
+		
 	]},
 	{category: "trees", paintings: [
 		{name: "green view", img: "public/Tree/GREEN VIEW.jpg", size: "28x38in"},
@@ -299,7 +315,11 @@ var categories = [
 		{name: "introspection is no longer epistemically privileged", img: "public/History-Philosophy/Introspection is no longer Epistemically Privileged 16x23 in 001 (931x1280) (2).jpg", size: "23x16in"},
 		{name: "joy of dolphins", img: "public/History-Philosophy/joy of dolphins   38x29.5in.JPG", size: "38x29.5in"},
 		{name: "the milk-drinkers marathon", img: "public/History-Philosophy/the milk-drinkers marathon  40x30in.JPG", size: "40x30in"},
-		{name: "the sun is sometimes a danger", img: "public/History-Philosophy/the sun is sometimes a danger  39x28in.JPG", size: "39x28in"}
+		{name: "the sun is sometimes a danger", img: "public/History-Philosophy/the sun is sometimes a danger  39x28in.JPG", size: "39x28in"},
+
+		// added 10/16/2015
+		{name: "infanta for the year the king invited the jews back to spain", img: "public/History-Philosophy/infanta for the year the king invited the jews back to spain   oil    30x36in.JPG", info: "oil", size: "30x36in"},
+		{name: "techies", img: "public/History-Philosophy/techies   gouache    8x 10in.JPG", info: "gouache", size: "8x10in"}
 	]},
 	{category: "people", paintings: [
 		{name: "book and coffee", img: "public/People/BOOK AND COFFE   triptych  48x48in.JPG", size: "48x48in"},
@@ -311,6 +331,33 @@ var categories = [
 		{name: "self portrait", img: "public/People/SELF-PORTRAIT.jpg", size: ""} // what size?
 	]},
 	{category: "horses (and the hunt)", paintings: [
+		// added 10/16/2015
+		{name: "hunting morning", img: "public/Horses/01 Hunting Morning 20 x 9.25 in.JPG", info: "", size: "20x9.25in"},
+		{name: "mother and daughter", img: "public/Horses/02 mother and daughter16x9in.JPG", info: "", size: "16x9in"},
+		{name: "blondie under tcherepnine", img: "public/Horses/03 blondie under tcherepnine  20x10in.jpg", info: "", size: "20x10in"},
+		{name: "hacking over", img: "public/Horses/004 Hacking Over   oil  23x9in.JPG", info: "oil", size: "23x9in"},
+		{name: "yellow coats", img: "public/Horses/05 yellow coats  15.25x6.25in.JPG", info: "", size: "15.25x6.25in"},
+		{name: "across the fields of autumn", img: "public/Horses/06  Across the Fields of Autumn 29x8in.JPG", info: "", size: "29x8in"},
+		{name: "good morning", img: "public/Horses/07 Good Morning.JPG", info: "", size: ""}, // what size?
+		{name: "by the lake of petrified wood", img: "public/Horses/08 by the lake of petrified wood    15x8in.JPG", info: "", size: "15x8in"},
+		{name: "after the flying fox", img: "public/Horses/09  after the flying fox    16x8in.JPG", info: "", size: "16x8in"},
+		{name: "out with the hounds", img: "public/Horses/010  Out with the Hounds.JPG", info: "", size: ""}, // what size?
+		{name: "afternoon ride", img: "public/Horses/011 Afternoon Ride.JPG", info: "", size: ""}, // what size?
+		{name: "riding out", img: "public/Horses/012 Riding Out.JPG", info: "", size: ""}, // what size?
+		{name: "horses at grass", img: "public/Horses/013 Horses at Grass.JPG", info: "", size: ""}, // what size?
+		{name: "walk by the lake of petrified wood", img: "public/Horses/015 Walk by the Lake of Petrified Wood, Millbrook.JPG", info: "", size: ""}, // what size?
+		{name: "horse study", img: "public/Horses/016   Horse study   red chalk on paper  16x11.75in.JPG", info: "red chalk on paper", size: "16x11.75in"},
+		{name: "bonding", img: "public/Horses/017   bonding    7x10 in.JPG", info: "", size: "7x10"},
+		{name: "dutchess county landscape with grazing horses", img: "public/Horses/018  Dutchess County landscape with Grazing Horses 9inx16 in.JPG", info: "", size: "9x16in"},
+		{name: "riders", img: "public/Horses/019   riders   monotype  10.5x11.75in.JPG", info: "monotype", size: "10.5x11.75in"},
+		{name: "horse diptych", img: "public/Horses/020  horse diptych    48x48in.jpg", info: "", size: "48x48in"},
+		{name: "race", img: "public/Horses/021  race   monotype    image10.5x5.75in.JPG", info: "monotype", size: "10.5x5.75in"},
+		{name: "transportation or riding down time", img: "public/Horses/023   transportation or riding down time   95x72in.JPG", info: "", size: "95x72in"},
+		{name: "pony  and rider", img: "public/Horses/pony  and rider      12x10in.JPG", info: "", size: "12x10in"},
+		{name: "rider on side-saddle", img: "public/Horses/rider on side-saddle   pencil    19x15in.JPG", info: "pencil", size: "19x15in"},
+		{name: "winter morning with the pack", img: "public/Horses/winter morning with the pack       12x10in.JPG", info: "", size: "12x10in"},
+
+		// already there 10/16/2015
 		{name: "present time transported", img: "public/Horses/PRESENT TIME TRANSPORTED  (6' x 7' - 1985).JPG", size: "72x96in"},
 		{name: "riders", img: "public/Horses/RIDERS (monotype)11.75x10.5 in.JPG", size: "11.75x10.5in"},
 		{name: "the hunt", img: "public/Horses/THE HUNT   16x20in.JPG", size: "20x9in"},
@@ -351,6 +398,13 @@ var categories = [
 		{name: "the joy of dolphins", img: "public/Prints/The Joy of Dolphins   serigraph  edition 25  30x40in.JPG", size: "30x40in", info: "serigraph  edition 25"}
 	]},
 	{category: "mural sketches", paintings: [
+		// added 10/16/2015
+		{name: "transportation or riding down time", img: "public/Mural-Sketches/01 transportation or riding down time   95x72in.JPG", info: "", size: "95x72in"},
+		{name: "primavera", img: "public/Mural-Sketches/primavera   panel (in progress).JPG", info: "", size: ""}, // what size?
+		{name: "save these trees", img: "public/Mural-Sketches/save these trees.JPG", info: "", size: ""}, // what size?
+		{name: "sun and trees", img: "public/Mural-Sketches/sun and trees.JPG", info: "", size: ""}, // what size?
+		{name: "trees absorbed and expanding", img: "public/Mural-Sketches/trees absorbed and expanding.JPG", info: "", size: ""}, // what size?
+
 		// {name: "goodbye to sheba", img: "public/Mural-Sketches/Goodbye to Sheba  60x84in.jpg", size: "60x84in"},
 		// {name: "goodbye to solomon", img: "public/Mural-Sketches/Goodbye to Solomon 60x84in.jpg", size: "60x84in"},
 		{name: "grove mural proposal", img: "public/Mural-Sketches/GROVE   mural proposal for 30 Crosby.JPG", size: ""}, // what size?

@@ -92,7 +92,8 @@ var categories = [
 		{name: "post- shower", img: "public/Monotype/08  post- shower   monotype  6.5x10in.JPG", info: "", size: "6.5x10in"},
 		{name: "after the bath", img: "public/Monotype/09 after the bath   monotype    5.5x7in.JPG", info: "", size: "5.5x7in"},
 		{name: "woman dressing", img: "public/Monotype/010woman dressing   monotype    8.75x6in.JPG", info: "", size: "8.75x6in"},
-		{name: "young woman, considering", img: "public/Monotype/011 young woman, considering  monotype  14.5x13in.jpg", info: "", size: "14.5x13in"},
+		{name: "young woman thinking, back view", img: "public/Monotype/young woman thinking, back view.jpg", info: "", size: "14.5x13in"},
+		// {name: "young woman, considering", img: "public/Monotype/011 young woman, considering  monotype  14.5x13in.jpg", info: "", size: "14.5x13in"},
 		{name: "lovely lady, back 3", img: "public/Monotype/012  lovely lady back 3  monotype  14.5x19in.JPG", info: "", size: "14.5x19in"},
 		{name: "lovely lady, back 2", img: "public/Monotype/013 lovely lady back 2  monotype 14.5x19in.JPG", info: "", size: "14.5x19in"},
 		{name: "lovely lady, her back 1", img: "public/Monotype/014 lovely lady her back 1 monotype 14.75x19.JPG", info: "", size: "14.75x19"},
@@ -319,7 +320,13 @@ var categories = [
 
 		// added 10/16/2015
 		{name: "infanta for the year the king invited the jews back to spain", img: "public/History-Philosophy/infanta for the year the king invited the jews back to spain   oil    30x36in.JPG", info: "oil", size: "30x36in"},
-		{name: "techies", img: "public/History-Philosophy/techies   gouache    8x 10in.JPG", info: "gouache", size: "8x10in"}
+		{name: "techies", img: "public/History-Philosophy/techies   gouache    8x 10in.JPG", info: "gouache", size: "8x10in"},
+		
+		// added 10/19/2015
+		{name: "mika on the horse thahra in central park", img: "public/History-Philosophy/MIKA ON THE HORSE THAHRA IN CENTRAL PARK oil   43.2x82.5in.JPG", info: "oil", size: "43.2x82.5in"},
+		{name: "pony lost in green thought", img: "public/History-Philosophy/pony lost in green thought   10x8in.JPG", info: "", size: "10x8in"},
+		{name: "study for mika in a black jacket", img: "public/History-Philosophy/Study for Mika in a Black Jacket   charcoal pencil   9x7in.JPG", info: "charcoal pencil", size: "9x7in"}
+		
 	]},
 	{category: "people", paintings: [
 		{name: "book and coffee", img: "public/People/BOOK AND COFFE   triptych  48x48in.JPG", size: "48x48in"},

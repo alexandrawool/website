@@ -326,7 +326,7 @@ var categories = [
 		{name: "mika on the horse thahra in central park", img: "public/History-Philosophy/MIKA ON THE HORSE THAHRA IN CENTRAL PARK oil   43.2x82.5in.JPG", info: "oil", size: "43.2x82.5in"},
 		{name: "pony lost in green thought", img: "public/History-Philosophy/pony lost in green thought   10x8in.JPG", info: "", size: "10x8in"},
 		{name: "study for mika in a black jacket", img: "public/History-Philosophy/Study for Mika in a Black Jacket   charcoal pencil   9x7in.JPG", info: "charcoal pencil", size: "9x7in"}
-		
+		 
 	]},
 	{category: "people", paintings: [
 		{name: "book and coffee", img: "public/People/BOOK AND COFFE   triptych  48x48in.JPG", size: "48x48in"},

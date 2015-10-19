@@ -149,7 +149,7 @@ var categories = [
 		{name: "mother and baby", img: "public/Drawings/09 mother and baby   red chalk on paper  19x24in.JPG", info: "red chalk on paper", size: "19x24in"},
 		{name: "a propos de fibonacci", img: "public/Drawings/010  a propos de Fibonacci   chalk and paint on board mounted paper  25x37in  Mount 34.5x47.75in.JPG", info: "chalk and paint on paper mounted on board", size: "25x37in"},
 		{name: "first love in verona", img: "public/Drawings/010 firsrt love in verona  red conte and charcoal  24x48in.jpg", info: "red conte and charcoal on canvas", size: "24x48in"},
-		// {name: "exercise", img: "public/Drawings/011  exercise  charcoal and sanguine on rice paper     23x12.5in.JPG", info: "charcoal and sanguine on rice paper", size: "23x12.5in"},
+		{name: "exercise", img: "public/Drawings/011  exercise  charcoal and sanguine on rice paper     23x12.5in.JPG", info: "charcoal and sanguine on rice paper", size: "23x12.5in"},
 		{name: "jump", img: "public/Drawings/jump  red  chalk  on rice paper  5x12in.JPG", info: "red chalk on rice paper", size: "5x12in"},
 		{name: "christine in a tutu", img: "public/Drawings/012 christine in a tutu  charcoal on brown wrapping paper   15x14in.JPG", info: "charcoal on brown paper", size: "15x14in"},
 		{name: "on her head, in a tutu", img: "public/Drawings/013  on her head, in a tutu   charcoal, colored chalk on prepared grey paper   40x50in.JPG", info: "charcoal, colored chalk on prepared grey paper", size: "40x50in"},
@@ -338,14 +338,14 @@ var categories = [
 		{name: "hacking over", img: "public/Horses/004 Hacking Over   oil  23x9in.JPG", info: "oil", size: "23x9in"},
 		{name: "yellow coats", img: "public/Horses/05 yellow coats  15.25x6.25in.JPG", info: "", size: "15.25x6.25in"},
 		{name: "across the fields of autumn", img: "public/Horses/06  Across the Fields of Autumn 29x8in.JPG", info: "", size: "29x8in"},
-		{name: "good morning", img: "public/Horses/07 Good Morning.JPG", info: "", size: ""}, // what size?
+		{name: "good morning", img: "public/Horses/07 Good Morning.JPG", info: "", size: "24x10in"},
 		{name: "by the lake of petrified wood", img: "public/Horses/08 by the lake of petrified wood    15x8in.JPG", info: "", size: "15x8in"},
-		{name: "after the flying fox", img: "public/Horses/09  after the flying fox    16x8in.JPG", info: "", size: "16x8in"},
-		{name: "out with the hounds", img: "public/Horses/010  Out with the Hounds.JPG", info: "", size: ""}, // what size?
-		{name: "afternoon ride", img: "public/Horses/011 Afternoon Ride.JPG", info: "", size: ""}, // what size?
-		{name: "riding out", img: "public/Horses/012 Riding Out.JPG", info: "", size: ""}, // what size?
-		{name: "horses at grass", img: "public/Horses/013 Horses at Grass.JPG", info: "", size: ""}, // what size?
-		{name: "walk by the lake of petrified wood", img: "public/Horses/015 Walk by the Lake of Petrified Wood, Millbrook.JPG", info: "", size: ""}, // what size?
+		{name: "after reynard", img: "public/Horses/09  after the flying fox    16x8in.JPG", info: "", size: "16x10in"},
+		{name: "out with the hounds", img: "public/Horses/010  Out with the Hounds.JPG", info: "", size: "16x10in"},
+		{name: "afternoon ride", img: "public/Horses/011 Afternoon Ride.JPG", info: "", size: "12x9in"},
+		{name: "riding out", img: "public/Horses/012 Riding Out.JPG", info: "", size: "10x8in"},
+		{name: "horses at grass", img: "public/Horses/013 Horses at Grass.JPG", info: "", size: "16x10in"},
+		{name: "walk by the lake of petrified wood", img: "public/Horses/015 Walk by the Lake of Petrified Wood, Millbrook.JPG", info: "", size: "15x8in"},
 		{name: "horse study", img: "public/Horses/016   Horse study   red chalk on paper  16x11.75in.JPG", info: "red chalk on paper", size: "16x11.75in"},
 		{name: "bonding", img: "public/Horses/017   bonding    7x10 in.JPG", info: "", size: "7x10"},
 		{name: "dutchess county landscape with grazing horses", img: "public/Horses/018  Dutchess County landscape with Grazing Horses 9inx16 in.JPG", info: "", size: "9x16in"},
@@ -358,9 +358,9 @@ var categories = [
 		{name: "winter morning with the pack", img: "public/Horses/winter morning with the pack       12x10in.JPG", info: "", size: "12x10in"},
 
 		// already there 10/16/2015
-		{name: "present time transported", img: "public/Horses/PRESENT TIME TRANSPORTED  (6' x 7' - 1985).JPG", size: "72x96in"},
-		{name: "riders", img: "public/Horses/RIDERS (monotype)11.75x10.5 in.JPG", size: "11.75x10.5in"},
-		{name: "the hunt", img: "public/Horses/THE HUNT   16x20in.JPG", size: "20x9in"},
+		// {name: "present time transported", img: "public/Horses/PRESENT TIME TRANSPORTED  (6' x 7' - 1985).JPG", size: "72x96in"},
+		// {name: "riders", img: "public/Horses/RIDERS (monotype)11.75x10.5 in.JPG", size: "11.75x10.5in"},
+		// {name: "the hunt", img: "public/Horses/THE HUNT   16x20in.JPG", size: "20x9in"},
 		{name: "yes, my darling jumps", img: "public/Horses/Yes, my Darling Jumps   9x16in.JPG", size: "16x9in"}
 	]},
 	{category: "polo", paintings: [
@@ -394,8 +394,8 @@ var categories = [
 		{name: "young woman, figure study", img: "public/Prints/Young woman, figure study    diazo    11x15in.JPG", info: "diazo", size: "11x15in"},
 
 		
-		{name: "after sodom", img: "public/Prints/after Sodom  lithograph  edition 40   11x16in.JPG", size: "11x16in", info: "lithograph  edition 40"},
-		{name: "the joy of dolphins", img: "public/Prints/The Joy of Dolphins   serigraph  edition 25  30x40in.JPG", size: "30x40in", info: "serigraph  edition 25"}
+		{name: "after sodom", img: "public/Prints/after Sodom  lithograph  edition 40   11x16in.JPG", size: "11x16in", info: "lithograph/40"},
+		{name: "the joy of dolphins", img: "public/Prints/The Joy of Dolphins   serigraph  edition 25  30x40in.JPG", size: "30x40in", info: "serigraph/25"}
 	]},
 	{category: "mural sketches", paintings: [
 		// added 10/16/2015
@@ -412,11 +412,11 @@ var categories = [
 	]},
 	// {category: "books", paintings: []},
 	{category: "Shakespeare, Bible, etc.", paintings: [
-		{name: "goodbye, sodom", img: "public/Shakespeare-Bible/goodbye, sodom.jpg", size: "monotype13x9.5in"},
+		{name: "goodbye, sodom", img: "public/Shakespeare-Bible/goodbye, sodom.jpg", info: "monotype", size: "13x9.5in"},
 		{name: "bathsheba", img: "public/Shakespeare-Bible/bathsheba  charcoal and chalk on board  8.14x9.75in.JPG", size: "8.14x9.75in"},
 		{name: "daughters of lot", img: "public/Shakespeare-Bible/daughters of Lot  brown chalk on panel   5.5x18.5.JPG", size: "5.5x18.5in"},
 		{name: "exile from sodom", img: "public/Shakespeare-Bible/exile from Sodom  monotype   17.75x24.5in.JPG", size: "17.75x24.5in"},
-		{name: "after sodom (homage to akmatova)", img: "public/Shakespeare-Bible/after Sodom (homage to Akmatova) lithograph   11x16in.JPG", size: "lithograph/50  11x16in"},
+		{name: "after sodom (homage to akmatova)", img: "public/Shakespeare-Bible/after Sodom (homage to Akmatova) lithograph   11x16in.JPG", info: "lithograph/40", size: "11x16in"},
 		// {name: "lot's wife", img: "public/Shakespeare-Bible/lot's wife   charcoal and chalk on board   14x20in.jpg", size: "14x20in"}, // repeat
 		{name: "pillar of salt", img: "public/Shakespeare-Bible/pillar of salt  monotype  5x5.25 in.JPG", size: "5x5.25in"},
 		{name: "r and j", img: "public/Shakespeare-Bible/R and J  red chalk and charcoal  24x48in.JPG", size: "24x48in"},

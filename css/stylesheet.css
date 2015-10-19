@@ -115,10 +115,13 @@ p {
 	color: white;
 }
 .arrow-left {
-	padding-left: 40px;
+	padding-top: 3.5px;
+    padding-left: 446px;
+	/*padding-left: 40px;*/
 	clear: both;
 }
 .arrow-right {
-	padding-left: 410px;
+	padding-left: 6px;
+	/*padding-left: 410px;*/
 	clear: both;
 }

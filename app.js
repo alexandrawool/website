@@ -3,6 +3,7 @@ var app = angular.module('gallery', [])
 app.controller('PanelCtrl', function(){
 	this.tab = 0
 	this.selectTab = function(tab){
+		// console.log("selectTab tab: ", tab)
 		this.tab = tab
 		this.current = 0
 	}
@@ -12,7 +13,15 @@ app.controller('PanelCtrl', function(){
 	this.categories = categories
 	this.current = 0
 	this.setCurrent = function(num){
-		this.current = num || 0
+		// console.log("length: ", this.categories[this.tab].paintings.length)
+		// console.log("num: ", num)
+		// console.log("index: ", this.$index)
+		// console.log("this.current before change: ", this.current)
+
+		if (num >= 0 && num < this.categories[this.tab].paintings.length) this.current = num || 0
+		// this.current = num || 0
+
+		// console.log("this.current after change: ", this.current)
 	}
 	this.isCurrent = function(num){
 		return this.current === num
@@ -206,7 +215,17 @@ var categories = [
 		{name: "school boy", img: "public/Drawings/school boy  brown wash on tan paper  4x14in.JPG", info: "brown wash on tan paper", size: "4x14in"},
 		{name: "the gift necklace they brought me from town", img: "public/Drawings/the gift necklace they brought me from town   charcoal on pink paper  19x15.5in.JPG", info: "charcoal on pink paper", size: "19x15.5in"},
 		{name: "two ballerinas", img: "public/Drawings/two ballerinas   charcoal    17x24in.JPG", info: "charcoal", size: "17x24in"},
-			
+
+		// added 10/24/2015
+		{name: "ballerina at rest", img: "public/Drawings/01 ballerina at rest     charcoal       21x18in.JPG", info: "charcoal", size: "21x18in"},	
+		{name: "dancer", img: "public/Drawings/02dancer   charcoal   12x18in.JPG", info: "charcoal", size: "12x18in"},	
+		{name: "tutus", img: "public/Drawings/03 tutus   charcoal and red conte crayons       9.5x14in.JPG", info: "charcoal and red conte crayons", size: "9.5x14in"},	
+		{name: "two young ballerinas", img: "public/Drawings/04 two young ballerinas   blue and white chalk and charcoal   15x14in (2).JPG", info: "blue and white chalk and charcoal", size: "15x14in"},	
+		{name: "sunhat", img: "public/Drawings/05sunhat    charcoal and red chalk on pink paper   19x24in.JPG", info: "charcoal and red chalk on pink paper", size: "19x24in"},	
+		{name: "hart with geranium and abaccus (study)", img: "public/Drawings/06 Hart with Geranium and Abaccus (study)   charcoal on pink paper   19x24in.JPG", info: "charcoal on pink paper", size: "19x24in"},	
+		{name: "brave", img: "public/Drawings/07  brave   charcoal   10x13in.JPG", info: "charcoal", size: "10x13in"},	
+		{name: "fencers", img: "public/Drawings/07 fencers  charcoal on brown paper   approx  20x13in.JPG", info: "charcoal on brown paper", size: "approx 20x13in"},	
+		{name: "myra", img: "public/Drawings/09 myra   charcoal    13.5x17in.JPG", info: "charcoal", size: "13.5x17in"},	
 		
 	]},
 	{category: "flowers", paintings: [
@@ -321,11 +340,6 @@ var categories = [
 		// added 10/16/2015
 		{name: "infanta for the year the king invited the jews back to spain", img: "public/History-Philosophy/infanta for the year the king invited the jews back to spain   oil    30x36in.JPG", info: "oil", size: "30x36in"},
 		{name: "techies", img: "public/History-Philosophy/techies   gouache    8x 10in.JPG", info: "gouache", size: "8x10in"},
-		
-		// added 10/19/2015
-		{name: "mika on the horse thahra in central park", img: "public/History-Philosophy/MIKA ON THE HORSE THAHRA IN CENTRAL PARK oil   43.2x82.5in.JPG", info: "oil", size: "43.2x82.5in"},
-		{name: "pony lost in green thought", img: "public/History-Philosophy/pony lost in green thought   10x8in.JPG", info: "", size: "10x8in"},
-		{name: "study for mika in a black jacket", img: "public/History-Philosophy/Study for Mika in a Black Jacket   charcoal pencil   9x7in.JPG", info: "charcoal pencil", size: "9x7in"}
 		 
 	]},
 	{category: "people", paintings: [
@@ -363,6 +377,11 @@ var categories = [
 		{name: "pony  and rider", img: "public/Horses/pony  and rider      12x10in.JPG", info: "", size: "12x10in"},
 		{name: "rider on side-saddle", img: "public/Horses/rider on side-saddle   pencil    19x15in.JPG", info: "pencil", size: "19x15in"},
 		{name: "winter morning with the pack", img: "public/Horses/winter morning with the pack       12x10in.JPG", info: "", size: "12x10in"},
+
+				// added 10/19/2015
+		{name: "mika on the horse thahra in central park", img: "public/Horses/MIKA ON THE HORSE THAHRA IN CENTRAL PARK oil   43.2x82.5in.JPG", info: "oil", size: "43.2x82.5in"},
+		{name: "pony lost in green thought", img: "public/Horses/pony lost in green thought   10x8in.JPG", info: "", size: "10x8in"},
+		{name: "study for mika in a black jacket", img: "public/Horses/Study for Mika in a Black Jacket   charcoal pencil   9x7in.JPG", info: "charcoal pencil", size: "9x7in"},
 
 		// already there 10/16/2015
 		// {name: "present time transported", img: "public/Horses/PRESENT TIME TRANSPORTED  (6' x 7' - 1985).JPG", size: "72x96in"},
@@ -407,8 +426,8 @@ var categories = [
 	{category: "mural sketches", paintings: [
 		// added 10/16/2015
 		{name: "transportation or riding down time", img: "public/Mural-Sketches/01 transportation or riding down time   95x72in.JPG", info: "", size: "95x72in"},
-		{name: "primavera", img: "public/Mural-Sketches/primavera   panel (in progress).JPG", info: "", size: ""}, // what size?
-		{name: "save these trees", img: "public/Mural-Sketches/save these trees.JPG", info: "", size: ""}, // what size?
+		{name: "primavera", img: "public/Mural-Sketches/primavera   panel (in progress).JPG", info: "", size: "48x96in"},
+		{name: "a welcome of trees", img: "public/Mural-Sketches/save these trees.JPG", info: "", size: ""}, // what size?
 		{name: "sun and trees", img: "public/Mural-Sketches/sun and trees.JPG", info: "", size: ""}, // what size?
 		{name: "trees absorbed and expanding", img: "public/Mural-Sketches/trees absorbed and expanding.JPG", info: "", size: ""}, // what size?
 

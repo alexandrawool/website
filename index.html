@@ -31,11 +31,10 @@
 						<li ng-repeat="category in panel.categories" class="left-nav-item">
 							<a href ng-click="panel.selectTab($index)" ng-class="{ 'active-orange' : panel.isSelected($index) }">{{category.category}}</a>
 						</li>
-					</ul>
-					<ul class="nav-stacked">
-	 						<li><hr class="hide-me"></li>
-							<li><a href="#">CV/exhibitions</a></li>
-							<li><a href="#">Contact</a></li>
+						<hr>
+						<li><a href ng-click="panel.selectTab(15)" ng-class="{ 'active-orange' : panel.isSelected($index) }">CV/exhibitions</a></li>
+						<li><a href ng-click="panel.selectTab(16)" ng-class="{ 'active-orange' : panel.isSelected($index) }">Collections</a></li>
+						<li><a href ng-click="panel.selectTab(17)">Contact</a></li>
 					</ul>
 				</div>
 				<div class="col-sm-8 col-md-8 col-lg-8 gallary-display">
@@ -50,13 +49,26 @@
 							<li>
 								<div class="img-container">
 									<img ng-src="{{category.paintings[panel.current].img}}">
+									<br>
+									<p class="">{{category.paintings[panel.current].info}}</p><p class="show-middle">{{category.paintings[panel.current].moreinfo}}</p>
+									<p class="on-own-line">{{category.paintings[panel.current].size}}</p>
+									<br>
+									<ul class="info-moved-up-adjustment bottom-dots">
+										<li class="bottom-button" ng-repeat="painting in category.paintings">
+											<a href ng-click="panel.setCurrent($index)">
+												<i class="fa fa-circle-o" ng-class="{ 'fa-circle' : panel.isCurrent($index) }"></i>
+											</a>
+										</li>
+									</ul>
+									<div class="bottom-dots">
+										<a href ng-click="panel.setCurrent(panel.current - 1)"><i class="info-moved-up-adjustment bottom-button arrow-left fa fa-arrow-left"></i><a><a href ng-click="panel.setCurrent(panel.current + 1)"><i class="arrow-right fa fa-arrow-right show-right bottom-button"></i><a>
+									</div>
 								</div>
 							</li>
 						</ul>
-						<p class="show-left">{{category.paintings[panel.current].info}}</p><p class="show-middle">{{category.paintings[panel.current].moreinfo}}</p>
+						<!-- <p class="show-left">{{category.paintings[panel.current].info}}</p><p class="show-middle">{{category.paintings[panel.current].moreinfo}}</p>
 						<p class="on-own-line">{{category.paintings[panel.current].size}}</p>
 						<br>
-						<!-- <br> -->
 						<ul class="bottom-dots">
 							<li class="bottom-button" ng-repeat="painting in category.paintings">
 								<a href ng-click="panel.setCurrent($index)">
@@ -66,8 +78,96 @@
 						</ul>
 						<div class="bottom-dots">
 							<a href="#"><i class="show-left bottom-button arrow-left fa fa-arrow-left"></i><a><a href="#"><i class="arrow-right fa fa-arrow-right show-right bottom-button"></i><a>
-						</div>
+						</div> -->
 					</div>	
+					<div ng-show="panel.tab === 15" class="slideshow-panel">
+						<p>Education:</p>
+						<ul class="not-orange">
+							<li>Harvard University BA & MA</li>
+							<li>Institute of International Education grant for study in Oslo</li>
+						</ul>
+						<p>Exhibitions:</p>
+						<ul class="not-orange">
+							<li>Lazy Hour Ranch Gallery, Farmington, Pennsylvania (solo)</li>
+							<li>Rasmussen, Oslo (solo)</li>
+							<li>JWT World Gallery of Art, NYC (solo)</li>
+							<li>Janet Nessler Gallery, NYC</li>
+							<li>Roko Gallery, NYC</li>
+							<li>National Academy of Design, NYC</li>
+							<li>Hubert Gallery, NYC</li>
+							<li>Portraits Inc, NYC</li>
+							<li>FAR, NYC</li>
+							<li>Quinata Gallery Sara Roby Foundation , Nantucket (solo)</li>
+							<li>Nasrudin Gallery, Boston (solo)</li>
+							<li>Munson Gallery, New Haven</li>
+							<li>Francesca Anderson Gallery, Boston (Wool+1)</li>
+							<li>Central Place Gallery, Bangor, Maine</li>
+							<li>Gallerie Jallerat, Bourges, France (solo)</li>
+							<li>CAT, Ltd, Huntsville, Alabama</li>
+							<li>Gates-Muggia, Pasadena</li>
+							<li>Anderson Fine Arts Center, Oklahoma</li>
+							<li>Millbrook Gallery, Millbrook, NewYork</li>
+							<li>Bell Gallery, Rhinebeck, NewYork</li>
+							<li>Bell Gallery West, Woodstock, NewYork</li>
+							<li>Connoisseur Gallery, Rhinebeck, NewYork</li>
+							<li>Crossroads of Sport, NYC</li>
+							<li>Derby Museum, Lexington, Kentucky</li>
+							<li>Barrett House, Poughkeepsie, NewYork</li>
+							<li>Lizan-Tops, East Hampton, NewYork</li>
+							<li>Ross-Diaz, Ridgefield , Connecticut (solo)</li>
+							<li>Ross-Diaz, Beacon, New York (solo)</li>	
+						</ul> 
+					</div>
+					<div ng-show="panel.tab === 16" class="slideshow-panel">
+						<p>Collections</p>
+						<ul class="list-group row not-orange">
+							<li class="list-group-item col-xs-6">J. Walter Thompson,Inc.</li>
+							<li class="list-group-item col-xs-6">Lewis Strauss</li>
+							<li class="list-group-item col-xs-6">Robert Gross Ltd.</li>
+							<li class="list-group-item col-xs-6">Dr. U.J. Salmon</li>
+							<li class="list-group-item col-xs-6">Frank & Nancy Stevenson</li>
+							<li class="list-group-item col-xs-6">Arthur & Jan Sudler</li>
+							<li class="list-group-item col-xs-6">Leo & Vita Trachtenberg, Harvest Films</li>
+							<li class="list-group-item col-xs-6">Guy and Jeannine Gallo</li>
+							<li class="list-group-item col-xs-6">Ann McDonald,Esq.</li>
+							<li class="list-group-item col-xs-6">Ruth Carpenter</li>
+							<li class="list-group-item col-xs-6">Nathan & Vera Shapiro</li>
+							<li class="list-group-item col-xs-6">J.B. & Mary Babcock</li>
+							<li class="list-group-item col-xs-6">Drs. Seth & Andrea Abramson</li>
+							<li class="list-group-item col-xs-6">Frank Ventgen</li>
+							<li class="list-group-item col-xs-6">Donald C. Fresne</li>
+							<li class="list-group-item col-xs-6">Ann LaFarge</li>
+							<li class="list-group-item col-xs-6">Carla K. Lott</li>
+							<li class="list-group-item col-xs-6">James & Lee Cornell</li>
+							<li class="list-group-item col-xs-6">Lawrence & Jan Wechsler</li>
+							<li class="list-group-item col-xs-6">Paul Okolowicz</li>
+							<li class="list-group-item col-xs-6">Dr. Lewis & Michael Sheiner</li>
+							<li class="list-group-item col-xs-6">Naomi Sheiner,Esq.</li>
+							<li class="list-group-item col-xs-6">Mimi Sheiner</li>
+							<li class="list-group-item col-xs-6">Robert & Annie Snyder</li>
+							<li class="list-group-item col-xs-6">Dorothy Rosenhaus</li>
+							<li class="list-group-item col-xs-6">Bruce Rosen</li>
+							<li class="list-group-item col-xs-6">Robert Hallock</li>
+							<li class="list-group-item col-xs-6">David & Rachel Straus</li>
+							<li class="list-group-item col-xs-6">Robert Halmi</li>
+							<li class="list-group-item col-xs-6">Gary Beller</li>
+							<li class="list-group-item col-xs-6">Dr. Philip Lee</li>
+							<li class="list-group-item col-xs-6">Senator Sydney Lee</li>
+							<li class="list-group-item col-xs-6">Marion Mainwaring</li>
+							<li class="list-group-item col-xs-6">Rick Barabino</li>
+							<li class="list-group-item col-xs-6">David Gardiner</li>
+							<li class="list-group-item col-xs-6">Alan and Nancy Rudolph</li>
+							<li class="list-group-item col-xs-6">Louise Boutin</li>
+							<li class="list-group-item col-xs-6">Lucian K. Wernick</li>
+							<li class="list-group-item col-xs-6">Drs. Jerome & Georgine Kavka</li>
+							<li class="list-group-item col-xs-6">Dr. Abby& Myra Franklin</li>
+							<li class="list-group-item col-xs-6">Dr. Cynthia Grey</li>
+							<li class="list-group-item col-xs-6">Tuck LaFavers</li>
+							<li class="list-group-item col-xs-6">Anna Malek</li>
+						</ul>
+					</div>
+					<div ng-show="panel.tab === 17" class="slideshow-panel">
+					</div>
 				</div>
 			</div>		
 		</div>

@@ -25,6 +25,7 @@ h1 {
 	float: left;
 	/*width:60%;*/
 	text-align:left;
+	padding-left: 40px;
 }
 .show-middle {
 	float: left;
@@ -70,7 +71,8 @@ a {
 a:visited, a:link {
 	text-decoration: none;
 }
-a:hover, a:active, a:focus {
+a:hover, a:focus {
+	/*removed a:active*/
   font-weight: normal;
   text-decoration: none;
   color: #ffbb00;
@@ -100,7 +102,7 @@ ul li img {
 }
 p {
 	color: #ffbb00;
-	padding-left: 40px;
+	/*padding-left: 40px;*/
 	/*display: inline-block;*/
 }
 .bottom-button {
@@ -124,4 +126,18 @@ p {
 	padding-left: 6px;
 	/*padding-left: 410px;*/
 	clear: both;
+}
+.info-moved-up-adjustment {
+	padding-left: 0px;
+	margin-bottom: 10px;
+}
+.list-group-item {
+	padding-left: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: black;
+	border: none;
+}
+.not-orange, .not-orange:hover, .not-orange:focus, .not-orange:visited, .not-orange:active {
+	color: white;
 }

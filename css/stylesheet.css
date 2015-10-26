@@ -26,6 +26,8 @@ h1 {
 	/*width:60%;*/
 	text-align:left;
 	padding-left: 40px;
+	display: block;
+	width: 100%
 }
 .show-middle {
 	float: left;
@@ -42,7 +44,7 @@ h1 {
 	display: block;
 	line-height: 0.7;
 	margin-bottom: 0px;
-	/*padding-left: 40%;*/
+	padding-left: 40px;
 }
 
 hr {
@@ -88,10 +90,12 @@ a:hover, a:focus {
 }
 .img-container{
 	clear: both;
-	display: block;
+	/*display: block;*/
 	width: 650px; 
     height: 440px;
     margin-bottom: 18px;
+    vertical-align: bottom;
+    display: table-cell;
 }
 ul li img {
 	display: block;
@@ -128,11 +132,11 @@ p {
 	/*padding-left: 410px;*/
 	clear: both;
 }
-.info-moved-up-adjustment {
+/*.info-moved-up-adjustment {
 	padding-left: 0px;
 	margin-bottom: 10px;
 }
-.list-group-item {
+*/.list-group-item {
 	padding-left: 40px;
 	padding-right: 0px;
 	padding-top: 0px;

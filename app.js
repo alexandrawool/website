@@ -163,10 +163,10 @@ var categories = [
 		{name: "jump", img: "public/Drawings/jump  red  chalk  on rice paper  5x12in.JPG", info: "red chalk on rice paper", size: "5x12in"},
 		{name: "christine in a tutu", img: "public/Drawings/012 christine in a tutu  charcoal on brown wrapping paper   15x14in.JPG", info: "charcoal on brown paper", size: "15x14in"},
 		{name: "on her head, in a tutu", img: "public/Drawings/013  on her head, in a tutu   charcoal, colored chalk on prepared grey paper   40x50in.JPG", info: "charcoal, colored chalk on prepared grey paper", size: "40x50in"},
-		{name: "hart", img: "public/Drawings/014 hart  brown wash, brush and pen  tracing paper mounted on pink paper   12x15in.JPG", info: "brush and pen      ", moreinfo: "mounted on pink paper", size: "12x15in"},
+		{name: "hart", img: "public/Drawings/014 hart  brown wash, brush and pen  tracing paper mounted on pink paper   12x15in.JPG", info: "brush and pen on pink paper", moreinfo: "", size: "12x15in"},
 		{name: "arthur lidov", img: "public/Drawings/015 arthur lidov   charcoal on white paper   5x7in.JPG", info: "charcoal on white paper", size: "5x7in"},
-		{name: "daffodils 1", img: "public/Drawings/015 daffodils 1.JPG", info: "", size: "10x8in"}, 
-		{name: "daffodils 4", img: "public/Drawings/015 daffodils 2.JPG", info: "", size: "10x8in"}, 
+		{name: "daffodils 1", img: "public/Drawings/015 daffodils 1.JPG", info: "red chalk and yellow paint on canvas", size: "10x8in"}, 
+		{name: "daffodils 4", img: "public/Drawings/015 daffodils 2.JPG", info: "blue chalk, pencil and yellow paint on canvas", size: "10x8in"}, 
 		{name: "geranium", img: "public/Drawings/016  geranium  brown chalk tan paper  18x12in.JPG", info: "brown chalk on tan paper", size: "18x12in"},
 		// {name: "geranium plant", img: "public/Drawings/Geranium Plant   brown chalk on paper  12x17.5in.jpg", info: "brown chalk on paper", size: "12x17.5in"},
 		{name: "geranium plant", img: "public/Drawings/Geranium Plant   brown chalk on paper  12x17.5in.jpg", info: "brown chalk on tan paper", size: "12x17.5in"},
@@ -223,7 +223,7 @@ var categories = [
 		{name: "two young ballerinas", img: "public/Drawings/04 two young ballerinas   blue and white chalk and charcoal   15x14in (2).JPG", info: "blue and white chalk and charcoal", size: "15x14in"},	
 		{name: "sunhat", img: "public/Drawings/05sunhat    charcoal and red chalk on pink paper   19x24in.JPG", info: "charcoal and red chalk on pink paper", size: "19x24in"},	
 		{name: "hart with geranium and abaccus (study)", img: "public/Drawings/06 Hart with Geranium and Abaccus (study)   charcoal on pink paper   19x24in.JPG", info: "charcoal on pink paper", size: "19x24in"},	
-		{name: "brave", img: "public/Drawings/07  brave   charcoal   10x13in.JPG", info: "charcoal", size: "10x13in"},	
+		{name: "second nation", img: "public/Drawings/07  brave   charcoal   10x13in.JPG", info: "charcoal", size: "10x13in"},	
 		{name: "fencers", img: "public/Drawings/07 fencers  charcoal on brown paper   approx  20x13in.JPG", info: "charcoal on brown paper", size: "approx 20x13in"},	
 		{name: "myra", img: "public/Drawings/09 myra   charcoal    13.5x17in.JPG", info: "charcoal", size: "13.5x17in"},	
 		
@@ -326,7 +326,7 @@ var categories = [
 		
 	]},
 	{category: "urban landscapes", paintings: [
-		{name: "city", img: "public/Urban-Landscape/CITY   12x9in.jpg", size: "12x9in"}
+		{name: "delivery", img: "public/Urban-Landscape/CITY   12x9in.jpg", size: "9x12in"}
 	]},
 	{category: "history, philosophy, etc.", paintings: [
 		{name: "corsage", img: "public/History-Philosophy/CORSAGE  27.75x47in.JPG", size: "27.75x47in"},
@@ -356,7 +356,7 @@ var categories = [
 		{name: "hunting morning", img: "public/Horses/01 Hunting Morning 20 x 9.25 in.JPG", info: "", size: "20x9.25in"},
 		{name: "mother and daughter", img: "public/Horses/02 mother and daughter16x9in.JPG", info: "", size: "16x9in"},
 		{name: "blondie under tcherepnine", img: "public/Horses/03 blondie under tcherepnine  20x10in.jpg", info: "", size: "20x10in"},
-		{name: "hacking over", img: "public/Horses/004 Hacking Over   oil  23x9in.JPG", info: "oil", size: "23x9in"},
+		{name: "hacking over", img: "public/Horses/004 Hacking Over   oil  23x9in.JPG", info: "", size: "23x9in"},
 		{name: "yellow coats", img: "public/Horses/05 yellow coats  15.25x6.25in.JPG", info: "", size: "15.25x6.25in"},
 		{name: "across the fields of autumn", img: "public/Horses/06  Across the Fields of Autumn 29x8in.JPG", info: "", size: "29x8in"},
 		{name: "good morning", img: "public/Horses/07 Good Morning.JPG", info: "", size: "24x10in"},
@@ -368,7 +368,7 @@ var categories = [
 		{name: "horses at grass", img: "public/Horses/013 Horses at Grass.JPG", info: "", size: "16x10in"},
 		{name: "walk by the lake of petrified wood", img: "public/Horses/015 Walk by the Lake of Petrified Wood, Millbrook.JPG", info: "", size: "15x8in"},
 		{name: "horse study", img: "public/Horses/016   Horse study   red chalk on paper  16x11.75in.JPG", info: "red chalk on paper", size: "16x11.75in"},
-		{name: "bonding", img: "public/Horses/017   bonding    7x10 in.JPG", info: "", size: "7x10"},
+		{name: "bonding", img: "public/Horses/017   bonding    7x10 in.JPG", info: "charcoal pencil", size: "7x10"},
 		{name: "dutchess county landscape with grazing horses", img: "public/Horses/018  Dutchess County landscape with Grazing Horses 9inx16 in.JPG", info: "", size: "9x16in"},
 		{name: "riders", img: "public/Horses/019   riders   monotype  10.5x11.75in.JPG", info: "monotype", size: "10.5x11.75in"},
 		{name: "horse diptych", img: "public/Horses/020  horse diptych    48x48in.jpg", info: "", size: "48x48in"},
@@ -379,9 +379,9 @@ var categories = [
 		{name: "winter morning with the pack", img: "public/Horses/winter morning with the pack       12x10in.JPG", info: "", size: "12x10in"},
 
 				// added 10/19/2015
-		{name: "mika on the horse thahra in central park", img: "public/Horses/MIKA ON THE HORSE THAHRA IN CENTRAL PARK oil   43.2x82.5in.JPG", info: "oil", size: "43.2x82.5in"},
+		{name: "mika on the horse thahra in central park", img: "public/Horses/MIKA ON THE HORSE THAHRA IN CENTRAL PARK oil   43.2x82.5in.JPG", info: "", size: "43.2x82.5in"},
 		{name: "pony lost in green thought", img: "public/Horses/pony lost in green thought   10x8in.JPG", info: "", size: "10x8in"},
-		{name: "study for mika in a black jacket", img: "public/Horses/Study for Mika in a Black Jacket   charcoal pencil   9x7in.JPG", info: "charcoal pencil", size: "9x7in"},
+		// {name: "study for mika in a black jacket", img: "public/Horses/Study for Mika in a Black Jacket   charcoal pencil   9x7in.JPG", info: "charcoal pencil", size: "9x7in"},
 
 		// already there 10/16/2015
 		// {name: "present time transported", img: "public/Horses/PRESENT TIME TRANSPORTED  (6' x 7' - 1985).JPG", size: "72x96in"},
@@ -423,17 +423,17 @@ var categories = [
 		{name: "after sodom", img: "public/Prints/after Sodom  lithograph  edition 40   11x16in.JPG", size: "11x16in", info: "lithograph/40"},
 		{name: "the joy of dolphins", img: "public/Prints/The Joy of Dolphins   serigraph  edition 25  30x40in.JPG", size: "30x40in", info: "serigraph/25"}
 	]},
-	{category: "mural sketches", paintings: [
+	{category: "mural proposals", paintings: [
 		// added 10/16/2015
 		{name: "transportation or riding down time", img: "public/Mural-Sketches/01 transportation or riding down time   95x72in.JPG", info: "", size: "95x72in"},
-		{name: "primavera", img: "public/Mural-Sketches/primavera   panel (in progress).JPG", info: "", size: "48x96in"},
+		{name: "primavera (in progress)", img: "public/Mural-Sketches/primavera   panel (in progress).JPG", info: "", size: "48x96in"},
 		{name: "a welcome of trees", img: "public/Mural-Sketches/save these trees.JPG", info: "", size: ""}, // what size?
 		{name: "sun and trees", img: "public/Mural-Sketches/sun and trees.JPG", info: "", size: ""}, // what size?
 		{name: "trees absorbed and expanding", img: "public/Mural-Sketches/trees absorbed and expanding.JPG", info: "", size: ""}, // what size?
 
 		// {name: "goodbye to sheba", img: "public/Mural-Sketches/Goodbye to Sheba  60x84in.jpg", size: "60x84in"},
 		// {name: "goodbye to solomon", img: "public/Mural-Sketches/Goodbye to Solomon 60x84in.jpg", size: "60x84in"},
-		{name: "grove mural proposal", img: "public/Mural-Sketches/GROVE   mural proposal for 30 Crosby.JPG", size: ""}, // what size?
+		{name: "grove", img: "public/Mural-Sketches/GROVE   mural proposal for 30 Crosby.JPG", size: ""}, // what size?
 		{name: "study for the guide to the later crises of life", img: "public/Mural-Sketches/Study for the Guide to the Later Crises of Life (26'' x 38'', 1972 -  chalk and oil).jpg", size: "26x38in"}
 	]},
 	// {category: "books", paintings: []},

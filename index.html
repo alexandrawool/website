@@ -32,9 +32,9 @@
 							<a href ng-click="panel.selectTab($index)" ng-class="{ 'active-orange' : panel.isSelected($index) }">{{category.category}}</a>
 						</li>
 						<hr>
-						<li><a href ng-click="panel.selectTab(15)" ng-class="{ 'active-orange' : panel.isSelected($index) }">CV/exhibitions</a></li>
-						<li><a href ng-click="panel.selectTab(16)" ng-class="{ 'active-orange' : panel.isSelected($index) }">Collections</a></li>
-						<li><a href ng-click="panel.selectTab(17)">Contact</a></li>
+						<li><a href ng-click="panel.selectTab(15)" ng-class="{ 'active-orange' : panel.isSelected($index) }">cv/exhibitions</a></li>
+						<li><a href ng-click="panel.selectTab(16)" ng-class="{ 'active-orange' : panel.isSelected($index) }">collections</a></li>
+						<li><a href ng-click="panel.selectTab(17)">contact</a></li>
 					</ul>
 				</div>
 				<div class="col-sm-8 col-md-8 col-lg-8 gallary-display">
@@ -50,7 +50,7 @@
 								<div class="img-container">
 									<img ng-src="{{category.paintings[panel.current].img}}">
 									<br>
-									<p class="">{{category.paintings[panel.current].info}}</p><p class="show-middle">{{category.paintings[panel.current].moreinfo}}</p>
+									<p class="on-own-line">{{category.paintings[panel.current].info}}</p><p class="show-middle">{{category.paintings[panel.current].moreinfo}}</p>
 									<p class="on-own-line">{{category.paintings[panel.current].size}}</p>
 									<br>
 									<ul class="info-moved-up-adjustment bottom-dots">
@@ -81,12 +81,14 @@
 						</div> -->
 					</div>	
 					<div ng-show="panel.tab === 15" class="slideshow-panel">
-						<p>Education:</p>
+						<!-- <p>Education:</p> -->
+						<br>
 						<ul class="not-orange">
 							<li>Harvard University BA & MA</li>
 							<li>Institute of International Education grant for study in Oslo</li>
 						</ul>
-						<p>Exhibitions:</p>
+						<!-- <p>Exhibitions:</p> -->
+						<br>
 						<ul class="not-orange">
 							<li>Lazy Hour Ranch Gallery, Farmington, Pennsylvania (solo)</li>
 							<li>Rasmussen, Oslo (solo)</li>
@@ -119,7 +121,8 @@
 						</ul> 
 					</div>
 					<div ng-show="panel.tab === 16" class="slideshow-panel">
-						<p>Collections</p>
+						<!-- <p>Collections</p> -->
+						<br>
 						<ul class="list-group row not-orange">
 							<li class="list-group-item col-xs-6">J. Walter Thompson,Inc.</li>
 							<li class="list-group-item col-xs-6">Lewis Strauss</li>
@@ -142,8 +145,8 @@
 							<li class="list-group-item col-xs-6">Lawrence & Jan Wechsler</li>
 							<li class="list-group-item col-xs-6">Paul Okolowicz</li>
 							<li class="list-group-item col-xs-6">Dr. Lewis & Michael Sheiner</li>
-							<li class="list-group-item col-xs-6">Naomi Sheiner,Esq.</li>
 							<li class="list-group-item col-xs-6">Mimi Sheiner</li>
+							<li class="list-group-item col-xs-6">Naomi Sheiner,Esq.</li>
 							<li class="list-group-item col-xs-6">Robert & Annie Snyder</li>
 							<li class="list-group-item col-xs-6">Dorothy Rosenhaus</li>
 							<li class="list-group-item col-xs-6">Bruce Rosen</li>

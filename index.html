@@ -48,27 +48,31 @@
 						<ul>
 							<li>
 								<div class="img-container">
-									<img ng-src="{{category.paintings[panel.current].img}}">
-									<br>
-									<!-- <p class="on-own-line">{{category.paintings[panel.current].info}}</p><p class="show-middle">{{category.paintings[panel.current].moreinfo}}</p>
-									<p class="on-own-line">{{category.paintings[panel.current].size}}</p>
-									<br>
-									<ul class="info-moved-up-adjustment bottom-dots">
-										<li class="bottom-button" ng-repeat="painting in category.paintings">
-											<a href ng-click="panel.setCurrent($index)">
-												<i class="fa fa-circle-o" ng-class="{ 'fa-circle' : panel.isCurrent($index) }"></i>
-											</a>
-										</li>
-									</ul>
-									<div class="bottom-dots">
-										<a href ng-click="panel.setCurrent(panel.current - 1)"><i class="info-moved-up-adjustment bottom-button arrow-left fa fa-arrow-left"></i><a><a href ng-click="panel.setCurrent(panel.current + 1)"><i class="arrow-right fa fa-arrow-right show-right bottom-button"></i><a>
-									</div> -->
+									<div class="img-sub-container">
+										<img ng-src="{{category.paintings[panel.current].img}}">
+										<br>
+										<!-- <p class="on-own-line">{{category.paintings[panel.current].info}}</p><p class="show-middle">{{category.paintings[panel.current].moreinfo}}</p>
+										<p class="on-own-line">{{category.paintings[panel.current].size}}</p>
+										<br>
+										<ul class="info-moved-up-adjustment bottom-dots">
+											<li class="bottom-button" ng-repeat="painting in category.paintings">
+												<a href ng-click="panel.setCurrent($index)">
+													<i class="fa fa-circle-o" ng-class="{ 'fa-circle' : panel.isCurrent($index) }"></i>
+												</a>
+											</li>
+										</ul>
+										<div class="bottom-dots">
+											<a href ng-click="panel.setCurrent(panel.current - 1)"><i class="info-moved-up-adjustment bottom-button arrow-left fa fa-arrow-left"></i><a><a href ng-click="panel.setCurrent(panel.current + 1)"><i class="arrow-right fa fa-arrow-right show-right bottom-button"></i><a>
+										</div> -->
+									</div>
 								</div>
 							</li>
 						</ul>
-						<p class="show-left">{{category.paintings[panel.current].info}}</p><p class="show-middle">{{category.paintings[panel.current].moreinfo}}</p>
-						<p class="on-own-line">{{category.paintings[panel.current].size}}</p>
-						<br>
+						<div class="info-container">
+							<p class="on-own-line">{{category.paintings[panel.current].info}}</p><p class="show-middle">{{category.paintings[panel.current].moreinfo}}</p>
+							<p class="on-own-line">{{category.paintings[panel.current].size}}</p>
+						</div>
+						<!-- <br> -->
 						<ul class="bottom-dots">
 							<li class="bottom-button" ng-repeat="painting in category.paintings">
 								<a href ng-click="panel.setCurrent($index)">
@@ -83,13 +87,12 @@
 					<div ng-show="panel.tab === 15" class="slideshow-panel">
 						<!-- <p>Education:</p> -->
 						<br>
-						<ul class="not-orange">
+						<ul class="not-orange text-list">
 							<li>Harvard University BA & MA</li>
 							<li>Institute of International Education grant for study in Oslo</li>
 						</ul>
 						<!-- <p>Exhibitions:</p> -->
-						<br>
-						<ul class="not-orange">
+						<ul class="not-orange text-list">
 							<li>Lazy Hour Ranch Gallery, Farmington, Pennsylvania (solo)</li>
 							<li>Rasmussen, Oslo (solo)</li>
 							<li>JWT World Gallery of Art, NYC (solo)</li>
@@ -123,7 +126,7 @@
 					<div ng-show="panel.tab === 16" class="slideshow-panel">
 						<!-- <p>Collections</p> -->
 						<br> 
-						<ul class="list-group row not-orange">
+						<ul class="list-group row not-orange text-list">
 							<li class="list-group-item col-xs-6">J. Walter Thompson,Inc.</li>
 							<li class="list-group-item col-xs-6">Lewis Strauss</li>
 							<li class="list-group-item col-xs-6">Robert Gross Ltd.</li>

@@ -191,7 +191,7 @@ var categories = [
 		{name: "chimp studies", img: "public/Drawings/030 chimp4  black chalk on paper    a. 6x11 in;b. 11x6.25x11in.JPG", info: "black chalk on paper", size: "11x6.25x11in"},
 		{name: "goodbye", img: "public/Drawings/040  goodbye    charcoal and chalk  on panel  20x28in.JPG", info: "charcoal and chalk on panel", size: "20x28in"},
 		{name: "hart (solomon)", img: "public/Drawings/041  hart (Solomon)   brown conte and white chalk on tan board 11.5x8.5.JPG", info: "brown conte and white chalk on tan board", size: "11.5x8.5in"},
-		{name: "lot's wife", img: "public/Drawings/042  lot's wife   charcoal and chalk on board   14x20in.jpg", info: "charcoal and chalk on board", size: "14x20in"},
+		{name: "lot's wife", img: "public/Drawings/lot's wife   charcoal and chalk on board   14x20in.jpg", info: "charcoal and chalk on board", size: "14x20in"},
 		{name: "we three", img: "public/Drawings/043 we three      charcoal and pastel on brown paper  19x24in.JPG", info: "charcoal and pastel on brown paper", size: "19x24in"},
 		// {name: "woman, dark hair, dark hat, etc", img: "public/Drawings/045  woman, dark hair,dark hat,etc  charcoal white chalk brown paper 14x16.5in.JPG", info: "charcoal white chalk brown paper", size: "14x16.5in"},
 
@@ -326,7 +326,20 @@ var categories = [
 		
 	]},
 	{category: "urban landscapes", paintings: [
-		{name: "delivery", img: "public/Urban-Landscape/CITY   12x9in.jpg", size: "9x12in"}
+		{name: "delivery", img: "public/Urban-Landscape/CITY   12x9in.jpg", size: "9x12in"},
+
+		// added 10/29/2015
+		{name: "carnival", img: "public/Urban-Landscape/carnival    gouche  9x12in.JPG", info: "gouche", size: "9x12in"},
+		{name: "city view 1", img: "public/Urban-Landscape/city view 1  12x24in.JPG", info: "", size: "12x24in"},
+		{name: "city view 2", img: "public/Urban-Landscape/city  view 2  12x24in.JPG", info: "", size: "12x24in"},
+		{name: "city view 1", img: "public/Urban-Landscape/CITY view 1 charcoal on canvaa 24x12in.JPG", info: "charcoal on canvas", size: "24x12in"},
+		{name: "city view 2+", img: "public/Urban-Landscape/CITY VIEW 2+  24x12in.JPG", info: "", size: "24x12in"},
+		{name: "delivery", img: "public/Urban-Landscape/delivery  gouche  9x12in.jpg", info: "gouche", size: "9x12in"},
+		{name: "high tower", img: "public/Urban-Landscape/High Tower   gouche  8.5x10in.JPG", info: "gouche", size: "8.5x10in"},
+		{name: "high tower green", img: "public/Urban-Landscape/High Tower green  8.5x10in .JPG", info: "", size: "8.5x10in"},
+		{name: "i live in nyc", img: "public/Urban-Landscape/i live in nyc  gouche   9x12in.jpg", info: "gouche", size: "9x12in"},
+		{name: "street fair upper west side", img: "public/Urban-Landscape/Street Fair upper west side   8.5x12in.JPG", info: "", size: "8.5x12in"},
+		
 	]},
 	{category: "history, philosophy, etc.", paintings: [
 		{name: "corsage", img: "public/History-Philosophy/CORSAGE  27.75x47in.JPG", size: "27.75x47in"},
@@ -394,7 +407,7 @@ var categories = [
 		{name: "polo sunday", img: "public/Polo/02 polo sunday    20x12in.JPG", size: "20x12in"},
 		{name: "1'oclock match", img: "public/Polo/03  1'oclock match    20x10in.JPG", size: "20x10in"},
 		{name: "first chukker", img: "public/Polo/04  first chukker 16x12in.JPG", size: "16x12in"},
-		{name: "5 seconds in", img: "public/Polo/05  5 seconds in     16x12in.JPG", size: "16x12in"},
+		{name: "let’s go", img: "public/Polo/05  5 seconds in     16x12in.JPG", size: "16x12in"},
 		{name: "chukker", img: "public/Polo/06 Chukker   chalk and paint   16x12in.JPG", size: "16x12in"},
 		{name: "after the ball", img: "public/Polo/08 After the Ball   10x8in.JPG", size: "10x8in"},
 		{name: "match", img: "public/Polo/09  match  10x8in.jpg", size: "10x8in"},
@@ -444,7 +457,7 @@ var categories = [
 		{name: "exile from sodom", img: "public/Shakespeare-Bible/exile from Sodom  monotype   17.75x24.5in.JPG", size: "17.75x24.5in"},
 		{name: "after sodom (homage to akmatova)", img: "public/Shakespeare-Bible/after Sodom (homage to Akmatova) lithograph   11x16in.JPG", info: "lithograph/40", size: "11x16in"},
 		// {name: "lot's wife", img: "public/Shakespeare-Bible/lot's wife   charcoal and chalk on board   14x20in.jpg", size: "14x20in"}, // repeat
-		{name: "pillar of salt", img: "public/Shakespeare-Bible/pillar of salt  monotype  5x5.25 in.JPG", size: "5x5.25in"},
+		{name: "pillar of salt", img: "public/Shakespeare-Bible/036  pillar of salt  monotype  5x5.25 in.JPG", size: "5x5.25in"},
 		{name: "r and j", img: "public/Shakespeare-Bible/R and J  red chalk and charcoal  24x48in.JPG", size: "24x48in"},
 		{name: "tragedy of verona", img: "public/Shakespeare-Bible/Shakespeare said she was twelve  charcoal  and red chalk  24x48in.jpg", size: "24x48in"},
 		{name: "the parting of solomon and sheba", img: "public/Shakespeare-Bible/the parting of solomon and sheba  charcoal     42x20in.JPG", size: "42x20in"},

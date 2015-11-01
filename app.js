@@ -326,7 +326,7 @@ var categories = [
 		
 	]},
 	{category: "urban landscapes", paintings: [
-		{name: "delivery", img: "public/Urban-Landscape/CITY   12x9in.jpg", size: "9x12in"},
+		// {name: "delivery", img: "public/Urban-Landscape/CITY   12x9in.jpg", size: "9x12in"},
 
 		// added 10/29/2015
 		{name: "delivery", img: "public/Urban-Landscape/delivery  gouche  9x12in.jpg", info: "gouche", size: "9x12in"},

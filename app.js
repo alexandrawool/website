@@ -62,7 +62,7 @@ var categories = [
 		{name: "after the bath", img: "public/Mixed-Media/after the bath  mixed media  24x48in.jpg", info: "", size: "24x48in"},
 		{name: "drying off", img: "public/Mixed-Media/drying off    mixed media    24x48in.jpg", info: "", size: "24x48in"},
 		{name: "greetings to a fan, on yr. gift canvas", img: "public/Mixed-Media/greetings to a fan, on yr. gift canvas          23.5x35.75in .JPG", info: "", size: "23.5x35.75in"},
-		{name: "the younger girls at baalbec", img: "public/Mixed-Media/the younger girls at baalbec  charcoal,watercolor and paint         paper mounted on  panel     48x48in.jpg", info: "charcoal, watercolor and paint, paper mounted on panel", size: "48x48in"},
+		{name: "the younger girls at baalbec", img: "public/Mixed-Media/the younger girls at baalbec   charcoal,watercolor, paint    paper mo unted on  panel     48x48in.jpg", info: "charcoal, watercolor and paint, paper mounted on panel", size: "48x48in"},
 		{name: "young woman, nyc", img: "public/Mixed-Media/young woman,nyc  30x36in.JPG", info: "", size: "30x36in"}
 	]},
 	{category: "pastels", paintings: [
@@ -302,8 +302,8 @@ var categories = [
 		{name: "traumerai", img: "public/Tree/traumerai   mixed media panel  36x30in.JPG", size: "48x36in"},
 		// {name: "tree among trees on a green  hill", img: "public/Tree/tree among trees on a green  hill    panel  7x9in.jpg", size: "7x9in"},
 		{name: "tree, bright night", img: "public/Tree/tree,bright night  panel    36x48in.JPG", size: "36x48in"},
-		{name: "trees", img: "public/Tree/trees   oil     12x5in.JPG", size: "12x5in"},
-		{name: "trees", img: "public/Tree/trees 30x24in.JPG", size: "30x24in"},
+		{name: "promise of spring", img: "public/Tree/trees   oil     12x5in.JPG", size: "12x5in"},
+		{name: "trees, approaching spring", img: "public/Tree/trees 30x24in.JPG", size: "30x24in"},
 		{name: "trees", img: "public/Tree/TREES  oil   60x24in.JPG", size: "60x24in"}
 	]},
 	{category: "landscapes", paintings: [
@@ -329,16 +329,17 @@ var categories = [
 		{name: "delivery", img: "public/Urban-Landscape/CITY   12x9in.jpg", size: "9x12in"},
 
 		// added 10/29/2015
-		{name: "carnival", img: "public/Urban-Landscape/carnival    gouche  9x12in.JPG", info: "gouche", size: "9x12in"},
+		{name: "delivery", img: "public/Urban-Landscape/delivery  gouche  9x12in.jpg", info: "gouche", size: "9x12in"},
+		{name: "street fair upper west side", img: "public/Urban-Landscape/Street Fair upper west side   8.5x12in.JPG", info: "", size: "8.5x12in"},
 		{name: "city view 1", img: "public/Urban-Landscape/city view 1  12x24in.JPG", info: "", size: "12x24in"},
 		{name: "city view 2", img: "public/Urban-Landscape/city  view 2  12x24in.JPG", info: "", size: "12x24in"},
-		{name: "city view 1", img: "public/Urban-Landscape/CITY view 1 charcoal on canvaa 24x12in.JPG", info: "charcoal on canvas", size: "24x12in"},
-		{name: "city view 2+", img: "public/Urban-Landscape/CITY VIEW 2+  24x12in.JPG", info: "", size: "24x12in"},
-		{name: "delivery", img: "public/Urban-Landscape/delivery  gouche  9x12in.jpg", info: "gouche", size: "9x12in"},
 		{name: "high tower", img: "public/Urban-Landscape/High Tower   gouche  8.5x10in.JPG", info: "gouche", size: "8.5x10in"},
-		{name: "high tower green", img: "public/Urban-Landscape/High Tower green  8.5x10in .JPG", info: "", size: "8.5x10in"},
-		{name: "i live in nyc", img: "public/Urban-Landscape/i live in nyc  gouche   9x12in.jpg", info: "gouche", size: "9x12in"},
-		{name: "street fair upper west side", img: "public/Urban-Landscape/Street Fair upper west side   8.5x12in.JPG", info: "", size: "8.5x12in"},
+		{name: "I live in nyc", img: "public/Urban-Landscape/i live in nyc  gouche   9x12in.jpg", info: "gouche", size: "9x12in"},
+		
+		// {name: "carnival", img: "public/Urban-Landscape/carnival    gouche  9x12in.JPG", info: "gouche", size: "9x12in"},
+		// {name: "city view 1", img: "public/Urban-Landscape/CITY view 1 charcoal on canvaa 24x12in.JPG", info: "charcoal on canvas", size: "24x12in"},
+		// {name: "city view 2+", img: "public/Urban-Landscape/CITY VIEW 2+  24x12in.JPG", info: "", size: "24x12in"},
+		// {name: "high tower green", img: "public/Urban-Landscape/High Tower green  8.5x10in .JPG", info: "", size: "8.5x10in"},
 		
 	]},
 	{category: "history, philosophy, etc.", paintings: [

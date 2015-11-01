@@ -294,6 +294,7 @@ var categories = [
 		
 	]},
 	{category: "trees", paintings: [
+		{name: "trees", img: "public/Tree/TREES  oil   60x24in.JPG", size: "24x96in"},
 		{name: "green view", img: "public/Tree/GREEN VIEW.jpg", size: "28x38in"},
 		{name: "grove", img: "public/Tree/GROVE  9 x 12 in.jpg", size: "9x12 in"},
 		{name: "light after rain", img: "public/Tree/light after rain  mixed media  panel  36x30in.jpg", size: "48x36in"},
@@ -304,7 +305,7 @@ var categories = [
 		{name: "tree, bright night", img: "public/Tree/tree,bright night  panel    36x48in.JPG", size: "36x48in"},
 		{name: "promise of spring", img: "public/Tree/trees   oil     12x5in.JPG", size: "12x5in"},
 		{name: "trees, approaching spring", img: "public/Tree/trees 30x24in.JPG", size: "30x24in"},
-		{name: "trees", img: "public/Tree/TREES  oil   60x24in.JPG", size: "60x24in"}
+		
 	]},
 	{category: "landscapes", paintings: [
 		{name: "above the inlet", img: "public/Landscape/ABOVE THE INLET   9x12in.JPG", size: "9x12in"},

@@ -86,7 +86,7 @@ var categories = [
 
 		// added 10/16/2015
 		{name: "hydrangeas in a bowl", img: "public/Pastel/hydrangeas in a bowl      canvas 12x9in.jpg", info: "canvas", size: "12x9in"},
-		{name: "hydrangeas in a dark blue vase", img: "public/Pastel/Hydrangeas in a dark blue vase pastel on canvas 10x12in.JPG", info: "pastel on canvas", size: "10x12in"},
+		{name: "hydrangeas in a dark blue vase", img: "public/Pastel/Hydrangeas in a dark blue vase pastel on canvas 10x12in.JPG", info: "", size: "canvas 12x10"},
 		{name: "hydrangeas in tall vase", img: "public/Pastel/hydrangeas in tall vase       canvas 18x36in.JPG", info: "canvas", size: "18x36in"}
 		 	
 	]},
@@ -241,12 +241,12 @@ var categories = [
 		{name: "florentine geraniums", img: "public/Flowers/florentine geraniums 48x24in.jpg", size: "48x24in"},
 		{name: "flower and memory mixed media", img: "public/Flowers/flower_and_memory_mixed_media_panel_20x15in.jpg", size: "20x15in"},
 		{name: "flowers, blue, pink, and violet", img: "public/Flowers/flowers,blue,pink, and violet   12x9in.JPG", size: "12x9in"},
-		{name: "generative green", img: "public/Flowers/generative_green_20_39_39_x_15_39_39_mixed_media_p.jpg", size: ""}, // what size?
+		{name: "generative green", img: "public/Flowers/generative_green_20_39_39_x_15_39_39_mixed_media_p.jpg", size: "20x15in"},
 		{name: "geranium", img: "public/Flowers/geranium  48x24in.JPG", size: "48x24in"},
 		{name: "geranium in dutchess county morning light", img: "public/Flowers/geranium in dutchesss county morning light  48x24in.jpg", size: "48x24in"},
 		{name: "geranium in moonlight, as a philosopher friend addressed it", img: "public/Flowers/geranium in moonlight,as a philosopher friend addressed it   panel   12x12in.jpg", size: "16x16in"},
 		{name: "geranium, magenta", img: "public/Flowers/geranium, magenta   panel    9x8in.jpg", size: "9x8in"},
-		{name: "geraniums oil on panel", img: "public/Flowers/geraniums    oil on  panel   8x10in.JPG", size: "8x10in"},
+		{name: "geraniums", img: "public/Flowers/geraniums    oil on  panel   8x10in.JPG", info: "oil on panel", size: "8x10in"},
 		// {name: "geraniums out of florence", img: "public/Flowers/Geraniums out of Florence 24x48in.jpg", size: "24x48in"}, // duplicate
 		// {name: "hydrangeas", img: "public/Flowers/hydrageas   pastel  canvas 10x10in.JPG", size: "10x10in"},
 		{name: "hydrangea fresco", img: "public/Flowers/hydrangea fresco 10x10in.JPG", size: "10x10in"},
@@ -261,7 +261,7 @@ var categories = [
 		{name: "lap san", img: "public/Flowers/lap san       10x8in.JPG", size: "10x8in"},
 		{name: "little pot of flowers", img: "public/Flowers/little pot of flowers    panel  8.5x7in.JPG", size: "8.5x7in"},
 		{name: "on first seeing oslo", img: "public/Flowers/on first seeing oslo  panel   20x14.16in.JPG", size: "20x14.16in"},
-		{name: "pink pigment", img: "public/Flowers/pink   pigment on panel   12x8in.JPG", size: "12x8in"},
+		{name: "pink", img: "public/Flowers/pink   pigment on panel   12x8in.JPG", size: "12x8in"},
 		{name: "pink and blue hydrangeas", img: "public/Flowers/PINK AND BLUE HYDRANGEAS    8x10 in.jpg", size: "8x10in"},
 		{name: "portuguese geraniums", img: "public/Flowers/portuguese geraniums 48x24in.jpg", size: "48x24in"},
 		{name: "postcard from lucca", img: "public/Mixed-Media/postcard from lucca  mixed media on panel    32x24in.JPG", size: "32x24in"}, // this is the livelier one that Alexandra asked to have shown in this slideshow, as a duplicate from another slideshow
@@ -278,7 +278,7 @@ var categories = [
 		// {name: "the flowers are blue and violet", img: "public/Flowers/the flowers are blue and violet    9x12in.JPG", size: "9x12in"},
 		{name: "white geranium among leaves", img: "public/Flowers/white geranium among leaves 16x12in.JPG", size: "16x12in"},
 		{name: "white geranium, stretches left", img: "public/Flowers/white geranium, stretches left   8.5x12.jpg", size: "8.5x12"},
-		{name: "white geranium, stretching right", img: "public/Flowers/white geranium, stretching right.jpg", size: ""}, // what size?
+		{name: "white geranium", img: "public/Flowers/white geranium, stretching right.jpg", size: "13x9.5in"}, 
 		{name: "white geraniums in black pot", img: "public/Flowers/white geraniums in black pot  48x48in.JPG", size: "48x48in"},
 		{name: "white geraniums in glazed pot", img: "public/Flowers/white geraniums in glazed pot  31x43in.png", size: "31x43in"},
 		// {name: "anemones (smaller file)", img: "public/Flowers/ANEMONES-44x44in-min.jpg", size: ""}
@@ -294,9 +294,9 @@ var categories = [
 		
 	]},
 	{category: "trees", paintings: [
-		{name: "trees", img: "public/Tree/TREES  oil   60x24in.JPG", size: "24x96in"},
+		{name: "trees", img: "public/Tree/TREES  oil   60x24in.JPG", size: "96x24in"},
 		{name: "green view", img: "public/Tree/GREEN VIEW.jpg", size: "28x38in"},
-		{name: "grove", img: "public/Tree/GROVE  9 x 12 in.jpg", size: "9x12 in"},
+		{name: "grove", img: "public/Tree/GROVE  9 x 12 in.jpg", size: "12x9in"},
 		{name: "light after rain", img: "public/Tree/light after rain  mixed media  panel  36x30in.jpg", size: "48x36in"},
 		{name: "spring in poughquag", img: "public/Tree/Spring in Poughquag  19x17in.JPG", size: "19x17in"},
 		// {name: "spring on the hill", img: "public/Tree/Spring on the hill    pastel.JPG", size: ""}, // what size?
@@ -309,12 +309,12 @@ var categories = [
 	]},
 	{category: "landscapes", paintings: [
 		{name: "above the inlet", img: "public/Landscape/ABOVE THE INLET   9x12in.JPG", size: "9x12in"},
-		{name: "dutchess county landscape with grazing horses", img: "public/Landscape/dutchess county landscape with grazing horses 9inx16 in.JPG", size: "9x16in"},
+		{name: "dutchess county landscape with grazing horses", img: "public/Landscape/dutchess county landscape with grazing horses 9inx16 in.JPG", size: "16x9in"},
 		{name: "from hill, outside leghorn", img: "public/Landscape/from hill,outside Leghorn  8x7in.JPG", size: "8x7in"},
 		{name: "green field, blue sky", img: "public/Landscape/green field, blue sky.JPG", size: "48x24in"},
 		{name: "night on the hill with pink moon", img: "public/Landscape/night on the hill with pink moon  16x12in.JPG", size: "16x12in"},
-		{name: "seaside walk", img: "public/Landscape/seaside walk   9x20in.JPG", size: "9x20in"},
-		{name: "seaside, bright day", img: "public/Landscape/seaside, bright day 9x15in.JPG", size: "9x15in"},
+		{name: "seaside walk", img: "public/Landscape/seaside walk   9x20in.JPG", size: "20x9in"},
+		{name: "seaside, bright day", img: "public/Landscape/seaside, bright day 9x15in.JPG", size: "15x9in"},
 		{name: "spring on our hill", img: "public/Landscape/spring on our hill   oil on panel  10x4in.JPG", size: "10x4in"},
 		{name: "studio view", img: "public/Landscape/studio view   panel  10.5x4.75in.JPG", size: "10.5x4.75in"},
 		{name: "sunsetting in poughquag", img: "public/Landscape/sunsetting in poughquag  panel  11.25x9.5in.JPG", size: "11.25x9.5in"},
@@ -331,7 +331,7 @@ var categories = [
 
 		// added 10/29/2015
 		{name: "delivery", img: "public/Urban-Landscape/delivery  gouche  9x12in.jpg", info: "gouche", size: "9x12in"},
-		{name: "street fair upper west side", img: "public/Urban-Landscape/Street Fair upper west side   8.5x12in.JPG", info: "", size: "8.5x12in"},
+		{name: "street fair upper west side", img: "public/Urban-Landscape/Street Fair upper west side   8.5x12in.JPG", info: "gouche", size: "8.5x12in"},
 		{name: "city view 1", img: "public/Urban-Landscape/city view 1  12x24in.JPG", info: "", size: "12x24in"},
 		{name: "city view 2", img: "public/Urban-Landscape/city  view 2  12x24in.JPG", info: "", size: "12x24in"},
 		{name: "high tower", img: "public/Urban-Landscape/High Tower   gouche  8.5x10in.JPG", info: "gouche", size: "8.5x10in"},
@@ -357,7 +357,7 @@ var categories = [
 		{name: "techies", img: "public/History-Philosophy/techies   gouache    8x 10in.JPG", info: "gouache", size: "8x10in"},
 		 
 	]},
-	{category: "people", paintings: [
+	{category: "100 people", paintings: [
 		{name: "book and coffee", img: "public/People/BOOK AND COFFE   triptych  48x48in.JPG", size: "48x48in"},
 		{name: "hart", img: "public/People/HART   9 x11in.jpg", size: "9x11in"},
 		// {name: "hart in black jacket", img: "public/People/HART IN BLACK JACKET  48x48in.Jpg", size: "48x48in"},
@@ -417,6 +417,8 @@ var categories = [
 		{name: "two players", img: "public/Polo/two players    12x9in .JPG", size: "12x9in"}
 	]},
 	{category: "prints", paintings: [
+		{name: "the joy of dolphins", img: "public/Prints/The Joy of Dolphins   serigraph  edition 25  30x40in.JPG", size: "30x40in", info: "serigraph/25"},
+		{name: "after sodom", img: "public/Prints/after Sodom  lithograph  edition 40   11x16in.JPG", size: "11x16in", info: "lithograph/40"},
 		// {name: "about horses and riders", img: "public/Prints/01 about horses and riders   etching (Nasrudin Press).JPG", info: "etching (nasrudin press)", size: ""}, // what size?
 		{name: "about horses and riders", img: "public/Prints/01 Horses and riders  etching (Nasrudin press) (2).JPG", info: "etching (nasrudin press)", size: "plate size: 9x11.5 in"}, 
 		// {name: "baby sees", img: "public/Prints/02 baby sees       etching Nasrudin Press   8x10ln.JPG", info: "etching nasrudin press", size: "8x10in"},
@@ -434,14 +436,11 @@ var categories = [
 		{name: "the wonderful dress", img: "public/Prints/the wonderful dress    diazo    7x13in    .JPG", info: "diazo", size: "7x13in"},
 		{name: "young woman, figure study", img: "public/Prints/Young woman, figure study    diazo    11x15in.JPG", info: "diazo", size: "11x15in"},
 
-		
-		{name: "after sodom", img: "public/Prints/after Sodom  lithograph  edition 40   11x16in.JPG", size: "11x16in", info: "lithograph/40"},
-		{name: "the joy of dolphins", img: "public/Prints/The Joy of Dolphins   serigraph  edition 25  30x40in.JPG", size: "30x40in", info: "serigraph/25"}
 	]},
 	{category: "mural proposals", paintings: [
 		// added 10/16/2015
 		{name: "transportation or riding down time", img: "public/Mural-Sketches/01 transportation or riding down time   95x72in.JPG", info: "", size: "95x72in"},
-		{name: "primavera (in progress)", img: "public/Mural-Sketches/primavera   panel (in progress).JPG", info: "", size: "48x96in"},
+		{name: "primavera (in progress)", img: "public/Mural-Sketches/primavera   panel (in progress).JPG", info: "", size: "96x48in"},
 		{name: "a welcome of trees", img: "public/Mural-Sketches/save these trees.JPG", info: "", size: ""}, // what size?
 		{name: "sun and trees", img: "public/Mural-Sketches/sun and trees.JPG", info: "", size: ""}, // what size?
 		{name: "trees absorbed and expanding", img: "public/Mural-Sketches/trees absorbed and expanding.JPG", info: "", size: ""}, // what size?
@@ -449,7 +448,7 @@ var categories = [
 		// {name: "goodbye to sheba", img: "public/Mural-Sketches/Goodbye to Sheba  60x84in.jpg", size: "60x84in"},
 		// {name: "goodbye to solomon", img: "public/Mural-Sketches/Goodbye to Solomon 60x84in.jpg", size: "60x84in"},
 		{name: "grove", img: "public/Mural-Sketches/GROVE   mural proposal for 30 Crosby.JPG", size: ""}, // what size?
-		{name: "study for the guide to the later crises of life", img: "public/Mural-Sketches/Study for the Guide to the Later Crises of Life (26'' x 38'', 1972 -  chalk and oil).jpg", size: "26x38in"}
+		{name: "study for the guide to the later crises of life", img: "public/Mural-Sketches/Study for the Guide to the Later Crises of Life (26'' x 38'', 1972 -  chalk and oil).jpg", size: "38x26in"}
 	]},
 	// {category: "books", paintings: []},
 	{category: "Shakespeare, Bible, etc.", paintings: [

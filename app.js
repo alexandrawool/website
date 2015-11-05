@@ -85,9 +85,9 @@ var categories = [
 		{name: "roman afternoon", img: "public/Pastel/roman afternoon      pastel on canvas     9x12in.JPG", size: "canvas 9x12in"},
 
 		// added 10/16/2015
-		{name: "hydrangeas in a bowl", img: "public/Pastel/hydrangeas in a bowl      canvas 12x9in.jpg", info: "canvas", size: "12x9in"},
+		{name: "hydrangeas in a bowl", img: "public/Pastel/hydrangeas in a bowl      canvas 12x9in.jpg", info: "", size: "canvas 12x9in"},
 		{name: "hydrangeas in a dark blue vase", img: "public/Pastel/Hydrangeas in a dark blue vase pastel on canvas 10x12in.JPG", info: "", size: "canvas 12x10"},
-		{name: "hydrangeas in tall vase", img: "public/Pastel/hydrangeas in tall vase       canvas 18x36in.JPG", info: "canvas", size: "18x36in"}
+		{name: "hydrangeas in tall vase", img: "public/Pastel/hydrangeas in tall vase       canvas 18x36in.JPG", size: "canvas 18x36in"}
 		 	
 	]},
 	{category: "monotypes", paintings: [
@@ -239,9 +239,9 @@ var categories = [
 		// {name: "daffodils and vase", img: "public/Flowers/Daffodils and Vase   chalk pencil paint  9x12in.JPG", size: "9x12in"},
 		{name: "first blooming geraniums", img: "public/Flowers/first blooming geraniums   48x24in.jpg", size: "48x24in"},
 		{name: "florentine geraniums", img: "public/Flowers/florentine geraniums 48x24in.jpg", size: "48x24in"},
-		{name: "flower and memory mixed media", img: "public/Flowers/flower_and_memory_mixed_media_panel_20x15in.jpg", size: "20x15in"},
+		{name: "flower and memory", img: "public/Flowers/flower_and_memory_mixed_media_panel_20x15in.jpg", size: "20x15in"},
 		{name: "flowers, blue, pink, and violet", img: "public/Flowers/flowers,blue,pink, and violet   12x9in.JPG", size: "12x9in"},
-		{name: "generative green", img: "public/Flowers/generative_green_20_39_39_x_15_39_39_mixed_media_p.jpg", size: "20x15in"},
+		{name: "generative green", img: "public/Flowers/generative_green_20_39_39_x_15_39_39_mixed_media_p.jpg", info: "oil on panel", size: "20x15in"},
 		{name: "geranium", img: "public/Flowers/geranium  48x24in.JPG", size: "48x24in"},
 		{name: "geranium in dutchess county morning light", img: "public/Flowers/geranium in dutchesss county morning light  48x24in.jpg", size: "48x24in"},
 		{name: "geranium in moonlight, as a philosopher friend addressed it", img: "public/Flowers/geranium in moonlight,as a philosopher friend addressed it   panel   12x12in.jpg", size: "16x16in"},
@@ -252,7 +252,7 @@ var categories = [
 		{name: "hydrangea fresco", img: "public/Flowers/hydrangea fresco 10x10in.JPG", size: "10x10in"},
 		// {name: "hydrangeas", img: "public/Flowers/hydrangeas 24x12in.JPG", size: "24x12in"}, // duplicate
 		{name: "hydrangeas gathered in a pot", img: "public/Flowers/hydrangeas gathered in a pot  panel  12x8.5in.JPG", size: "12x8.5in"},
-		{name: "hydrangeas in a bowl", img: "public/Flowers/hydrangeas in a bowl 12x24in.JPG", size: "12x24in"},
+		{name: "hydrangeas in a bowl", img: "public/Flowers/hydrangeas in a bowl 12x24in.JPG", size: "24x12in"},
 		{name: "hydrangeas in a tall vase", img: "public/Flowers/hydrangeas in a tall vase     pastel   36x18 in.JPG", size: "36x18in"},
 		{name: "hydrangeas observed", img: "public/Flowers/hydrangeas observed  pastel  canvas  10x10in.JPG", size: "10x10in"},
 		{name: "hydrangeas on grey", img: "public/Flowers/hydrangeas on grey  23x8in.JPG", size: "23x8in"},
@@ -330,12 +330,12 @@ var categories = [
 		// {name: "delivery", img: "public/Urban-Landscape/CITY   12x9in.jpg", size: "9x12in"},
 
 		// added 10/29/2015
-		{name: "delivery", img: "public/Urban-Landscape/delivery  gouche  9x12in.jpg", info: "gouche", size: "9x12in"},
-		{name: "street fair upper west side", img: "public/Urban-Landscape/Street Fair upper west side   8.5x12in.JPG", info: "gouche", size: "8.5x12in"},
+		{name: "delivery", img: "public/Urban-Landscape/delivery  gouche  9x12in.jpg", info: "gouache", size: "9x12in"},
+		{name: "street fair upper west side", img: "public/Urban-Landscape/Street Fair upper west side   8.5x12in.JPG", info: "gouache", size: "8.5x12in"},
 		{name: "city view 1", img: "public/Urban-Landscape/city view 1  12x24in.JPG", info: "", size: "12x24in"},
 		{name: "city view 2", img: "public/Urban-Landscape/city  view 2  12x24in.JPG", info: "", size: "12x24in"},
-		{name: "high tower", img: "public/Urban-Landscape/High Tower   gouche  8.5x10in.JPG", info: "gouche", size: "8.5x10in"},
-		{name: "I live in nyc", img: "public/Urban-Landscape/i live in nyc  gouche   9x12in.jpg", info: "gouche", size: "9x12in"},
+		{name: "high tower", img: "public/Urban-Landscape/High Tower   gouche  8.5x10in.JPG", info: "gouache", size: "8.5x10in"},
+		{name: "I live in nyc", img: "public/Urban-Landscape/i live in nyc  gouche   9x12in.jpg", info: "gouache", size: "9x12in"},
 		
 		// {name: "carnival", img: "public/Urban-Landscape/carnival    gouche  9x12in.JPG", info: "gouche", size: "9x12in"},
 		// {name: "city view 1", img: "public/Urban-Landscape/CITY view 1 charcoal on canvaa 24x12in.JPG", info: "charcoal on canvas", size: "24x12in"},
@@ -357,14 +357,36 @@ var categories = [
 		{name: "techies", img: "public/History-Philosophy/techies   gouache    8x 10in.JPG", info: "gouache", size: "8x10in"},
 		 
 	]},
-	{category: "100 people", paintings: [
+	{category: "100 people (more or less)", paintings: [
 		{name: "book and coffee", img: "public/People/BOOK AND COFFE   triptych  48x48in.JPG", size: "48x48in"},
-		{name: "hart", img: "public/People/HART   9 x11in.jpg", size: "9x11in"},
+		// {name: "hart", img: "public/People/HART   9 x11in.jpg", size: "9x11in"},
 		// {name: "hart in black jacket", img: "public/People/HART IN BLACK JACKET  48x48in.Jpg", size: "48x48in"},
 		{name: "mika", img: "public/People/MIKA  red chalk.jpg", size: ""}, // what size?
 		// {name: "painter's sister", img: "public/People/Painter's Sister  monotype.JPG", size: ""}, // what size?
 		// {name: "rose eisenberg wool, painter's mother", img: "public/People/Rose Eisenberg Wool, Painter's Mother.JPG", size: ""}, // what size?
-		{name: "self portrait", img: "public/People/SELF-PORTRAIT.jpg", size: ""} // what size?
+		// {name: "self portrait", img: "public/People/SELF-PORTRAIT.jpg", size: ""} // what size?
+
+		// added 11/05/2015
+		{name: "arthur lidov", img: "public/People/Arthur Lidov  20x24in.JPG", info: "", size: "20x24in"},
+		{name: "card game", img: "public/People/CARD GAME  oil on panel 10.5x8.75in.JPG", info: "oil on panel", size: "10.5x8.75in"},
+		{name: "christine in new tutu", img: "public/People/christine in new tutu   oil on panel   4.5x7in.JPG", info: "oil on panel", size: "4.5x7in"},
+		{name: "dressing, study in umber and pink", img: "public/People/dressing, study in umber and pink   24x48in.JPG", info: "", size: "24x48in"},
+		{name: "first infanta", img: "public/People/first infanta oil 20x30in .JPG", info: "oil", size: "20x30in"},
+		{name: "hart", img: "public/People/HART  oil  10x12in.jpg", info: "oil", size: "10x12in"},
+		{name: "hart with geraniums", img: "public/People/Hart with geraniums   oil    40x48in.JPG", info: "oil", size: "40x48in"},
+		{name: "marion mainwaring", img: "public/People/Marion Mainwaring     oil on panel  9x13in.JPG", info: "oil on panel", size: "9x13in"},
+		{name: "mika in sunhat", img: "public/People/Mika in Sunhat    oil on panel    9x10in.JPG", info: "oil on panel", size: "9x10in"},
+		{name: "mika reading", img: "public/People/Mika Reading 045.JPG", info: "", size: ""},
+		{name: "mika with jumprope", img: "public/People/mika with jumprope   oil on panel  8.75x11.75in.JPG", info: "oil on panel", size: "8.75x11.75in"},
+		{name: "self portrait", img: "public/People/self portrait     oil on panel     28x22in.jpg", info: "oil on panel", size: "28x22in"},
+		{name: "sunhat", img: "public/People/sunhat   oil     13x23in.JPG", info: "oil", size: "13x23in"},
+		{name: "three graces engaged in leisure time activities", img: "public/People/three graces engaged in leisure time activities  oil on panel   15.50x19in.JPG", info: "oil on panel", size: "15.50x19in"},
+		{name: "tiger tiger", img: "public/People/Tiger tiger   oil on panel   7x8.25in.JPG", info: "oil on panel", size: "7x8.25in"},
+		{name: "young woman in a black knit cap", img: "public/People/YOUNG WOMAN IN A BLACK KNIT CAP.jpg", info: "", size: ""},
+		{name: "young woman shower cap", img: "public/People/Young woman SHOWER CAP oil on panel  12x12.JPG", info: "oil on panel", size: "12x12in"},
+		{name: "young woman with fan", img: "public/People/Young woman with Fan  001.JPG", info: "", size: ""},
+		{name: "young woman, nyc", img: "public/People/young woman,nyc  30x36in.JPG", info: "", size: "30x36in"},
+		
 	]},
 	{category: "horses (and the hunt)", paintings: [
 		// added 10/16/2015

@@ -241,7 +241,7 @@ var categories = [
 		{name: "florentine geraniums", img: "public/Flowers/florentine geraniums 48x24in.jpg", size: "48x24in"},
 		{name: "flower and memory", img: "public/Flowers/flower_and_memory_mixed_media_panel_20x15in.jpg", size: "20x15in"},
 		{name: "flowers, blue, pink, and violet", img: "public/Flowers/flowers,blue,pink, and violet   12x9in.JPG", size: "12x9in"},
-		{name: "generative green", img: "public/Flowers/generative_green_20_39_39_x_15_39_39_mixed_media_p.jpg", info: "oil on panel", size: "20x15in"},
+		{name: "generative green", img: "public/Flowers/generative_green_20_39_39_x_15_39_39_mixed_media_p.jpg", info: "", size: "20x15in"},
 		{name: "geranium", img: "public/Flowers/geranium  48x24in.JPG", size: "48x24in"},
 		{name: "geranium in dutchess county morning light", img: "public/Flowers/geranium in dutchesss county morning light  48x24in.jpg", size: "48x24in"},
 		{name: "geranium in moonlight, as a philosopher friend addressed it", img: "public/Flowers/geranium in moonlight,as a philosopher friend addressed it   panel   12x12in.jpg", size: "16x16in"},
@@ -323,7 +323,15 @@ var categories = [
 
 		{name: "april snow in poughquag", img: "public/Landscape/april snow in poughquag 50x26in.JPG", info: "", size: "50x26in"},
 		{name: "italian landscape", img: "public/Landscape/Italian landscape    panel  8.25x4in.JPG", info: "", size: "8.25x4in"},
-		{name: "late afternoon, looking down on sienna, with my son", img: "public/Landscape/late afternoon with gelato Sienna 7.5x6.5in.JPG", info: "", size: "7.5x6.5in"}
+		{name: "late afternoon, looking down on sienna, with my son", img: "public/Landscape/late afternoon with gelato Sienna 7.5x6.5in.JPG", info: "", size: "7.5x6.5in"},
+		
+		// copied from monotypes 11/7/2015
+		{name: "fair day landscape", img: "public/Monotype/016 fair day landscape   monotype   10.25x4.75in.JPG", info: "", size: "10.25x4.75in"},
+		{name: "landscape west", img: "public/Monotype/017 landscape west   monotype 10x9in.JPG", info: "", size: "10x9in"},
+		{name: "landscape with tree above tymore", img: "public/Monotype/018 landscape with tree  above tymore   monotype  9x8in.JPG", info: "", size: "9x8in"},
+		{name: "oh wonderful autumn view from breakfast, with hills, mountains, houses, trees", img: "public/Monotype/019 oh wonderful autumn view from breakfast, with hills, mountains, houses, trees   monotype   12x7in.JPG", info: "", size: "12x7in"},
+		{name: "trees on hill", img: "public/Monotype/020 trees on hill       monotype    7.75x8in.JPG", info: "", size: "7.75x8in"},
+		{name: "southwest from our hill", img: "public/Monotype/021 southwest from our hill   monotype    11x 7in.JPG", info: "", size: "11x7in"},
 		
 	]},
 	{category: "urban landscapes", paintings: [
@@ -361,7 +369,7 @@ var categories = [
 		{name: "book and coffee", img: "public/People/BOOK AND COFFE   triptych  48x48in.JPG", size: "48x48in"},
 		// {name: "hart", img: "public/People/HART   9 x11in.jpg", size: "9x11in"},
 		// {name: "hart in black jacket", img: "public/People/HART IN BLACK JACKET  48x48in.Jpg", size: "48x48in"},
-		{name: "mika", img: "public/People/MIKA  red chalk.jpg", size: ""}, // what size?
+		{name: "mika", img: "public/People/MIKA  red chalk.jpg", size: "15.5x15.5in"},
 		// {name: "painter's sister", img: "public/People/Painter's Sister  monotype.JPG", size: ""}, // what size?
 		// {name: "rose eisenberg wool, painter's mother", img: "public/People/Rose Eisenberg Wool, Painter's Mother.JPG", size: ""}, // what size?
 		// {name: "self portrait", img: "public/People/SELF-PORTRAIT.jpg", size: ""} // what size?
@@ -371,19 +379,19 @@ var categories = [
 		{name: "card game", img: "public/People/CARD GAME  oil on panel 10.5x8.75in.JPG", info: "oil on panel", size: "10.5x8.75in"},
 		{name: "christine in new tutu", img: "public/People/christine in new tutu   oil on panel   4.5x7in.JPG", info: "oil on panel", size: "4.5x7in"},
 		{name: "dressing, study in umber and pink", img: "public/People/dressing, study in umber and pink   24x48in.JPG", info: "", size: "24x48in"},
-		{name: "first infanta", img: "public/People/first infanta oil 20x30in .JPG", info: "oil", size: "20x30in"},
+		// {name: "first infanta", img: "public/People/first infanta oil 20x30in .JPG", info: "oil", size: "20x30in"},
 		{name: "hart", img: "public/People/HART  oil  10x12in.jpg", info: "oil", size: "10x12in"},
 		{name: "hart with geraniums", img: "public/People/Hart with geraniums   oil    40x48in.JPG", info: "oil", size: "40x48in"},
 		{name: "marion mainwaring", img: "public/People/Marion Mainwaring     oil on panel  9x13in.JPG", info: "oil on panel", size: "9x13in"},
-		{name: "mika in sunhat", img: "public/People/Mika in Sunhat    oil on panel    9x10in.JPG", info: "oil on panel", size: "9x10in"},
-		{name: "mika reading", img: "public/People/Mika Reading 045.JPG", info: "", size: ""},
+		{name: "child in sunhat", img: "public/People/Mika in Sunhat    oil on panel    9x10in.JPG", info: "oil on panel", size: "9x10in"},
+		{name: "reader", img: "public/People/Mika Reading 045.JPG", info: "", size: ""},
 		{name: "mika with jumprope", img: "public/People/mika with jumprope   oil on panel  8.75x11.75in.JPG", info: "oil on panel", size: "8.75x11.75in"},
 		{name: "self portrait", img: "public/People/self portrait     oil on panel     28x22in.jpg", info: "oil on panel", size: "28x22in"},
 		{name: "sunhat", img: "public/People/sunhat   oil     13x23in.JPG", info: "oil", size: "13x23in"},
 		{name: "three graces engaged in leisure time activities", img: "public/People/three graces engaged in leisure time activities  oil on panel   15.50x19in.JPG", info: "oil on panel", size: "15.50x19in"},
 		{name: "tiger tiger", img: "public/People/Tiger tiger   oil on panel   7x8.25in.JPG", info: "oil on panel", size: "7x8.25in"},
 		{name: "young woman in a black knit cap", img: "public/People/YOUNG WOMAN IN A BLACK KNIT CAP.jpg", info: "", size: ""},
-		{name: "young woman shower cap", img: "public/People/Young woman SHOWER CAP oil on panel  12x12.JPG", info: "oil on panel", size: "12x12in"},
+		{name: "young woman, shower capped", img: "public/People/Young woman SHOWER CAP oil on panel  12x12.JPG", info: "oil on panel", size: "12x12in"},
 		{name: "young woman with fan", img: "public/People/Young woman with Fan  001.JPG", info: "", size: ""},
 		{name: "young woman, nyc", img: "public/People/young woman,nyc  30x36in.JPG", info: "", size: "30x36in"},
 		

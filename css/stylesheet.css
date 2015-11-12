@@ -91,14 +91,14 @@ a:hover, a:focus {
 .img-container{
 	clear: both;
 	display: block;
-	width: 650px; 
+	width: 670px; 
     height: 440px;
     margin-bottom: 18px;
     vertical-align: middle;
 }
 .img-sub-container{
 	clear: both;
-	width: 650px; 
+	width: 670px; 
     height: 440px;
     margin-bottom: 18px;
     vertical-align: middle;
@@ -108,7 +108,7 @@ ul li img {
 	display: block;
     height: auto; 
     width: auto; 
-    max-width: 650px; 
+    max-width: 670px; 
     max-height: 440px;
     /*float: left;*/
 }

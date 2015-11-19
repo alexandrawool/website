@@ -167,6 +167,8 @@ p {
 .not-orange, .not-orange:hover, .not-orange:focus, .not-orange:visited, .not-orange:active {
 	color: white;
 }
-#email-img {
-	padding-top: 425px;
+#email {
+	padding-top: 400px;
+    font-size: 2em;
+    padding-left: 0px;
 }

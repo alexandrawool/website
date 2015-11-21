@@ -156,6 +156,9 @@ p {
 	margin-top: 25px;
 	padding-left: 60px;
 }
+.indented {
+	padding-left: 150px;
+}
 .list-group-item {
 	/*padding-left: 40px;*/
 	padding-right: 0px;
@@ -170,5 +173,5 @@ p {
 #email {
 	padding-top: 400px;
     font-size: 2em;
-    padding-left: 0px;
+    padding-left: 30%;
 }

@@ -294,7 +294,7 @@ var categories = [
 		
 	]},
 	{category: "trees", paintings: [
-		{name: "trees", img: "public/Tree/z08  TREES  oil   60x24in.JPG", size: "96x24in"},
+		{name: "trees", img: "public/Tree/z08  TREES  oil   60x24in.JPG", size: "24x96in"},
 		{name: "green view", img: "public/Tree/GREEN VIEW.jpg", size: "28x38in"},
 		{name: "grove", img: "public/Tree/z07 GROVE  9 x 12 in.jpg", size: "12x9in"},
 		{name: "light after rain", img: "public/Tree/light after rain  mixed media  panel  36x30in.jpg", size: "48x36in"},

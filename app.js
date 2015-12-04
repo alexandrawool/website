@@ -61,7 +61,7 @@ var categories = [
 		{name: "young woman in feathered hat", img: "public/Mixed-Media/YOUNG WOMAN IN FEATHERED HAT 48x48in.JPG", size: "24x48in"},
 		{name: "after the bath", img: "public/Mixed-Media/after the bath  mixed media  24x48in.jpg", info: "", size: "24x48in"},
 		{name: "drying off", img: "public/Mixed-Media/drying off    mixed media    24x48in.jpg", info: "", size: "24x48in"},
-		{name: "greetings to a fan, on yr. gift canvas", img: "public/Mixed-Media/013 greetings to a fan, on yr. gift canvas          23.5x35.75in.JPG", info: "", size: "23.5x35.75in"},
+		{name: "greetings to a fan, on yr. gift canvas", img: "public/Mixed-Media/030  greetings to a fan, on yr. gift canvas          23.5x35.75in - Copy (2).JPG", info: "", size: "23.5x35.75in"},
 		{name: "the younger girls at baalbec", img: "public/Mixed-Media/the younger girls at baalbec   charcoal,watercolor, paint    paper mo unted on  panel     48x48in.jpg", info: "charcoal, watercolor and paint, paper mounted on panel", size: "48x48in"},
 		{name: "young woman, nyc", img: "public/Mixed-Media/014 young woman, NYC   30x36in.JPG", info: "", size: "30x36in"}
 	]},
@@ -127,7 +127,7 @@ var categories = [
 		{name: "riders", img: "public/Monotype/033 riders   monotype  10.5x11.75in.JPG", info: "", size: "10.5x11.75in"},
 		{name: "exile from sodom", img: "public/Monotype/034  exile from sodom  monotype   17.75x24.5in.JPG", info: "", size: "17.75x24.5in"},
 		{name: "goodbye,sodom", img: "public/Monotype/035 goodbye,sodom  monotype  13.25x9.5in.jpg", info: "", size: "13.25x9.5in"},
-		{name: "pillar of salt", img: "public/Monotype/z05 pillar of salt  monotype  5x5.25 in.JPG", info: "", size: "5x5.25 in"},
+		{name: "pillar of salt", img: "public/Shakespeare-Bible/pillar of salt  monotype  5x5.25 in.JPG", size: "5x5.25in"}, // same image as in Monotype
 		{name: "draped woman, gathering", img: "public/Monotype/z03  draped woman, gathering  monotype 5.5x7in.JPG", info: "", size: "5.5x7in"},
 		{name: "after lidov's adam", img: "public/Monotype/038  after Lidov's Adam   monotype  image 5.75x8.25in.JPG", info: "", size: "5.75x8.25in"},
 		{name: "witch", img: "public/Monotype/040 witch   monotype on rice paper  10.5x12in.JPG", info: "oil on rice paper", size: "10.5x12in"},
@@ -392,7 +392,7 @@ var categories = [
 		{name: "tiger tiger", img: "public/People/027  Tiger tiger burning Bright   oil.JPG", info: "oil on panel", size: "7x8.25in"},
 		{name: "young woman in a black knit cap", img: "public/People/YOUNG WOMAN IN A BLACK KNIT CAP.jpg", info: "", size: ""},
 		{name: "young woman, shower capped", img: "public/People/Young woman SHOWER CAP oil on panel  12x12.JPG", info: "oil on panel", size: "12x12in"},
-		{name: "young woman with fan", img: "public/People/Young woman with Fan  001.JPG", info: "oil on panel", size: "6x12in"},
+		{name: "young woman with fan", img: "public/People/YoungGirl with a Fan  oil.jpg", info: "oil on panel", size: "7x13in"},
 		{name: "young woman, nyc", img: "public/Mixed-Media/014 young woman, NYC   30x36in.JPG", info: "", size: "30x36in"},
 		
 	]},
@@ -475,8 +475,8 @@ var categories = [
 		{name: "sun and trees", img: "public/Mural-Sketches/sun and trees.JPG", info: "", size: ""}, // what size?
 		{name: "trees absorbed and expanding", img: "public/Mural-Sketches/trees absorbed and expanding.JPG", info: "", size: ""}, // what size?
 
-		// {name: "goodbye to sheba", img: "public/Mural-Sketches/Goodbye to Sheba  60x84in.jpg", size: "60x84in"},
-		// {name: "goodbye to solomon", img: "public/Mural-Sketches/Goodbye to Solomon 60x84in.jpg", size: "60x84in"},
+		{name: "goodbye to sheba", img: "public/Shakespeare-Bible/Goodbye to Sheba  60x84in.jpg", size: "60x84in"},
+		{name: "goodbye to solomon", img: "public/Shakespeare-Bible/Goodbye to Solomon 60x84in.jpg", size: "60x84in"},
 		{name: "grove", img: "public/Mural-Sketches/GROVE   mural proposal for 30 Crosby.JPG", size: ""}, // what size?
 		{name: "study for the guide to the later crises of life", img: "public/Mural-Sketches/Study for the Guide to the Later Crises of Life (26'' x 38'', 1972 -  chalk and oil).jpg", size: "38x26in"}
 	]},
@@ -488,13 +488,16 @@ var categories = [
 		{name: "exile from sodom", img: "public/Shakespeare-Bible/exile from Sodom  monotype   17.75x24.5in.JPG", size: "17.75x24.5in"},
 		{name: "after sodom (homage to akmatova)", img: "public/Shakespeare-Bible/after Sodom (homage to Akmatova) lithograph   11x16in.JPG", info: "lithograph/40", size: "11x16in"},
 		// {name: "lot's wife", img: "public/Shakespeare-Bible/lot's wife   charcoal and chalk on board   14x20in.jpg", size: "14x20in"}, // repeat
-		{name: "pillar of salt", img: "public/Monotype/z05 pillar of salt  monotype  5x5.25 in.JPG", size: "5x5.25in"}, // same image as in Monotype
+		{name: "pillar of salt", img: "public/Shakespeare-Bible/pillar of salt  monotype  5x5.25 in.JPG", size: "5x5.25in"}, // same image as in Monotype
 		{name: "r and j", img: "public/Shakespeare-Bible/R and J  red chalk and charcoal  24x48in.JPG", size: "24x48in"},
 		{name: "tragedy of verona", img: "public/Shakespeare-Bible/Shakespeare said she was twelve  charcoal  and red chalk  24x48in.jpg", size: "24x48in"},
 		{name: "the parting of solomon and sheba", img: "public/Shakespeare-Bible/the parting of solomon and sheba  charcoal     42x20in.JPG", size: "42x20in"},
 		{name: "we three", img: "public/Shakespeare-Bible/we three    19x24in.JPG", size: "19x24in"},
 		{name: "where you go, i will go", img: "public/Shakespeare-Bible/where you go, I will go  charcoal and chalk    19x24in.JPG", size: "19x24in"},
-		{name: "wife of lot", img: "public/Shakespeare-Bible/wife of Lot  mixed media panel  20x30in  .JPG", size: "20x30in"}
+		{name: "wife of lot", img: "public/Shakespeare-Bible/wife of Lot  mixed media panel  20x30in  .JPG", size: "20x30in"},
+		{name: "goodbye to sheba", img: "public/Shakespeare-Bible/Goodbye to Sheba  60x84in.jpg", size: "60x84in"},
+		{name: "goodbye to solomon", img: "public/Shakespeare-Bible/Goodbye to Solomon 60x84in.jpg", size: "60x84in"},
+		{name: "goodbye to sherba and goodbye to solomon", img: "public/Shakespeare-Bible/Goodbye_S_and_S.jpg"}
 	]}]
 
 

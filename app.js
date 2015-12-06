@@ -74,20 +74,26 @@ var categories = [
 		{name: "hydrageas (mixed color)", img: "public/Pastel/019  hydrangeas, mixed   pastel on canvas           10x10in.JPG", size: "canvas 10x10in"},
 		{name: "hydrangeas in blue pot", img: "public/Pastel/018  Hydrangeas in blue pot  pastel on canvas  10x10in.JPG", size: "canvas 10x10in"},
 		{name: "hydrangeas on the terrace", img: "public/Pastel/hydrangeas on the terrace pastel on canvas   18x36in - Copy.JPG", size: "canvas 18x36in"},
-		{name: "hydrangeas blue-violet, for maya plisetskaya, the dying swan", img: "public/Pastel/hydrangeas, blue-violet, for maya the  dying swan               pastel on canvas                                 12x9in.JPG", info: "canvas 12x9in", size: ""}, // size moved per Alexandra's request
+		{name: "hydrangeas blue-violet, for maya plisetskaya, the dying swan", img: "public/Pastel/050  hydrangease blue-violet for maya pliseskaya , the dying swan  12x9in - Copy.JPG", info: "canvas 12x9in", size: ""}, // size moved per Alexandra's request
 		{name: "hydrangeas, elan", img: "public/Pastel/hydrangeas, elan   pastel  canvas  10x9in.JPG", size: "canvas 10x9in"},
 		// {name: "hydrangeas, mixed", img: "public/Pastel/hydrangeas, mixed   pastel on canvas           10x10in.JPG", size: "canvas 10x10in"},
-		{name: "hydrangeas,pink and violet", img: "public/Pastel/hydrangeas,pink and violet   pastel on canvas  10x8in.JPG", size: "canvas 10x8in"},
+		{name: "hydrangeas, pink and violet", img: "public/Pastel/hydrangeas,pink and violet   pastel on canvas  10x8in.JPG", size: "canvas 10x8in"},
 		{name: "lay your sleeping head (auden)", img: "public/Pastel/020  lay yr sleeping head (Auden).JPG", size: "canvas 10x8in"},
 		{name: "mika with jump rope", img: "public/Pastel/022   Mika with Jump rope  pastel on board.JPG", size: "paper on board 24x48in"},
 		{name: "mixed hydrangeas", img: "public/Pastel/mixed hydrangeas  pastel   canvas   10x10in.JPG", size: "canvas 10x10in"},//, size: "canvas 10x10in"},
-		{name: "remember", img: "public/Pastel/remember  pastel  canvas  12x9in.JPG", size: "canvas 12x9in"},
+		{name: "remember", img: "public/Pastel/051  remember  12x9in.JPG", size: "canvas 12x9in"},
 		{name: "roman afternoon", img: "public/Pastel/roman afternoon      pastel on canvas     9x12in.JPG", size: "canvas 9x12in"},
 
 		// added 10/16/2015
 		{name: "hydrangeas in a bowl", img: "public/Pastel/hydrangeas in a bowl      canvas 12x9in.jpg", info: "", size: "canvas 12x9in"},
 		{name: "hydrangeas in a dark blue vase", img: "public/Pastel/021  Hydrangeas in dark blue bowl  pastel on canvas 9x10in.JPG", info: "", size: "canvas 12x10"},
-		{name: "hydrangeas in tall vase", img: "public/Pastel/hydrangeas in tall vase       canvas 18x36in.JPG", size: "canvas 18x36in"}
+		{name: "hydrangeas in tall vase", img: "public/Pastel/hydrangeas in tall vase       canvas 18x36in.JPG", size: "canvas 18x36in"},
+		{name: "hydrangeas, blue, pink, violet", img: "public/Pastel/Hydrangeas,blue,pink,violet  pastel on canvas  8x8in.JPG", info: "", size: "canvas 8x8in"},
+		{name: "hydrangeas, blue and white", img: "public/Pastel/Hydrangeas, blue and white  pastel on canvas 12x12in.JPG", info: "", size: "canvas 12x12in"},
+		// {name: "", img: "public/Pastel/", info: "", size: ""},
+		// {name: "", img: "public/Pastel/", info: "", size: ""},
+		// {name: "", img: "public/Pastel/", info: "", size: ""},
+		// {name: "", img: "public/Pastel/", info: "", size: ""},
 		 	
 	]},
 	{category: "monotypes", paintings: [
@@ -137,12 +143,13 @@ var categories = [
 		{name: "emily", img: "public/Monotype/044 emily  oil monotype  7x8in.JPG", info: "oil", size: "7x8in"},
 		{name: "emily (second pull)", img: "public/Monotype/045 emily oil  monotype 2nd pull  7x8in.JPG", info: "oil", size: "7x8in"},
 		{name: "charlene", img: "public/Monotype/046 charlene   oil monotype  1.25x8in.JPG", info: "oil", size: "1.25x8in"},
-		{name: "yes,no or maybe", img: "public/Monotype/047yes,no or maybe    monotype    7.75x7.JPG", info: "", size: "7.75x7in"},
+		// {name: "yes,no or maybe", img: "public/Monotype/047yes,no or maybe    monotype    7.75x7.JPG", info: "", size: "7.75x7in"},
 		{name: "young woman, profile", img: "public/Monotype/048young woman, profile   monotype  7.5x7in.JPG", info: "", size: "7.5x7in"},
-		{name: "primeval soup", img: "public/Monotype/049  primeval soup   monotype  9.25x9in.JPG", info: "", size: "9.25x9in"},
+		// {name: "primeval soup", img: "public/Monotype/049  primeval soup   monotype  9.25x9in.JPG", info: "", size: "9.25x9in"},
 		
 
-		{name: "landscape with tree", img: "public/Monotype/Landscape with Tree   monotype.Jpg", size: "8x7in"}
+		{name: "landscape with tree", img: "public/Monotype/Landscape with Tree   monotype.Jpg", size: "8x7in"},
+		{name: "roses in a vase", img: "public/Monotype/Roses in a vase   monotype  14x16in.JPG", info: "", size: "14x16in"},
 	]},
 	{category: "drawings", paintings: [
 		{name: "book and breakfast", img: "public/Drawings/01  book and breakfast charcoal and chalk  and white paint 48x48in.JPG", info: "charcoal and chalk and white paint", size: "48x48in"},
@@ -277,7 +284,7 @@ var categories = [
 		{name: "studio works and days", img: "public/Flowers/studio works and days                   48 x 48in.JPG", size: "48x48in"},
 		// {name: "the flowers are blue and violet", img: "public/Flowers/the flowers are blue and violet    9x12in.JPG", size: "9x12in"},
 		{name: "white geranium among leaves", img: "public/Flowers/white geranium among leaves 16x12in.JPG", size: "16x12in"},
-		{name: "white geranium, stretches left", img: "public/Flowers/white geranium, stretches left   8.5x12.jpg", size: "8.5x12"},
+		{name: "white geranium on dark ground", img: "public/Flowers/white geranium, stretches left   8.5x12.jpg", size: "8.5x12"},
 		{name: "white geranium", img: "public/Flowers/white geranium, stretching right.jpg", size: "13x9.5in"}, 
 		{name: "white geraniums in black pot", img: "public/Flowers/050  White Geraniums  48x48in.JPG", size: "48x48in"},
 		{name: "white geraniums in glazed pot", img: "public/Flowers/white geraniums in glazed pot  31x43in.png", size: "31x43in"},
@@ -290,8 +297,9 @@ var categories = [
 		{name: "bowl of hydrangeas", img: "public/Flowers/bowl of hydrangeas     12x9in.jpg", info: "", size: "12x9in"},
 		{name: "consideration of blue, pink, violet", img: "public/Flowers/consideration of blue ,pink,violet   12x9in    .JPG", info: "", size: "12x9in"},
 		{name: "daffodils and vases", img: "public/Flowers/daffodils and vases 12x9in.JPG", info: "", size: "12x9in"},
-		{name: "hydrangeas in terrine", img: "public/Flowers/hydrangeas in terrine       12x12in                                .JPG", info: "", size: "12x12in"}
-		
+		{name: "hydrangeas in terrine", img: "public/Flowers/hydrangeas in terrine       12x12in                                .JPG", info: "", size: "12x12in"},
+		{name: "blue and pink hydrangeas in clay vase", img: "public/Flowers/BLUE AND PINK HYDRANGEAS IN CLAY VASE 12x12in.JPG", info: "", size: "12x12in"},
+		{name: "blue hydrangeas in a vase", img: "public/Flowers/blue hydrangeas in a vase    9x12in.JPG", info: "", size: "9x12in"},
 	]},
 	{category: "trees", paintings: [
 		{name: "trees", img: "public/Tree/z08  TREES  oil   60x24in.JPG", size: "24x96in"},
@@ -433,7 +441,8 @@ var categories = [
 		// {name: "present time transported", img: "public/Horses/PRESENT TIME TRANSPORTED  (6' x 7' - 1985).JPG", size: "72x96in"},
 		// {name: "riders", img: "public/Horses/RIDERS (monotype)11.75x10.5 in.JPG", size: "11.75x10.5in"},
 		// {name: "the hunt", img: "public/Horses/THE HUNT   16x20in.JPG", size: "20x9in"},
-		{name: "yes, my darling jumps", img: "public/Horses/Yes, my Darling Jumps   9x16in.JPG", size: "16x9in"}
+		{name: "yes, my darling jumps", img: "public/Horses/Yes, my Darling Jumps   9x16in.JPG", size: "16x9in"},
+		{name: "horse", img: "public/Horses/horse   monotype  6x5in.JPG", info: "monotype", size: "6x5in"}
 	]},
 	{category: "polo", paintings: [
 		{name: "match under a pink sky", img: "public/Polo/match under a pink Sky 20x10in.JPG", size: "20x10in"},

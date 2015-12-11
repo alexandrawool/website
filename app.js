@@ -222,8 +222,6 @@ var categories = [
 		{name: "school boy", img: "public/Drawings/school boy  brown wash on tan paper  4x14in.JPG", info: "brown wash on tan paper", size: "4x14in"},
 		{name: "the gift necklace they brought me from town", img: "public/Drawings/the gift necklace they brought me from town   charcoal on pink paper  19x15.5in.JPG", info: "charcoal on pink paper", size: "19x15.5in"},
 		{name: "two ballerinas", img: "public/Drawings/two ballerinas   charcoal    17x24in.JPG", info: "charcoal", size: "17x24in"},
-
-		// added 10/24/2015
 		{name: "ballerina at rest", img: "public/Drawings/01 ballerina at rest     charcoal       21x18in.JPG", info: "charcoal", size: "21x18in"},	
 		{name: "dancer", img: "public/Drawings/02dancer   charcoal   12x18in.JPG", info: "charcoal", size: "12x18in"},	
 		{name: "tutus", img: "public/Drawings/03 tutus   charcoal and red conte crayons       9.5x14in.JPG", info: "charcoal and red conte crayons", size: "9.5x14in"},	
@@ -232,13 +230,14 @@ var categories = [
 		{name: "hart with geranium and abaccus (study)", img: "public/Drawings/06 Hart with Geranium and Abaccus (study)   charcoal on pink paper   19x24in.JPG", info: "charcoal on pink paper", size: "19x24in"},	
 		{name: "second nation", img: "public/Drawings/07  brave   charcoal   10x13in.JPG", info: "charcoal", size: "10x13in"},	
 		{name: "fencers", img: "public/Drawings/07 fencers  charcoal on brown paper   approx  20x13in.JPG", info: "charcoal on brown paper", size: "approx 20x13in"},	
-		{name: "myra", img: "public/Drawings/09 myra   charcoal    13.5x17in.JPG", info: "charcoal", size: "13.5x17in"},	
-		
+		{name: "myra", img: "public/Drawings/09 myra   charcoal    13.5x17in.JPG", info: "charcoal", size: "13.5x17in"},			
+		{name: "arthur lidov", img: "public/Drawings/ARTHUR LIDOV  brown chalk on panel  40x36in.jpg", info: "brown chalk on panel", size: "40x36in"},
 	]},
 	{category: "flowers", paintings: [
 		{name: "anemone triptych", img: "public/Flowers/ANEMONE TRIPTYCH   48''x48''.JPG", size: "48x48in"},
 		{name: "anemones", img: "public/Flowers/ANEMONES 44x44in.JPG", size: "44x44in"},
 		{name: "anemones in a teapot", img: "public/Flowers/anemones in a teapot  18x36in.jpg", size: "18x36in"},
+		{name: "anemones in a vase", img: "public/Flowers/Anemones in a Vase 9x15in.JPG", info: "", size: "9x15in"},
 		{name: "corsage", img: "public/Flowers/corsage   36x27.5in.JPG", size: "36x27.5in"},
 		{name: "daffodils 1", img: "public/Flowers/01Daffodils 1.JPG", size: "10x8in"},
 		{name: "daffodils 4", img: "public/Flowers/02Daffodils 2.JPG", size: "10x8in"},
@@ -302,7 +301,7 @@ var categories = [
 		{name: "blue hydrangeas in a vase", img: "public/Flowers/blue hydrangeas in a vase    9x12in.JPG", info: "", size: "9x12in"},
 	]},
 	{category: "trees", paintings: [
-		{name: "trees", img: "public/Tree/z08  TREES  oil   60x24in.JPG", size: "24x96in"},
+		{name: "trees", img: "public/Tree/018  TREES  oil   24x96in.JPG", size: "24x96in"},
 		{name: "green view", img: "public/Tree/GREEN VIEW.jpg", size: "28x38in"},
 		{name: "grove", img: "public/Tree/z07 GROVE  9 x 12 in.jpg", size: "12x9in"},
 		{name: "light after rain", img: "public/Tree/light after rain  mixed media  panel  36x30in.jpg", size: "48x36in"},
@@ -346,7 +345,7 @@ var categories = [
 		// {name: "delivery", img: "public/Urban-Landscape/CITY   12x9in.jpg", size: "9x12in"},
 
 		// added 10/29/2015
-		{name: "delivery", img: "public/Urban-Landscape/delivery  gouche  9x12in.jpg", info: "gouache", size: "9x12in"},
+		{name: "delivery", img: "public/Urban-Landscape/delivery    gouache on panel 8x11in.jpg", info: "gouache", size: "9x12in"},
 		{name: "street fair upper west side", img: "public/Urban-Landscape/Street Fair upper west side   8.5x12in.JPG", info: "gouache", size: "8.5x12in"},
 		{name: "city view 1", img: "public/Urban-Landscape/city view 1  12x24in.JPG", info: "", size: "12x24in"},
 		{name: "city view 2", img: "public/Urban-Landscape/city  view 2  12x24in.JPG", info: "", size: "12x24in"},
@@ -403,7 +402,7 @@ var categories = [
 		{name: "young woman, shower capped", img: "public/People/Young woman SHOWER CAP oil on panel  12x12.JPG", info: "oil on panel", size: "12x12in"},
 		{name: "young woman with fan", img: "public/People/YoungGirl with a Fan  oil.jpg", info: "oil on panel", size: "7x13in"},
 		{name: "young woman, nyc", img: "public/Mixed-Media/014 young woman, NYC   30x36in.JPG", info: "", size: "30x36in"},
-		
+		{name: "mika in black jacket", img: "public/People/Mika in Black Jacket  oil    48x48in  Coll. Donald Fresne  reproduction American Artist.jpg", info: "oil", size: "48x48in"},
 	]},
 	{category: "horses (and the hunt)", paintings: [
 		// added 10/16/2015
@@ -433,7 +432,7 @@ var categories = [
 		{name: "winter morning with the pack", img: "public/Horses/winter morning with the pack       12x10in.JPG", info: "", size: "12x10in"},
 
 				// added 10/19/2015
-		{name: "mika on the horse thahra in central park", img: "public/Horses/MIKA ON THE HORSE THAHRA IN CENTRAL PARK oil   43.2x82.5in.JPG", info: "", size: "43.2x82.5in"},
+		{name: "mika on the horse thahra in central park", img: "public/Horses/mika on the horse thahra in central park   oil  44x92in.JPG", info: "", size: "43.2x82.5in"},
 		{name: "pony lost in green thought", img: "public/Horses/pony lost in green thought   10x8in.JPG", info: "", size: "10x8in"},
 		// {name: "study for mika in a black jacket", img: "public/Horses/Study for Mika in a Black Jacket   charcoal pencil   9x7in.JPG", info: "charcoal pencil", size: "9x7in"},
 
@@ -463,7 +462,7 @@ var categories = [
 		{name: "about horses and riders", img: "public/Prints/01 Horses and riders  etching (Nasrudin press) (2).JPG", info: "etching (nasrudin press)", size: "plate size: 9x11.5 in"}, 
 		// {name: "baby sees", img: "public/Prints/02 baby sees       etching Nasrudin Press   8x10ln.JPG", info: "etching nasrudin press", size: "8x10in"},
 		{name: "baby", img: "public/Prints/03  New to Life  etching Nasrudin Press   9x11.in.JPG", info: "etching nasrudin press", size: "plate size: 9x11.5 in"},
-		{name: "Child looking at \“fortune-teller\”", img: "public/Prints/Child examining a Something      diazo      13x12in.JPG", info: "diazo", size: "13x12in"},
+		{name: "Child looking at \“fortune-teller\”", img: "public/Prints/Child looking at Fortune Teller.jpg", info: "diazo", size: "13x12in"},
 		{name: "chimp", img: "public/Prints/chimp      diazo    12x13in.JPG", info: "diazo", size: "12x13in"},
 		{name: "drape study", img: "public/Prints/drape study        diazo    11x12in   .JPG", info: "diazo", size: "11x12in"},
 		{name: "dressing", img: "public/Prints/dressing     diazo   6.5x10in.JPG", info: "diazo", size: "6.5x10in"},

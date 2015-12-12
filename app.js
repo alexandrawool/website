@@ -402,7 +402,7 @@ var categories = [
 		{name: "young woman, shower capped", img: "public/People/Young woman SHOWER CAP oil on panel  12x12.JPG", info: "oil on panel", size: "12x12in"},
 		{name: "young woman with fan", img: "public/People/YoungGirl with a Fan  oil.jpg", info: "oil on panel", size: "7x13in"},
 		{name: "young woman, nyc", img: "public/Mixed-Media/014 young woman, NYC   30x36in.JPG", info: "", size: "30x36in"},
-		{name: "mika in black jacket", img: "public/People/Mika in Black Jacket  oil    48x48in  Coll. Donald Fresne  reproduction American Artist.jpg", info: "oil", size: "48x48in"},
+		{name: "mika in black jacket", img: "public/People/Mika in Black Jacket  oil    48x48in  Coll. Donald Fresne  reproduction American Artist.jpg", info: "oil, coll. Donald Fresne  reproduction American Artist", size: "48x48in"},
 	]},
 	{category: "horses (and the hunt)", paintings: [
 		// added 10/16/2015

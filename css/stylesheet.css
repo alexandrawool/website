@@ -7,7 +7,9 @@ h1 {
 	font-weight: normal;
 	color: white;
 }
-
+br {
+	height: 1px;
+}
 .name-title {
 	/*margin-right: 270px;*/
   	padding: 3.6em 2.55em 0;
@@ -16,34 +18,50 @@ h1 {
 	display: table;
 	width: 1px; 
 }*/
-/*.img-title-info {
-	display: block;
+.img-title-info {
+	height: 20px;
+/*	display: block;
 	display: table-caption;
-	caption-side: top;
-}*/
+	caption-side: top;*/
+}
+
+.painting-title-line {
+	float: left;
+    /* width: 60%; */
+    text-align: left;
+    padding-left: 40px;
+    display: block;
+    width: 100%;
+}
+
 .show-left {
 	float: left;
 	/*width:60%;*/
 	text-align:left;
 	padding-left: 40px;
-	display: block;
-	width: 100%
+	display: inline-block;
+	width: 43.5%;
+	line-height: 0.7;
 }
 .show-middle {
 	float: left;
 	display: inline-block;
-	width:40%;
+	width:45%;
+	line-height: 0.7;
 }
 /*.show-right {
 	float: left;
 	width:20%;
 	text-align:right;
 }*/
+
 .on-own-line {
 	clear: both;
 	display: block;
 	line-height: 0.7;
 	margin-bottom: 0px;
+	padding-left: 40px;
+	width: 100%;
 	padding-left: 40px;
 }
 

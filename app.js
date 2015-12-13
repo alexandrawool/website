@@ -104,7 +104,7 @@ var categories = [
 		{name: "leisure time graces", img: "public/Monotype/05  leisure time graces oil monotype on rice  paper 19x24in.JPG", info: "oil on rice paper", size: "19x24in"},
 		{name: "almost dressed", img: "public/Monotype/06 almost dressed    monotype   5x9.25in.JPG", info: "", size: "5x9.25in"},
 		{name: "mika", img: "public/Monotype/07 mika   monotype   7.5x7in.jpg", info: "", size: "7.5x7in"},
-		{name: "post- shower", img: "public/Monotype/08  post- shower   monotype  6.5x10in.JPG", info: "", size: "6.5x10in"},
+		{name: "post- shower", img: "public/Monotype/060  Wrapped post-shower  monotype 6.5x10in.jpg", info: "", size: "6.5x10in"},
 		{name: "after the bath", img: "public/Monotype/09 after the bath   monotype    5.5x7in.JPG", info: "", size: "5.5x7in"},
 		{name: "woman dressing", img: "public/Monotype/z02woman dressing   monotype    8.75x6in.JPG", info: "", size: "8.75x6in"},
 		{name: "young woman thinking, back view", img: "public/Monotype/young woman thinking, back view.jpg", info: "", size: "14.5x13in"},
@@ -150,9 +150,11 @@ var categories = [
 
 		{name: "landscape with tree", img: "public/Monotype/Landscape with Tree   monotype.Jpg", size: "8x7in"},
 		{name: "roses in a vase", img: "public/Monotype/Roses in a vase   monotype  14x16in.JPG", info: "", size: "14x16in"},
+		{name: "horse", img: "public/Horses/061 horse   monotype  6x5in.JPG", info: "", size: "6x5in"}, // copied from Horses
+		
 	]},
 	{category: "drawings", paintings: [
-		{name: "book and breakfast", img: "public/Drawings/01  book and breakfast charcoal and chalk  and white paint 48x48in.JPG", info: "charcoal and chalk and white paint", size: "48x48in"},
+		{name: "book and breakfast", img: "public/People/040  book and breakfast  48x48in.JPG", info: "charcoal and chalk and white paint", size: "48x48in"},
 		{name: "child with fan", img: "public/Drawings/01 child with fan  brown wash on pink paper  12x16in.JPG", info: "brown wash on pink paper", size: "12x16in"},
 		{name: "figure, two views", img: "public/Drawings/02 figure, two views  charcoal on tan paper 14x18.75in.JPG", info: "charcoal on tan paper", size: "14x18.75in"},
 		{name: "bathers", img: "public/Drawings/03 bathers  (shown at watercolor show at NY Academy of Design)  12.5x16in.JPG", info: "(shown at watercolor show at NY Academy of Design)", size: "12.5x16in"},
@@ -363,7 +365,7 @@ var categories = [
 		{name: "dance of the oospheres", img: "public/History-Philosophy/DANCE OF THE OOSPHERES    28x39in.jpg", size: "39x28in"},
 		{name: "freud's london library", img: "public/History-Philosophy/FREUDS LONDON LIBRARY  16x23 in.JPG", size: "16x23in"},
 		{name: "introspection is no longer epistemically privileged", img: "public/History-Philosophy/Introspection is no longer Epistemically Privileged 16x23 in 001 (931x1280) (2).jpg", size: "23x16in"},
-		{name: "joy of dolphins", img: "public/History-Philosophy/joy of dolphins   38x29.5in.JPG", size: "38x29.5in"},
+		{name: "joy of dolphins", img: "public/History-Philosophy/050Joy of Dolphins.jpg", size: "38x29.5in"},
 		{name: "the milk-drinkers marathon", img: "public/History-Philosophy/the milk-drinkers marathon  40x30in.JPG", size: "40x30in"},
 		{name: "the sun is sometimes a danger", img: "public/History-Philosophy/the sun is sometimes a danger  39x28in.JPG", size: "39x28in"},
 
@@ -374,7 +376,7 @@ var categories = [
 	]},
 	{category: "100 people (more or less)", paintings: [
 		{name: "mika", img: "public/People/MIKA  oil on panel   15x15in.jpg", info: "oil on panel", size: "15x15in"},
-		// {name: "book and coffee", img: "public/People/BOOK AND COFFE   triptych  48x48in.JPG", size: "48x48in"},
+		{name: "book and coffee", img: "public/People/040  book and breakfast  48x48in.JPG", size: "48x48in"},
 		// {name: "hart", img: "public/People/HART   9 x11in.jpg", size: "9x11in"},
 		// {name: "hart in black jacket", img: "public/People/HART IN BLACK JACKET  48x48in.Jpg", size: "48x48in"},
 		{name: "mika", img: "public/People/MIKA  red chalk.jpg", size: "15.5x15.5in"},
@@ -395,14 +397,14 @@ var categories = [
 		{name: "reader", img: "public/People/Mika Reading 045.JPG", info: "", size: ""},
 		{name: "mika with jumprope", img: "public/People/mika with jumprope   oil on panel  8.75x11.75in.JPG", info: "oil on panel", size: "8.75x11.75in"},
 		{name: "self portrait", img: "public/People/028  Self-portrai   oil.jpg", info: "oil on panel", size: "28x22in"},
-		{name: "sunhat", img: "public/People/060    sunhat   oil     13x23in.JPG", info: "oil", size: "13x23in"},
+		{name: "sunhat", img: "public/People/030  sunhat   oil     13x23in.JPG", info: "oil", size: "13x23in"},
 		{name: "three graces engaged in leisure time activities", img: "public/People/three graces engaged in leisure time activities  oil on panel   15.50x19in.JPG", info: "oil on panel", size: "15.50x19in"},
 		{name: "tiger tiger", img: "public/People/027  Tiger tiger burning Bright   oil.JPG", info: "oil on panel", size: "7x8.25in"},
 		{name: "young woman in a black knit cap", img: "public/People/YOUNG WOMAN IN A BLACK KNIT CAP.jpg", info: "", size: ""},
 		{name: "young woman, shower capped", img: "public/People/Young woman SHOWER CAP oil on panel  12x12.JPG", info: "oil on panel", size: "12x12in"},
-		{name: "young woman with fan", img: "public/People/YoungGirl with a Fan  oil.jpg", info: "oil on panel", size: "7x13in"},
+		{name: "young woman with fan", img: "public/People/031 Child with Fan  oil   7x13in.jpg", info: "oil on panel", size: "7x13in"},
 		{name: "young woman, nyc", img: "public/Mixed-Media/014 young woman, NYC   30x36in.JPG", info: "", size: "30x36in"},
-		{name: "mika in black jacket", img: "public/People/Mika in Black Jacket  oil    48x48in  Coll. Donald Fresne  reproduction American Artist.jpg", info: "oil, coll. Donald Fresne  reproduction American Artist", size: "48x48in"},
+		{name: "mika in black jacket", img: "public/People/032  Mika in Black Jacket  oil collection Donald Fresne photoAmerArtist Mag  48x48in.JPG", infoleft: "oil", inforight: "Coll. D.Fresne.photo:Amer.Artist", size: "48x48in"},
 	]},
 	{category: "horses (and the hunt)", paintings: [
 		// added 10/16/2015
@@ -441,7 +443,8 @@ var categories = [
 		// {name: "riders", img: "public/Horses/RIDERS (monotype)11.75x10.5 in.JPG", size: "11.75x10.5in"},
 		// {name: "the hunt", img: "public/Horses/THE HUNT   16x20in.JPG", size: "20x9in"},
 		{name: "yes, my darling jumps", img: "public/Horses/Yes, my Darling Jumps   9x16in.JPG", size: "16x9in"},
-		{name: "horse", img: "public/Horses/horse   monotype  6x5in.JPG", info: "monotype", size: "6x5in"}
+		{name: "horse", img: "public/Horses/061 horse   monotype  6x5in.JPG", info: "monotype", size: "6x5in"},
+		{name: "mika in black jacket", img: "public/People/032  Mika in Black Jacket  oil collection Donald Fresne photoAmerArtist Mag  48x48in.JPG", infoleft: "oil", inforight: "Coll. D.Fresne.photo:Amer.Artist", size: "48x48in"},
 	]},
 	{category: "polo", paintings: [
 		{name: "match under a pink sky", img: "public/Polo/match under a pink Sky 20x10in.JPG", size: "20x10in"},
@@ -484,10 +487,10 @@ var categories = [
 		{name: "sun and trees", img: "public/Mural-Sketches/sun and trees.JPG", info: "", size: ""}, // what size?
 		{name: "trees absorbed and expanding", img: "public/Mural-Sketches/trees absorbed and expanding.JPG", info: "", size: ""}, // what size?
 
-		{name: "goodbye to sheba", img: "public/Shakespeare-Bible/Goodbye to Sheba  60x84in.jpg", size: "60x84in"},
-		{name: "goodbye to solomon", img: "public/Shakespeare-Bible/Goodbye to Solomon 60x84in.jpg", size: "60x84in"},
+		{name: "goodbye to sheba", img: "public/Mural-Sketches/016 Goodbye to Sheba  oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
+		{name: "goodbye to solomon", img: "public/Mural-Sketches/017 Goodbye to Solomon oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
 		{name: "grove", img: "public/Mural-Sketches/GROVE   mural proposal for 30 Crosby.JPG", size: ""}, // what size?
-		{name: "study for the guide to the later crises of life", img: "public/Mural-Sketches/Study for the Guide to the Later Crises of Life (26'' x 38'', 1972 -  chalk and oil).jpg", size: "38x26in"}
+		{name: "study for the guide to the later crises of life", img: "public/Mural-Sketches/020   Guide in the Later Crises of Life   oil on canvas  106x72in.jpg", size: "38x26in"}
 	]},
 	// {category: "books", paintings: []},
 	{category: "Shakespeare, Bible, etc.", paintings: [
@@ -504,8 +507,8 @@ var categories = [
 		{name: "we three", img: "public/Shakespeare-Bible/we three    19x24in.JPG", size: "19x24in"},
 		{name: "where you go, i will go", img: "public/Shakespeare-Bible/where you go, I will go  charcoal and chalk    19x24in.JPG", size: "19x24in"},
 		{name: "wife of lot", img: "public/Shakespeare-Bible/wife of Lot  mixed media panel  20x30in  .JPG", size: "20x30in"},
-		{name: "goodbye to sheba", img: "public/Shakespeare-Bible/Goodbye to Sheba  60x84in.jpg", size: "60x84in"},
-		{name: "goodbye to solomon", img: "public/Shakespeare-Bible/Goodbye to Solomon 60x84in.jpg", size: "60x84in"},
+		{name: "goodbye to sheba", img: "public/Mural-Sketches/016 Goodbye to Sheba  oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
+		{name: "goodbye to solomon", img: "public/Mural-Sketches/017 Goodbye to Solomon oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
 		{name: "goodbye to sherba and goodbye to solomon", img: "public/Shakespeare-Bible/Goodbye_S_and_S.jpg"}
 	]}]
 

@@ -53,7 +53,7 @@ var categories = [
 		{name: "flower and memory", img: "public/Flowers/05 Flower and Memory   mixed media on panel   20x15in.jpeg", size: "20x15in"},
 		{name: "generative green", img: "public/Flowers/06 Generative Green (20'' x 15'', mixed media on panel - 2011) - Copy - Copy (2).jpg", info: "", size: "20x15in"},
 		{name: "light after rain", img: "public/Mixed-Media/light after rain  mixed media  panel  36x30in.jpg", size: "48x36in"}, // size corrected by Alexandra
-		{name: "postcard from lucca", img: "public/Mixed-Media/012Postcard from Lucca  mixed media  24x32in.JPG", size: "32x24in"},
+		{name: "first postcard from lucca", img: "public/Mixed-Media/02 first postcard from Lucca  mixed media  24x32in.jpg", size: "32x24in"},
 		{name: "red flowers in a somewhat grey vase", img: "public/Mixed-Media/red flowers in a somewhat grey vase              mixed media  panel  9.5x16.5.JPG", size: "9.5x16.5in"},
 		{name: "shower", img: "public/Mixed-Media/SHOWER  panel   12x12in.JPG", size: "16x16in"},
 		{name: "traumerai", img: "public/Mixed-Media/traumerai   mixed media panel  36x30in.JPG", size: "48x36in"}, // size corrected by Alexandra
@@ -104,7 +104,7 @@ var categories = [
 		{name: "leisure time graces", img: "public/Monotype/05  leisure time graces oil monotype on rice  paper 19x24in.JPG", info: "oil on rice paper", size: "19x24in"},
 		{name: "almost dressed", img: "public/Monotype/06 almost dressed    monotype   5x9.25in.JPG", info: "", size: "5x9.25in"},
 		{name: "mika", img: "public/Monotype/07 mika   monotype   7.5x7in.jpg", info: "", size: "7.5x7in"},
-		{name: "post- shower", img: "public/Monotype/060  Wrapped post-shower  monotype 6.5x10in.jpg", info: "", size: "6.5x10in"},
+		{name: "wrapped post shower", img: "public/Monotype/Wrapped post-shower  monotype 6.5x10in  .jpg", info: "", size: "6.5x10in"},
 		{name: "after the bath", img: "public/Monotype/09 after the bath   monotype    5.5x7in.JPG", info: "", size: "5.5x7in"},
 		{name: "woman dressing", img: "public/Monotype/z02woman dressing   monotype    8.75x6in.JPG", info: "", size: "8.75x6in"},
 		{name: "young woman thinking, back view", img: "public/Monotype/young woman thinking, back view.jpg", info: "", size: "14.5x13in"},
@@ -272,7 +272,7 @@ var categories = [
 		{name: "pink", img: "public/Flowers/pink   pigment on panel   12x8in.JPG", size: "12x8in"},
 		{name: "pink and blue hydrangeas", img: "public/Flowers/09  pink and blue hydrangeas  10x9in.jpg", size: "8x10in"},
 		{name: "portuguese geraniums", img: "public/Flowers/portuguese geraniums 48x24in.jpg", size: "48x24in"},
-		{name: "postcard from lucca", img: "public/Mixed-Media/012Postcard from Lucca  mixed media  24x32in.JPG", size: "32x24in"}, // this is the livelier one that Alexandra asked to have shown in this slideshow, as a duplicate from another slideshow
+		{name: "first postcard from lucca", img: "public/Mixed-Media/02 first postcard from Lucca  mixed media  24x32in.jpg", size: "32x24in"},
 		
 		// {name: "postcard from lucca", img: "public/Flowers/POSTCARD_FROM_LUCCA_24x32in.jpg", size: "24x32in"},
 		// {name: "postcard from lucca", img: "public/Flowers/postcard from lucca  mixed media   panel      32x24in.JPG", size: "32x24in"},
@@ -404,7 +404,7 @@ var categories = [
 		{name: "young woman, shower capped", img: "public/People/Young woman SHOWER CAP oil on panel  12x12.JPG", info: "oil on panel", size: "12x12in"},
 		{name: "young woman with fan", img: "public/People/031 Child with Fan  oil   7x13in.jpg", info: "oil on panel", size: "7x13in"},
 		{name: "young woman, nyc", img: "public/Mixed-Media/014 young woman, NYC   30x36in.JPG", info: "", size: "30x36in"},
-		{name: "mika in black jacket", img: "public/People/032  Mika in Black Jacket  oil collection Donald Fresne photoAmerArtist Mag  48x48in.JPG", infoleft: "oil", inforight: "Coll. D.Fresne.photo:Amer.Artist", size: "48x48in"},
+		{name: "mika in black jacket", img: "public/People/032  Mika in Black Jacket  oil collection Donald Fresne photoAmerArtist Mag  48x48in.JPG", infoleft: "oil", inforight: "Coll.D.Fresne.photo:Amer.Artist", size: "48x48in"},
 	]},
 	{category: "horses (and the hunt)", paintings: [
 		// added 10/16/2015
@@ -444,7 +444,7 @@ var categories = [
 		// {name: "the hunt", img: "public/Horses/THE HUNT   16x20in.JPG", size: "20x9in"},
 		{name: "yes, my darling jumps", img: "public/Horses/Yes, my Darling Jumps   9x16in.JPG", size: "16x9in"},
 		{name: "horse", img: "public/Horses/061 horse   monotype  6x5in.JPG", info: "monotype", size: "6x5in"},
-		{name: "mika in black jacket", img: "public/People/032  Mika in Black Jacket  oil collection Donald Fresne photoAmerArtist Mag  48x48in.JPG", infoleft: "oil", inforight: "Coll. D.Fresne.photo:Amer.Artist", size: "48x48in"},
+		{name: "mika in black jacket", img: "public/People/032  Mika in Black Jacket  oil collection Donald Fresne photoAmerArtist Mag  48x48in.JPG", infoleft: "oil", inforight: "Coll.D.Fresne.photo:Amer.Artist", size: "48x48in"},
 	]},
 	{category: "polo", paintings: [
 		{name: "match under a pink sky", img: "public/Polo/match under a pink Sky 20x10in.JPG", size: "20x10in"},
@@ -509,7 +509,7 @@ var categories = [
 		{name: "wife of lot", img: "public/Shakespeare-Bible/wife of Lot  mixed media panel  20x30in  .JPG", size: "20x30in"},
 		{name: "goodbye to sheba", img: "public/Mural-Sketches/016 Goodbye to Sheba  oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
 		{name: "goodbye to solomon", img: "public/Mural-Sketches/017 Goodbye to Solomon oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
-		{name: "goodbye to sherba and goodbye to solomon", img: "public/Shakespeare-Bible/Goodbye_S_and_S.jpg"}
+		{name: "goodbye to sherba and goodbye to solomon", img: "public/Shakespeare-Bible/Goodbyes both slides.jpg"}
 	]}]
 
 

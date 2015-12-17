@@ -53,7 +53,7 @@ var categories = [
 		{name: "flower and memory", img: "public/Flowers/05 Flower and Memory   mixed media on panel   20x15in.jpeg", size: "20x15in"},
 		{name: "generative green", img: "public/Flowers/06 Generative Green (20'' x 15'', mixed media on panel - 2011) - Copy - Copy (2).jpg", info: "", size: "20x15in"},
 		{name: "light after rain", img: "public/Mixed-Media/light after rain  mixed media  panel  36x30in.jpg", size: "48x36in"}, // size corrected by Alexandra
-		{name: "first postcard from lucca", img: "public/Mixed-Media/02 first postcard from Lucca  mixed media  24x32in.jpg", size: "32x24in"},
+		{name: "postcard from lucca", img: "public/Flowers/07 Postcard from Lucca mixed media     32x24in.JPG", size: "32x24in"},
 		{name: "red flowers in a somewhat grey vase", img: "public/Mixed-Media/red flowers in a somewhat grey vase              mixed media  panel  9.5x16.5.JPG", size: "9.5x16.5in"},
 		{name: "shower", img: "public/Mixed-Media/SHOWER  panel   12x12in.JPG", size: "16x16in"},
 		{name: "traumerai", img: "public/Mixed-Media/traumerai   mixed media panel  36x30in.JPG", size: "48x36in"}, // size corrected by Alexandra
@@ -70,9 +70,9 @@ var categories = [
 		{name: "anemones in a blue vase", img: "public/Pastel/016 anemones in a blue vase   chalks on grey paper   10x16in.JPG", size: "paper 10x18in"},	
 		{name: "botteghe oscure", img: "public/Pastel/bottega oscura  pastel on canvas  9x12in.JPG", size: "canvas 9x12in"},
 		// {name: "hydrageas", img: "public/Pastel/hydrageas  pastel canvas  10x10in.JPG", size: "canvas 10x10in"},
-		{name: "hydrangea brightness in b.c.", img: "public/Pastel/hydrangea brightness in b.c.  pastel on canvas   10x8in.JPG", size: "canvas 10x8in"},
-		{name: "hydrageas (mixed color)", img: "public/Pastel/019  hydrangeas, mixed   pastel on canvas           10x10in.JPG", size: "canvas 10x10in"},
-		{name: "hydrangeas in blue pot", img: "public/Pastel/018  Hydrangeas in blue pot  pastel on canvas  10x10in.JPG", size: "canvas 10x10in"},
+		{name: "hydrangea brightness in b.c.", img: "public/Pastel/08Hydrangeas B.C. pastel on canvas 10x10in.JPG", size: "canvas 10x8in"},
+		{name: "hydrageas (mixed color)", img: "public/Pastel/012 hydrangeas, mixed   pastel on canvas           10x10in Coll.NaomiSheiner.JPG", size: "canvas 10x10in"},
+		{name: "hydrangeas in blue pot", img: "public/Pastel/09 Hydrangeas in blue pot  pastel on canvas  10x10in.JPG", size: "canvas 10x10in"},
 		{name: "hydrangeas on the terrace", img: "public/Pastel/hydrangeas on the terrace pastel on canvas   18x36in - Copy.JPG", size: "canvas 18x36in"},
 		{name: "hydrangeas blue-violet, for maya plisetskaya, the dying swan", img: "public/Pastel/050  hydrangease blue-violet for maya pliseskaya , the dying swan  12x9in - Copy.JPG", info: "canvas 12x9in", size: ""}, // size moved per Alexandra's request
 		{name: "hydrangeas, elan", img: "public/Pastel/hydrangeas, elan   pastel  canvas  10x9in.JPG", size: "canvas 10x9in"},
@@ -88,12 +88,8 @@ var categories = [
 		{name: "hydrangeas in a bowl", img: "public/Pastel/hydrangeas in a bowl      canvas 12x9in.jpg", info: "", size: "canvas 12x9in"},
 		{name: "hydrangeas in a dark blue vase", img: "public/Pastel/021  Hydrangeas in dark blue bowl  pastel on canvas 9x10in.JPG", info: "", size: "canvas 12x10"},
 		{name: "hydrangeas in tall vase", img: "public/Pastel/hydrangeas in tall vase       canvas 18x36in.JPG", size: "canvas 18x36in"},
-		{name: "hydrangeas, blue, pink, violet", img: "public/Pastel/Hydrangeas,blue,pink,violet  pastel on canvas  8x8in.JPG", info: "", size: "canvas 8x8in"},
-		{name: "hydrangeas, blue and white", img: "public/Pastel/Hydrangeas, blue and white  pastel on canvas 12x12in.JPG", info: "", size: "canvas 12x12in"},
-		// {name: "", img: "public/Pastel/", info: "", size: ""},
-		// {name: "", img: "public/Pastel/", info: "", size: ""},
-		// {name: "", img: "public/Pastel/", info: "", size: ""},
-		// {name: "", img: "public/Pastel/", info: "", size: ""},
+		{name: "hydrangeas, blue, pink, violet", img: "public/Pastel/011 Hydrangeas,blue,pink,violet  pastel on canvas  8x8in.JPG", info: "", size: "canvas 8x8in"},
+		{name: "hydrangeas, blue and white", img: "public/Pastel/010 Hydrangeas, blue and white  pastel on canvas 12x12in Coll.Naomi Sheiner.JPG", info: "", size: "canvas 12x12in"},
 		 	
 	]},
 	{category: "monotypes", paintings: [
@@ -104,7 +100,7 @@ var categories = [
 		{name: "leisure time graces", img: "public/Monotype/05  leisure time graces oil monotype on rice  paper 19x24in.JPG", info: "oil on rice paper", size: "19x24in"},
 		{name: "almost dressed", img: "public/Monotype/06 almost dressed    monotype   5x9.25in.JPG", info: "", size: "5x9.25in"},
 		{name: "mika", img: "public/Monotype/07 mika   monotype   7.5x7in.jpg", info: "", size: "7.5x7in"},
-		{name: "wrapped post shower", img: "public/Monotype/Wrapped post-shower  monotype 6.5x10in  .jpg", info: "", size: "6.5x10in"},
+		{name: "post shower", img: "public/Monotype/Wrapped post-shower  monotype 6.5x10in  .jpg", info: "", size: "6.5x10in"},
 		{name: "after the bath", img: "public/Monotype/09 after the bath   monotype    5.5x7in.JPG", info: "", size: "5.5x7in"},
 		{name: "woman dressing", img: "public/Monotype/z02woman dressing   monotype    8.75x6in.JPG", info: "", size: "8.75x6in"},
 		{name: "young woman thinking, back view", img: "public/Monotype/young woman thinking, back view.jpg", info: "", size: "14.5x13in"},
@@ -241,8 +237,8 @@ var categories = [
 		{name: "anemones in a teapot", img: "public/Flowers/anemones in a teapot  18x36in.jpg", size: "18x36in"},
 		{name: "anemones in a vase", img: "public/Flowers/Anemones in a Vase 9x15in.JPG", info: "", size: "9x15in"},
 		{name: "corsage", img: "public/Flowers/corsage   36x27.5in.JPG", size: "36x27.5in"},
-		{name: "daffodils 1", img: "public/Flowers/01Daffodils 1.JPG", size: "10x8in"},
-		{name: "daffodils 4", img: "public/Flowers/02Daffodils 2.JPG", size: "10x8in"},
+		{name: "daffodils 1", img: "public/Flowers/04 Daffodils 1.JPG", size: "10x8in"},
+		{name: "daffodils 4", img: "public/Flowers/05  Daffodils 2.JPG", size: "10x8in"},
 		// {name: "daffodils 3", img: "public/Flowers/daffodils 3    8x10in.JPG", size: "8x10in"},
 		// {name: "daffodils and vase", img: "public/Flowers/Daffodils and Vase   chalk pencil paint  9x12in.JPG", size: "9x12in"},
 		{name: "first blooming geraniums", img: "public/Flowers/first blooming geraniums   48x24in.jpg", size: "48x24in"},
@@ -262,7 +258,7 @@ var categories = [
 		{name: "hydrangeas gathered in a pot", img: "public/Flowers/hydrangeas gathered in a pot  panel  12x8.5in.JPG", size: "12x8.5in"},
 		{name: "bunch of hydrangeas", img: "public/Flowers/03BUNCH OF HYDRANGEAS ON GREEN.jpg", size: "24x12in"},
 		{name: "hydrangeas in a tall vase", img: "public/Flowers/hydrangeas in a tall vase     pastel   36x18 in.JPG", size: "36x18in"},
-		{name: "hydrangeas observed", img: "public/Flowers/010  HYDRAGEAS observed 10x10in.jpg", size: "10x10in"},
+		{name: "hydrangeas observed", img: "public/Flowers/01 hydrangeas observed   10x10in.jpg", size: "10x10in"},
 		{name: "hydrangeas on grey", img: "public/Flowers/hydrangeas on grey  23x8in.JPG", size: "23x8in"},
 		{name: "hydrangeas on the terrace", img: "public/Flowers/hydrangeas on the terrace  canvas   18x36in.JPG", size: "18x36in"},
 		// {name: "hydrangeas, elan", img: "public/Flowers/hydrangeas, elan  pastel on  canvas        10x9in.JPG", size: "10x9in"},
@@ -270,9 +266,9 @@ var categories = [
 		{name: "little pot of flowers", img: "public/Flowers/little pot of flowers    panel  8.5x7in.JPG", size: "8.5x7in"},
 		{name: "on first seeing oslo", img: "public/Flowers/on first seeing oslo  panel   20x14.16in.JPG", size: "20x14.16in"},
 		{name: "pink", img: "public/Flowers/pink   pigment on panel   12x8in.JPG", size: "12x8in"},
-		{name: "pink and blue hydrangeas", img: "public/Flowers/09  pink and blue hydrangeas  10x9in.jpg", size: "8x10in"},
+		{name: "pink and blue hydrangeas", img: "public/Flowers/02 pink and blue hydrangeas.jpg", size: "8x10in"},
 		{name: "portuguese geraniums", img: "public/Flowers/portuguese geraniums 48x24in.jpg", size: "48x24in"},
-		{name: "first postcard from lucca", img: "public/Mixed-Media/02 first postcard from Lucca  mixed media  24x32in.jpg", size: "32x24in"},
+		{name: "postcard from lucca", img: "public/Flowers/07 Postcard from Lucca mixed media     32x24in.JPG", size: "32x24in"},
 		
 		// {name: "postcard from lucca", img: "public/Flowers/POSTCARD_FROM_LUCCA_24x32in.jpg", size: "24x32in"},
 		// {name: "postcard from lucca", img: "public/Flowers/postcard from lucca  mixed media   panel      32x24in.JPG", size: "32x24in"},
@@ -294,10 +290,10 @@ var categories = [
 		// added 10/16/2015
 		{name: "astromerius", img: "public/Flowers/Astromerius  10x10in.JPG", info: "", size: "10x10in"},
 		{name: "battenfield anemones in a white vase", img: "public/Flowers/Battenfield anemones in a white vase  9x16.25in.JPG", info: "", size: "9x16.25in"},
-		{name: "blue blue", img: "public/Flowers/BLUE BLUE  8x10in.JPG", info: "", size: "8x10in"},
+		{name: "blue blue", img: "public/Flowers/03 BLUE HYDRANGEA.JPG", info: "", size: "8x10in"},
 		{name: "bowl of hydrangeas", img: "public/Flowers/bowl of hydrangeas     12x9in.jpg", info: "", size: "12x9in"},
 		{name: "consideration of blue, pink, violet", img: "public/Flowers/consideration of blue ,pink,violet   12x9in    .JPG", info: "", size: "12x9in"},
-		{name: "daffodils and vases", img: "public/Flowers/daffodils and vases 12x9in.JPG", info: "", size: "12x9in"},
+		{name: "daffodils and vases", img: "public/Flowers/06  daffodils,two vases   12x9in.JPG", info: "", size: "12x9in"},
 		{name: "hydrangeas in terrine", img: "public/Flowers/hydrangeas in terrine       12x12in                                .JPG", info: "", size: "12x12in"},
 		{name: "blue and pink hydrangeas in clay vase", img: "public/Flowers/BLUE AND PINK HYDRANGEAS IN CLAY VASE 12x12in.JPG", info: "", size: "12x12in"},
 		{name: "blue hydrangeas in a vase", img: "public/Flowers/blue hydrangeas in a vase    9x12in.JPG", info: "", size: "9x12in"},
@@ -397,12 +393,12 @@ var categories = [
 		{name: "reader", img: "public/People/Mika Reading 045.JPG", info: "", size: ""},
 		{name: "mika with jumprope", img: "public/People/mika with jumprope   oil on panel  8.75x11.75in.JPG", info: "oil on panel", size: "8.75x11.75in"},
 		{name: "self portrait", img: "public/People/028  Self-portrai   oil.jpg", info: "oil on panel", size: "28x22in"},
-		{name: "sunhat", img: "public/People/030  sunhat   oil     13x23in.JPG", info: "oil", size: "13x23in"},
+		{name: "sunhat", img: "public/People/sunhat   oil     13x23in.JPG", info: "oil", size: "13x23in"},
 		{name: "three graces engaged in leisure time activities", img: "public/People/three graces engaged in leisure time activities  oil on panel   15.50x19in.JPG", info: "oil on panel", size: "15.50x19in"},
 		{name: "tiger tiger", img: "public/People/027  Tiger tiger burning Bright   oil.JPG", info: "oil on panel", size: "7x8.25in"},
 		{name: "young woman in a black knit cap", img: "public/People/YOUNG WOMAN IN A BLACK KNIT CAP.jpg", info: "", size: ""},
 		{name: "young woman, shower capped", img: "public/People/Young woman SHOWER CAP oil on panel  12x12.JPG", info: "oil on panel", size: "12x12in"},
-		{name: "young woman with fan", img: "public/People/031 Child with Fan  oil   7x13in.jpg", info: "oil on panel", size: "7x13in"},
+		{name: "young woman with fan", img: "public/People/Child with Fan  oil   7x13in.jpg", info: "oil on panel", size: "7x13in"},
 		{name: "young woman, nyc", img: "public/Mixed-Media/014 young woman, NYC   30x36in.JPG", info: "", size: "30x36in"},
 		{name: "mika in black jacket", img: "public/People/032  Mika in Black Jacket  oil collection Donald Fresne photoAmerArtist Mag  48x48in.JPG", infoleft: "oil", inforight: "Coll.D.Fresne.photo:Amer.Artist", size: "48x48in"},
 	]},
@@ -490,7 +486,7 @@ var categories = [
 		{name: "goodbye to sheba", img: "public/Mural-Sketches/016 Goodbye to Sheba  oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
 		{name: "goodbye to solomon", img: "public/Mural-Sketches/017 Goodbye to Solomon oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
 		{name: "grove", img: "public/Mural-Sketches/GROVE   mural proposal for 30 Crosby.JPG", size: ""}, // what size?
-		{name: "study for the guide to the later crises of life", img: "public/Mural-Sketches/020   Guide in the Later Crises of Life   oil on canvas  106x72in.jpg", size: "38x26in"}
+		{name: "study for the guide to the later crises of life", img: "public/Mural-Sketches/Guide in the Later Crises of Life   oil on canvas  106x72in.jpg", size: "38x26in"}
 	]},
 	// {category: "books", paintings: []},
 	{category: "Shakespeare, Bible, etc.", paintings: [
@@ -501,7 +497,7 @@ var categories = [
 		{name: "after sodom (homage to akmatova)", img: "public/Shakespeare-Bible/after Sodom (homage to Akmatova) lithograph   11x16in.JPG", info: "lithograph/40", size: "11x16in"},
 		// {name: "lot's wife", img: "public/Shakespeare-Bible/lot's wife   charcoal and chalk on board   14x20in.jpg", size: "14x20in"}, // repeat
 		{name: "pillar of salt", img: "public/Shakespeare-Bible/pillar of salt  monotype  5x5.25 in.JPG", size: "5x5.25in"}, // same image as in Monotype
-		{name: "r and j", img: "public/Shakespeare-Bible/R and J  red chalk and charcoal  24x48in.JPG", size: "24x48in"},
+		// {name: "r and j", img: "public/Shakespeare-Bible/R and J  red chalk and charcoal  24x48in.JPG", size: "24x48in"},
 		{name: "tragedy of verona", img: "public/Shakespeare-Bible/Shakespeare said she was twelve  charcoal  and red chalk  24x48in.jpg", size: "24x48in"},
 		{name: "the parting of solomon and sheba", img: "public/Shakespeare-Bible/the parting of solomon and sheba  charcoal     42x20in.JPG", size: "42x20in"},
 		{name: "we three", img: "public/Shakespeare-Bible/we three    19x24in.JPG", size: "19x24in"},
@@ -509,7 +505,7 @@ var categories = [
 		{name: "wife of lot", img: "public/Shakespeare-Bible/wife of Lot  mixed media panel  20x30in  .JPG", size: "20x30in"},
 		{name: "goodbye to sheba", img: "public/Mural-Sketches/016 Goodbye to Sheba  oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
 		{name: "goodbye to solomon", img: "public/Mural-Sketches/017 Goodbye to Solomon oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
-		{name: "goodbye to sherba and goodbye to solomon", img: "public/Shakespeare-Bible/Goodbyes both slides.jpg"}
+		{name: "goodbye to sherba and goodbye to solomon", img: "public/Shakespeare-Bible/Goodbye with space.jpg"}
 	]}]
 
 

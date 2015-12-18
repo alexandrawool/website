@@ -70,7 +70,7 @@ var categories = [
 		{name: "anemones in a blue vase", img: "public/Pastel/016 anemones in a blue vase   chalks on grey paper   10x16in.JPG", size: "paper 10x18in"},	
 		{name: "botteghe oscure", img: "public/Pastel/bottega oscura  pastel on canvas  9x12in.JPG", size: "canvas 9x12in"},
 		// {name: "hydrageas", img: "public/Pastel/hydrageas  pastel canvas  10x10in.JPG", size: "canvas 10x10in"},
-		{name: "hydrangea brightness in b.c.", img: "public/Pastel/08Hydrangeas B.C. pastel on canvas 10x10in.JPG", size: "canvas 10x8in"},
+		{name: "hydrangea in sydney", img: "public/Pastel/Hydrangeas in Sydney     canvas 10x10in.JPG", size: "canvas 10x8in"},
 		{name: "hydrageas (mixed color)", img: "public/Pastel/012 hydrangeas, mixed   pastel on canvas           10x10in Coll.NaomiSheiner.JPG", size: "canvas 10x10in"},
 		{name: "hydrangeas in blue pot", img: "public/Pastel/09 Hydrangeas in blue pot  pastel on canvas  10x10in.JPG", size: "canvas 10x10in"},
 		{name: "hydrangeas on the terrace", img: "public/Pastel/hydrangeas on the terrace pastel on canvas   18x36in - Copy.JPG", size: "canvas 18x36in"},
@@ -80,7 +80,7 @@ var categories = [
 		{name: "hydrangeas, pink and violet", img: "public/Pastel/hydrangeas,pink and violet   pastel on canvas  10x8in.JPG", size: "canvas 10x8in"},
 		{name: "lay your sleeping head (auden)", img: "public/Pastel/020  lay yr sleeping head (Auden).JPG", size: "canvas 10x8in"},
 		{name: "mika with jump rope", img: "public/Pastel/022   Mika with Jump rope  pastel on board.JPG", size: "paper on board 24x48in"},
-		{name: "mixed hydrangeas", img: "public/Pastel/mixed hydrangeas  pastel   canvas   10x10in.JPG", size: "canvas 10x10in"},//, size: "canvas 10x10in"},
+		{name: "blue hydrangeas in a bright blue pot (victoria island)", img: "public/Pastel/blue hydrangeas in a bright blue pot (Victoria Island)  canvas   10x10in.JPG", size: "canvas 10x10in"},//, size: "canvas 10x10in"},
 		{name: "remember", img: "public/Pastel/051  remember  12x9in.JPG", size: "canvas 12x9in"},
 		{name: "roman afternoon", img: "public/Pastel/roman afternoon      pastel on canvas     9x12in.JPG", size: "canvas 9x12in"},
 
@@ -505,7 +505,7 @@ var categories = [
 		{name: "wife of lot", img: "public/Shakespeare-Bible/wife of Lot  mixed media panel  20x30in  .JPG", size: "20x30in"},
 		{name: "goodbye to sheba", img: "public/Mural-Sketches/016 Goodbye to Sheba  oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
 		{name: "goodbye to solomon", img: "public/Mural-Sketches/017 Goodbye to Solomon oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
-		{name: "goodbye to sherba and goodbye to solomon", img: "public/Shakespeare-Bible/Goodbye with space.jpg"}
+		{name: "goodbye to sherba and goodbye to solomon", img: "public/Shakespeare-Bible/goodbyes_tripple_space.jpg"}
 	]}]
 
 

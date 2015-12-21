@@ -36,29 +36,21 @@ br {
 
 .show-left {
 	float: left;
-	/*width:60%;*/
 	text-align:left;
 	padding-left: 40px;
 	display: inline-block;
-	width: 44%;
-	line-height: 0.7;
+	margin-bottom: 0px;
 }
 .show-middle {
 	float: left;
 	display: inline-block;
-	width:45%;
-	line-height: 0.7;
+	margin-bottom: 0px;
 }
-/*.show-right {
-	float: left;
-	width:20%;
-	text-align:right;
-}*/
 
 .on-own-line {
 	clear: both;
 	display: block;
-	line-height: 0.7;
+	/*line-height: 0.7;*/
 	margin-bottom: 0px;
 	padding-left: 40px;
 	width: 100%;

@@ -39,38 +39,30 @@
 				</div>
 				<div class="col-sm-8 col-md-8 col-lg-8 gallary-display">
 					<div ng-repeat="category in panel.categories" ng-show="panel.tab === $index" class="slideshow-panel">
-						<!-- <h3>{{category.category}}</h3> -->
 						<div class="img-title-info">
 							<p class="painting-title-line">{{category.paintings[panel.current].name}}</p>
-							<!-- <p class="show-middle">{{category.paintings[panel.current].info}}</p><p class="show-right">{{category.paintings[panel.current].size}}</p> -->
 						</div>
-						<!-- <p class="secondLineInfo">{{category.paintings[panel.current].secondLineInfo}}</p> -->
 						<ul>
 							<li>
 								<div class="img-container">
 									<div class="img-sub-container">
 										<img ng-src="{{category.paintings[panel.current].img}}">
 										<br>
-										<!-- <p class="on-own-line">{{category.paintings[panel.current].info}}</p><p class="show-middle">{{category.paintings[panel.current].moreinfo}}</p>
-										<p class="on-own-line">{{category.paintings[panel.current].size}}</p>
-										<br>
-										<ul class="info-moved-up-adjustment bottom-dots">
-											<li class="bottom-button" ng-repeat="painting in category.paintings">
-												<a href ng-click="panel.setCurrent($index)">
-													<i class="fa fa-circle-o" ng-class="{ 'fa-circle' : panel.isCurrent($index) }"></i>
-												</a>
-											</li>
-										</ul>
-										<div class="bottom-dots">
-											<a href ng-click="panel.setCurrent(panel.current - 1)"><i class="info-moved-up-adjustment bottom-button arrow-left fa fa-arrow-left"></i><a><a href ng-click="panel.setCurrent(panel.current + 1)"><i class="arrow-right fa fa-arrow-right show-right bottom-button"></i><a>
-										</div> -->
 									</div>
 								</div>
 							</li>
 						</ul>
 						<div class="info-container">
-							<p class="on-own-line show-left">{{category.paintings[panel.current].info}}</p>
-							<p class="show-left">{{category.paintings[panel.current].infoleft}}</p><p class="show-middle">{{category.paintings[panel.current].inforight}}</p>
+							<p ng-show="category.paintings[panel.current].info" class="on-own-line show-left">{{category.paintings[panel.current].info}}</p>
+							<p 
+								ng-show="category.paintings[panel.current].infoleft" 
+								ng-style="{width:category.paintings[panel.current].myWidth}" 
+								class="show-left">{{category.paintings[panel.current].infoleft}}
+							</p>
+							<p 
+								ng-show="category.paintings[panel.current].inforight" 
+								class="show-middle">{{category.paintings[panel.current].inforight}}
+							</p>
 							<p class="on-own-line">{{category.paintings[panel.current].size}}</p>
 						</div>
 						<!-- <br> -->

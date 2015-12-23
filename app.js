@@ -400,7 +400,7 @@ var categories = [
 		{name: "young woman, shower capped", img: "public/People/Young woman SHOWER CAP oil on panel  12x12.JPG", info: "oil on panel", size: "12x12in"},
 		{name: "young woman with fan", img: "public/People/Child with Fan  oil   7x13in.jpg", info: "oil on panel", size: "7x13in"},
 		{name: "young woman, nyc", img: "public/Mixed-Media/014 young woman, NYC   30x36in.JPG", info: "", size: "30x36in"},
-		{name: "mika in black jacket", img: "public/People/032  Mika in Black Jacket  oil collection Donald Fresne photoAmerArtist Mag  48x48in.JPG", infoleft: "oil", inforight: "coll.D.Fresne.photo:Amer.Artist", size: "48x48in", myWidth: "44%"},
+		{name: "mika in black jacket", img: "public/People/032  Mika in Black Jacket  oil collection Donald Fresne photoAmerArtist Mag  48x48in.JPG", infoleft: "oil", inforight: "coll.D.Fresne.photo:Amer.Artist", size: "48x48in", myWidth: "45%"},
 	]},
 	{category: "horses (and the hunt)", paintings: [
 		// added 10/16/2015
@@ -440,7 +440,7 @@ var categories = [
 		// {name: "the hunt", img: "public/Horses/THE HUNT   16x20in.JPG", size: "20x9in"},
 		{name: "yes, my darling jumps", img: "public/Horses/Yes, my Darling Jumps   9x16in.JPG", size: "16x9in"},
 		{name: "horse", img: "public/Horses/061 horse   monotype  6x5in.JPG", info: "monotype", size: "6x5in"},
-		{name: "mika in black jacket", img: "public/People/032  Mika in Black Jacket  oil collection Donald Fresne photoAmerArtist Mag  48x48in.JPG", infoleft: "oil", inforight: "coll.D.Fresne.photo:Amer.Artist", size: "48x48in", myWidth: "44%"},
+		{name: "mika in black jacket", img: "public/People/032  Mika in Black Jacket  oil collection Donald Fresne photoAmerArtist Mag  48x48in.JPG", infoleft: "oil", inforight: "coll.D.Fresne.photo:Amer.Artist", size: "48x48in", myWidth: "45%"},
 	]},
 	{category: "polo", paintings: [
 		{name: "match under a pink sky", img: "public/Polo/match under a pink Sky 20x10in.JPG", size: "20x10in"},

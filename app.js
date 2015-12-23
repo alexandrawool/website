@@ -400,7 +400,7 @@ var categories = [
 		{name: "young woman, shower capped", img: "public/People/Young woman SHOWER CAP oil on panel  12x12.JPG", info: "oil on panel", size: "12x12in"},
 		{name: "young woman with fan", img: "public/People/Child with Fan  oil   7x13in.jpg", info: "oil on panel", size: "7x13in"},
 		{name: "young woman, nyc", img: "public/Mixed-Media/014 young woman, NYC   30x36in.JPG", info: "", size: "30x36in"},
-		{name: "mika in black jacket", img: "public/People/032  Mika in Black Jacket  oil collection Donald Fresne photoAmerArtist Mag  48x48in.JPG", infoleft: "oil", inforight: "Coll.D.Fresne.photo:Amer.Artist", size: "48x48in", myWidth: "44%"},
+		{name: "mika in black jacket", img: "public/People/032  Mika in Black Jacket  oil collection Donald Fresne photoAmerArtist Mag  48x48in.JPG", infoleft: "oil", inforight: "coll.D.Fresne.photo:Amer.Artist", size: "48x48in", myWidth: "44%"},
 	]},
 	{category: "horses (and the hunt)", paintings: [
 		// added 10/16/2015
@@ -440,7 +440,7 @@ var categories = [
 		// {name: "the hunt", img: "public/Horses/THE HUNT   16x20in.JPG", size: "20x9in"},
 		{name: "yes, my darling jumps", img: "public/Horses/Yes, my Darling Jumps   9x16in.JPG", size: "16x9in"},
 		{name: "horse", img: "public/Horses/061 horse   monotype  6x5in.JPG", info: "monotype", size: "6x5in"},
-		{name: "mika in black jacket", img: "public/People/032  Mika in Black Jacket  oil collection Donald Fresne photoAmerArtist Mag  48x48in.JPG", infoleft: "oil", inforight: "Coll.D.Fresne.photo:Amer.Artist", size: "48x48in"},
+		{name: "mika in black jacket", img: "public/People/032  Mika in Black Jacket  oil collection Donald Fresne photoAmerArtist Mag  48x48in.JPG", infoleft: "oil", inforight: "coll.D.Fresne.photo:Amer.Artist", size: "48x48in", myWidth: "44%"},
 	]},
 	{category: "polo", paintings: [
 		{name: "match under a pink sky", img: "public/Polo/match under a pink Sky 20x10in.JPG", size: "20x10in"},
@@ -503,8 +503,8 @@ var categories = [
 		{name: "we three", img: "public/Shakespeare-Bible/we three    19x24in.JPG", size: "19x24in"},
 		{name: "where you go, i will go", img: "public/Shakespeare-Bible/where you go, I will go  charcoal and chalk    19x24in.JPG", size: "19x24in"},
 		{name: "wife of lot", img: "public/Shakespeare-Bible/wife of Lot  mixed media panel  20x30in  .JPG", size: "20x30in"},
-		{name: "goodbye to sheba", img: "public/Mural-Sketches/016 Goodbye to Sheba  oil on canvas  84x60in CAT ltd.jpg", size: "60x84in", infoleft: "oil", inforight: "Coll.R.GrossLtd.", myWidth: "81%"},
-		{name: "goodbye to solomon", img: "public/Mural-Sketches/017 Goodbye to Solomon oil on canvas  84x60in CAT ltd.jpg", size: "60x84in", infoleft: "oil", inforight: "Coll.R.GrossLtd.", myWidth: "77.5%"},
+		{name: "goodbye to sheba", img: "public/Mural-Sketches/016 Goodbye to Sheba  oil on canvas  84x60in CAT ltd.jpg", size: "60x84in", infoleft: "oil", inforight: "coll.R.GrossLtd.", myWidth: "81%"},
+		{name: "goodbye to solomon", img: "public/Mural-Sketches/017 Goodbye to Solomon oil on canvas  84x60in CAT ltd.jpg", size: "60x84in", infoleft: "oil", inforight: "coll.R.GrossLtd.", myWidth: "77.5%"},
 		{name: "goodbye to sherba and goodbye to solomon", img: "public/Shakespeare-Bible/goodbyes_tripple_space.jpg"}
 	]}]
 

@@ -170,8 +170,8 @@ var categories = [
 		{name: "on her head, in a tutu", img: "public/Drawings/013  on her head, in a tutu   charcoal, colored chalk on prepared grey paper   40x50in.JPG", info: "charcoal, colored chalk on prepared grey paper", size: "40x50in"},
 		{name: "hart", img: "public/Drawings/014 hart  brown wash, brush and pen  tracing paper mounted on pink paper   12x15in.JPG", info: "brush and pen on pink paper", moreinfo: "", size: "12x15in"},
 		{name: "arthur lidov", img: "public/Drawings/015 arthur lidov   charcoal on white paper   5x7in.JPG", info: "charcoal on white paper", size: "5x7in"},
-		{name: "daffodils 1", img: "public/Drawings/015 daffodils 1.JPG", info: "red chalk and yellow paint on canvas", size: "10x8in"}, 
-		{name: "daffodils 4", img: "public/Drawings/015 daffodils 2.JPG", info: "blue chalk, pencil and yellow paint on canvas", size: "10x8in"}, 
+		{name: "daffodils 1", img: "public/Flowers/04 Daffodils 1.JPG", info: "red chalk and yellow paint on canvas", size: "10x8in"}, 
+		{name: "daffodils 4", img: "public/Flowers/05  Daffodils 2.JPG", info: "blue chalk, pencil and yellow paint on canvas", size: "10x8in"}, 
 		{name: "geranium", img: "public/Drawings/z041   GERANIUM  brown chalk.JPG", info: "brown chalk on tan paper", size: "18x12in"},
 		// {name: "geranium plant", img: "public/Drawings/Geranium Plant   brown chalk on paper  12x17.5in.jpg", info: "brown chalk on paper", size: "12x17.5in"},
 		{name: "geranium plant", img: "public/Drawings/Geranium Plant   brown chalk on paper  12x17.5in.jpg", info: "brown chalk on tan paper", size: "12x17.5in"},
@@ -206,7 +206,7 @@ var categories = [
 
 		{name: "babies (toward Nasrudin etching)", img: "public/Drawings/Babies (toward Nasrudin etchin)   pencil  20.5x19in  .JPG", info: "pencil", size: "20.5x19in"},
 		// {name: "book and breakfast", img: "public/Drawings/book and breakfast   chalk and charcoal on canvas   48x48in.jpg", info: "chalk and charcoal on canvas", size: "48x48in"}, // deleted -- repeat of another in this slideshow
-		{name: "boundary marker red chalk", img: "public/Drawings/boundary marker red chalk  20x15.75in.JPG", info: "red chalk", size: "20x15.75in"},
+		{name: "boundary marker", img: "public/Drawings/boundary marker red chalk  20x15.75in.JPG", info: "red chalk", size: "20x15.75in"},
 		{name: "c. in sunhat and beach robe", img: "public/Drawings/C. in sunhat and beach robe  charcoal on brown paper   17x24in.JPG", info: "charcoal on brown paper", size: "17x24in"},
 		{name: "carosel", img: "public/Drawings/Carosel brown wash on pink paper  12x 15.24in.JPG", info: "brown wash on pink paper", size: "12x15.24in"},
 		{name: "child at cards", img: "public/Drawings/child at cards  charcoal and colored chalks on brown paper  19.5x23in.JPG", info: "charcoal and colored chalks on brown paper", size: "19.5x23in"},

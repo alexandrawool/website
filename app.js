@@ -72,7 +72,7 @@ var categories = [
 		// {name: "hydrageas", img: "public/Pastel/hydrageas  pastel canvas  10x10in.JPG", size: "canvas 10x10in"},
 		{name: "hydrangea in sydney", img: "public/Pastel/Hydrangeas in Sydney     canvas 10x10in.JPG", size: "canvas 10x8in"},
 		{name: "hydrageas (mixed color)", img: "public/Pastel/012 hydrangeas, mixed   pastel on canvas           10x10in Coll.NaomiSheiner.JPG", size: "canvas 10x10in"},
-		{name: "hydrangeas in blue pot", img: "public/Pastel/09 Hydrangeas in blue pot  pastel on canvas  10x10in.JPG", size: "canvas 10x10in"},
+		{name: "an introduction of blue hydrangeas from louise", img: "public/Pastel/09 Hydrangeas in blue pot  pastel on canvas  10x10in.JPG", size: "canvas 10x10in"},
 		{name: "hydrangeas on the terrace", img: "public/Pastel/hydrangeas on the terrace pastel on canvas   18x36in - Copy.JPG", size: "canvas 18x36in"},
 		{name: "hydrangeas blue-violet, for maya plisetskaya, the dying swan", img: "public/Pastel/050  hydrangease blue-violet for maya pliseskaya , the dying swan  12x9in - Copy.JPG", info: "canvas 12x9in", size: ""}, // size moved per Alexandra's request
 		{name: "hydrangeas, elan", img: "public/Pastel/hydrangeas, elan   pastel  canvas  10x9in.JPG", size: "canvas 10x9in"},

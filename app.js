@@ -475,7 +475,7 @@ var categories = [
 		{name: "young woman, figure study", img: "public/Prints/Young woman, figure study    diazo    11x15in.JPG", info: "diazo", size: "11x15in"},
 	]},
 	{category: "mural proposals", paintings: [
-		{name: "guide to right action in later crises of life", img: "public/Mural-Sketches/Guide in the Later Crises of Life   oil on canvas  106x72in.jpg", info: "oil", size: "38x26in"},
+		{name: "guide to right action in later crises of life", img: "public/Mural-Sketches/Guide in the Later Crises of Life   oil on canvas  106x72in.jpg", info: "oil", size: "96x72in"},
 
 		// added 10/16/2015
 		{name: "transportation or riding down time", img: "public/Mural-Sketches/01 transportation or riding down time   95x72in.JPG", info: "", size: "95x72in"},

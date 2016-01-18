@@ -473,7 +473,6 @@ var categories = [
 		{name: "sleeping child", img: "public/Prints/sleeping child     dizao     9x7in.JPG", info: "diazo", size: "9x7in"},
 		{name: "the wonderful dress", img: "public/Prints/the wonderful dress    diazo    7x13in    .JPG", info: "diazo", size: "7x13in"},
 		{name: "young woman, figure study", img: "public/Prints/Young woman, figure study    diazo    11x15in.JPG", info: "diazo", size: "11x15in"},
-
 	]},
 	{category: "mural proposals", paintings: [
 		{name: "guide to right action in later crises of life", img: "public/Mural-Sketches/Guide in the Later Crises of Life   oil on canvas  106x72in.jpg", info: "oil", size: "38x26in"},

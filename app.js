@@ -476,6 +476,8 @@ var categories = [
 
 	]},
 	{category: "mural proposals", paintings: [
+		{name: "guide to right action in later crises of life", img: "public/Mural-Sketches/Guide in the Later Crises of Life   oil on canvas  106x72in.jpg", info: "oil", size: "38x26in"}
+
 		// added 10/16/2015
 		{name: "transportation or riding down time", img: "public/Mural-Sketches/01 transportation or riding down time   95x72in.JPG", info: "", size: "95x72in"},
 		{name: "primavera (in progress)", img: "public/Mural-Sketches/primavera   panel (in progress).JPG", info: "", size: "96x48in"},
@@ -486,7 +488,6 @@ var categories = [
 		{name: "goodbye to sheba", img: "public/Mural-Sketches/016 Goodbye to Sheba  oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
 		{name: "goodbye to solomon", img: "public/Mural-Sketches/017 Goodbye to Solomon oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
 		{name: "grove", img: "public/Mural-Sketches/GROVE   mural proposal for 30 Crosby.JPG", size: ""}, // what size?
-		{name: "study for the guide to the later crises of life", img: "public/Mural-Sketches/Guide in the Later Crises of Life   oil on canvas  106x72in.jpg", size: "38x26in"}
 	]},
 	// {category: "books", paintings: []},
 	{category: "Shakespeare, Bible, etc.", paintings: [

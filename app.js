@@ -57,7 +57,7 @@ var categories = [
 		{name: "red flowers in a somewhat grey vase", img: "public/Mixed-Media/red flowers in a somewhat grey vase              mixed media  panel  9.5x16.5.JPG", size: "9.5x16.5in"},
 		{name: "shower", img: "public/Mixed-Media/SHOWER  panel   12x12in.JPG", size: "16x16in"},
 		{name: "traumerai", img: "public/Mixed-Media/traumerai   mixed media panel  36x30in.JPG", size: "48x36in"}, // size corrected by Alexandra
-		{name: "wife of lot", img: "public/Mixed-Media/wife of Lot  mixed media panel  20x30in  .JPG", size: "20x30in"},
+		{name: "scherazade", img: "public/Mixed-Media/wife of Lot  mixed media panel  20x30in  .JPG", size: "20x30in"},
 		{name: "young woman in feathered hat", img: "public/Mixed-Media/YOUNG WOMAN IN FEATHERED HAT 48x48in.JPG", size: "24x48in"},
 		{name: "after the bath", img: "public/Mixed-Media/after the bath  mixed media  24x48in.jpg", info: "", size: "24x48in"},
 		{name: "drying off", img: "public/Mixed-Media/drying off    mixed media    24x48in.jpg", info: "", size: "24x48in"},
@@ -476,14 +476,11 @@ var categories = [
 	]},
 	{category: "mural proposals", paintings: [
 		{name: "guide to right action in later crises of life", img: "public/Mural-Sketches/Guide in the Later Crises of Life   oil on canvas  106x72in.jpg", info: "oil", size: "96x72in"},
-   
-		// added 10/16/2015
 		{name: "transportation or riding down time", img: "public/Mural-Sketches/01 transportation or riding down time   95x72in.JPG", info: "", size: "95x72in"},
 		{name: "primavera (in progress)", img: "public/Mural-Sketches/primavera   panel (in progress).JPG", info: "", size: "96x48in"},
 		{name: "a welcome of trees", img: "public/Mural-Sketches/save these trees.JPG", info: "", size: ""}, // what size?
 		{name: "sun and trees", img: "public/Mural-Sketches/sun and trees.JPG", info: "", size: ""}, // what size?
 		{name: "trees absorbed and expanding", img: "public/Mural-Sketches/trees absorbed and expanding.JPG", info: "", size: ""}, // what size?
-
 		{name: "goodbye to sheba", img: "public/Mural-Sketches/016 Goodbye to Sheba  oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
 		{name: "goodbye to solomon", img: "public/Mural-Sketches/017 Goodbye to Solomon oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
 		{name: "grove", img: "public/Mural-Sketches/GROVE   mural proposal for 30 Crosby.JPG", size: ""}, // what size?
@@ -502,7 +499,7 @@ var categories = [
 		{name: "the parting of solomon and sheba", img: "public/Shakespeare-Bible/the parting of solomon and sheba  charcoal     42x20in.JPG", size: "42x20in"},
 		{name: "we three", img: "public/Shakespeare-Bible/we three    19x24in.JPG", size: "19x24in"},
 		{name: "where you go, i will go", img: "public/Shakespeare-Bible/where you go, I will go  charcoal and chalk    19x24in.JPG", size: "19x24in"},
-		{name: "wife of lot", img: "public/Shakespeare-Bible/wife of Lot  mixed media panel  20x30in  .JPG", size: "20x30in"},
+		{name: "scherazade", img: "public/Shakespeare-Bible/wife of Lot  mixed media panel  20x30in  .JPG", size: "20x30in"},
 		{name: "goodbye to sheba", img: "public/Mural-Sketches/016 Goodbye to Sheba  oil on canvas  84x60in CAT ltd.jpg", size: "60x84in", infoleft: "oil", inforight: "coll.R.GrossLtd.", myWidth: "81%"},
 		{name: "goodbye to solomon", img: "public/Mural-Sketches/017 Goodbye to Solomon oil on canvas  84x60in CAT ltd.jpg", size: "60x84in", infoleft: "oil", inforight: "coll.R.GrossLtd.", myWidth: "77.5%"},
 		{name: "goodbye to sherba and goodbye to solomon", img: "public/Shakespeare-Bible/goodbyes_tripple_space.jpg"}

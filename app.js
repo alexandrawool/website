@@ -484,7 +484,7 @@ var categories = [
 		{name: "goodbye to sheba", img: "public/Mural-Sketches/016 Goodbye to Sheba  oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
 		{name: "goodbye to solomon", img: "public/Mural-Sketches/017 Goodbye to Solomon oil on canvas  84x60in CAT ltd.jpg", size: "60x84in"},
 		// {name: "grove", img: "public/Mural-Sketches/GROVE   mural proposal for 30 Crosby.JPG", size: ""}, // what size?
-		{name: "the parting of solomon and sheba", img: "public/Shakespeare-Bible/goodbyes_tripple_space.jpg"}
+		{name: "the parting of solomon and sheba", img: "public/Shakespeare-Bible/the parting of solomon and sheba  charcoal     42x20in.JPG", size: "42x20in"},
 	]},
 	// {category: "books", paintings: []},
 	{category: "Shakespeare, Bible, etc.", paintings: [

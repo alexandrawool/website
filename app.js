@@ -503,7 +503,7 @@ var categories = [
 		{name: "scherazade", img: "public/Shakespeare-Bible/wife of Lot  mixed media panel  20x30in  .JPG", size: "20x30in"},
 		{name: "goodbye to sheba", img: "public/Mural-Sketches/016 Goodbye to Sheba  oil on canvas  84x60in CAT ltd.jpg", size: "60x84in", infoleft: "oil", inforight: "coll.R.GrossLtd.", myWidth: "81%"},
 		{name: "goodbye to solomon", img: "public/Mural-Sketches/017 Goodbye to Solomon oil on canvas  84x60in CAT ltd.jpg", size: "60x84in", infoleft: "oil", inforight: "coll.R.GrossLtd.", myWidth: "77.5%"},
-		{name: "goodbye to sherba and goodbye to solomon", img: "public/Shakespeare-Bible/goodbyes_tripple_space.jpg"}
+		{name: "goodbye to sheba and goodbye to solomon", img: "public/Shakespeare-Bible/goodbyes_tripple_space.jpg"}
 	]}]
 
 

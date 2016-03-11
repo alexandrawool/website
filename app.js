@@ -3,7 +3,6 @@ var app = angular.module('gallery', [])
 app.controller('PanelCtrl', function(){
 	this.tab = 0
 	this.selectTab = function(tab){
-		// console.log("selectTab tab: ", tab)
 		this.tab = tab
 		this.current = 0
 	}
@@ -13,39 +12,12 @@ app.controller('PanelCtrl', function(){
 	this.categories = categories
 	this.current = 0
 	this.setCurrent = function(num){
-		// console.log("length: ", this.categories[this.tab].paintings.length)
-		// console.log("num: ", num)
-		// console.log("index: ", this.$index)
-		// console.log("this.current before change: ", this.current)
-
 		if (num >= 0 && num < this.categories[this.tab].paintings.length) this.current = num || 0
-		// this.current = num || 0
-
-		// console.log("this.current after change: ", this.current)
 	}
 	this.isCurrent = function(num){
 		return this.current === num
 	}
 }) 
-
-// // jQuery for image title
-// $(document).ready(function() {
-// 	$('.bottom-button').click(function(){
-// 	    var imgWidth = $('ul li img').width();
-// 	    console.log("image width: ", imgWidth)
-// 	    $('.img-title-info').css({width: imgWidth});
-// 	});
-// 	$('.left-nav-item').click(function(){
-// 	    var imgWidth = $('ul li img').width();
-// 	    console.log("image width: ", imgWidth)
-// 	    $('.img-title-info').css({width: imgWidth});
-// 	});
-// });
-
-// store width in ng-repeat
-// compute widths?? -- they are all on page, select with jQuery and get widths
-// array of widths
-// add widths to each painting
 
 var categories = [
 	// {category: "paintings", paintings: []},
@@ -218,7 +190,7 @@ var categories = [
 		// {name: "potted geranium", img: "public/Drawings/potted geranium   brown chalk on white paper 11x16in.jpg", info: "brown chalk on white paper", size: "11x16in"}, // deleted -- repeat
 		{name: "rider on side-saddle", img: "public/Drawings/rider on side-saddle   pencil    19x15in.JPG", info: "pencil", size: "19x15in"},
 		{name: "school boy", img: "public/Drawings/school boy  brown wash on tan paper  4x14in.JPG", info: "brown wash on tan paper", size: "4x14in"},
-		{name: "the gift necklace they brought me from town", img: "public/Drawings/the gift necklace they brought me from town   charcoal on pink paper  19x15.5in.JPG", info: "charcoal on pink paper", size: "19x15.5in"},
+		{name: "the gift medallion they brought me from town", img: "public/Drawings/the gift necklace they brought me from town   charcoal on pink paper  19x15.5in.JPG", info: "charcoal on pink paper", size: "19x15.5in"},
 		{name: "two ballerinas", img: "public/Drawings/two ballerinas   charcoal    17x24in.JPG", info: "charcoal", size: "17x24in"},
 		{name: "ballerina at rest", img: "public/Drawings/01 ballerina at rest     charcoal       21x18in.JPG", info: "charcoal", size: "21x18in"},	
 		{name: "dancer", img: "public/Drawings/02dancer   charcoal   12x18in.JPG", info: "charcoal", size: "12x18in"},	

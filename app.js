@@ -35,7 +35,7 @@ var categories = [
 		{name: "drying off", img: "public/Mixed-Media/drying off    mixed media    24x48in.jpg", info: "", size: "24x48in"},
 		{name: "greetings to a fan, on yr. gift canvas", img: "public/Mixed-Media/030  greetings to a fan, on yr. gift canvas          23.5x35.75in - Copy (2).JPG", info: "", size: "23.5x35.75in"},
 		{name: "the younger girls at baalbec", img: "public/Mixed-Media/the younger girls at baalbec   charcoal,watercolor, paint    paper mo unted on  panel     48x48in.jpg", info: "charcoal, watercolor and paint, paper mounted on panel", size: "48x48in"},
-		{name: "young woman, nyc", img: "public/Mixed-Media/014 young woman, NYC   30x36in.JPG", info: "", size: "30x36in"}
+		{name: "young woman, nyc", img: "public/Mixed-Media/014 young woman, NYC   30x36in.JPG", info: "oil and charcoal", size: "30x36in"}
 	]},
 	{category: "pastels", paintings: [
 		{name: "book and cofffee", img: "public/Pastel/015  Book and Coffee.JPG", size: "paper 30x30in"},

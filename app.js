@@ -24,6 +24,12 @@ var categories = [
 	{category: "mixed media", paintings: [
 		{name: "flower and memory", img: "public/Flowers/05 Flower and Memory   mixed media on panel   20x15in.jpeg", size: "20x15in"},
 		{name: "generative green", img: "public/Flowers/06 Generative Green (20'' x 15'', mixed media on panel - 2011) - Copy - Copy (2).jpg", info: "", size: "20x15in"},
+		{name: "by the colbourne passage", img: "public/Mixed-Media/by the colbourne passage  paint and chalk on canvas   12x24in  2016.JPG", info: "paint and chalk on canvas", size: "12x24in"},
+		{name: "ever brighter  day and an armful of flowers", img: "public/Mixed-Media/ever brighter  day and an armful of flowers   paint and chalk on canvas   36x18in   2016.JPG", info: "paint and chalk on canvas", size: "36x18in"},
+		{name: "hydrangeas  in a striped vase", img: "public/Mixed-Media/hydrangeas  in a striped vase   paint and charcoal on canvas   36x18in    2016.JPG", info: "paint and charcoal on canvas", size: "36x18in"},
+		{name: "hydrangeas in a  pearl glass vase", img: "public/Mixed-Media/hydrangeas in a  pearl glass vase   paint and charcoal on canvas    16x16in   2016.JPG", info: "paint and charcoal on canvas", size: "16x16in"},
+		{name: "hydrangeas, purple and blue", img: "public/Mixed-Media/hydrangeas, purple and blue   paint and charcoal on canvas  36x18in   2016.JPG", info: "paint and charcoal on canvas", size: "36x18in"},
+		{name: "yes", img: "public/Mixed-Media/yes   paint and charcoal on canvas  30x30in  2016.JPG", info: "paint and charcoal on canvas", size: "30x30in"},
 		{name: "light after rain", img: "public/Mixed-Media/light after rain  mixed media  panel  36x30in.jpg", size: "48x36in"}, // size corrected by Alexandra
 		{name: "postcard from lucca", img: "public/Flowers/07 Postcard from Lucca mixed media     32x24in.JPG", size: "32x24in"},
 		{name: "red flowers in a somewhat grey vase", img: "public/Mixed-Media/red flowers in a somewhat grey vase              mixed media  panel  9.5x16.5.JPG", size: "9.5x16.5in"},
@@ -211,6 +217,7 @@ var categories = [
 		{name: "corsage", img: "public/Flowers/corsage   36x27.5in.JPG", size: "36x27.5in"},
 		{name: "daffodils 1", img: "public/Flowers/04 Daffodils 1.JPG", size: "10x8in"},
 		{name: "daffodils 4", img: "public/Flowers/05  Daffodils 2.JPG", size: "10x8in"},
+		{name: "daffodils and vases", img: "public/Flowers/06  daffodils,two vases   12x9in.JPG", info: "", size: "12x9in"},
 		// {name: "daffodils 3", img: "public/Flowers/daffodils 3    8x10in.JPG", size: "8x10in"},
 		// {name: "daffodils and vase", img: "public/Flowers/Daffodils and Vase   chalk pencil paint  9x12in.JPG", size: "9x12in"},
 		{name: "first blooming geraniums", img: "public/Flowers/first blooming geraniums   48x24in.jpg", size: "48x24in"},
@@ -265,7 +272,6 @@ var categories = [
 		{name: "blue blue", img: "public/Flowers/03 BLUE HYDRANGEA.JPG", info: "", size: "8x10in"},
 		{name: "bowl of hydrangeas", img: "public/Flowers/bowl of hydrangeas     12x9in.jpg", info: "", size: "12x9in"},
 		{name: "consideration of blue, pink, violet", img: "public/Flowers/consideration of blue ,pink,violet   12x9in    .JPG", info: "", size: "12x9in"},
-		{name: "daffodils and vases", img: "public/Flowers/06  daffodils,two vases   12x9in.JPG", info: "", size: "12x9in"},
 		{name: "hydrangeas in terrine", img: "public/Flowers/hydrangeas in terrine       12x12in                                .JPG", info: "", size: "12x12in"},
 		{name: "blue and pink hydrangeas in clay vase", img: "public/Flowers/BLUE AND PINK HYDRANGEAS IN CLAY VASE 12x12in.JPG", info: "", size: "12x12in"},
 		{name: "blue hydrangeas in a vase", img: "public/Flowers/blue hydrangeas in a vase    9x12in.JPG", info: "", size: "9x12in"},
@@ -285,6 +291,7 @@ var categories = [
 		
 	]},
 	{category: "landscapes", paintings: [
+		{name: "by the colbourne passage", img: "public/Landscape/by the colbourne passage  paint and chalk on canvas   12x24in  2016.JPG", info: "paint and chalk on canvas", size: "12x24in"},
 		{name: "above the inlet", img: "public/Landscape/09  above the inlet  9x12in.JPG", size: "9x12in"},
 		{name: "dutchess county landscape with grazing horses", img: "public/Landscape/dutchess county landscape with grazing horses 9inx16 in.JPG", size: "16x9in"},
 		{name: "from hill, outside leghorn", img: "public/Landscape/from hill,outside Leghorn  8x7in.JPG", size: "8x7in"},
@@ -449,7 +456,7 @@ var categories = [
 	{category: "mural proposals", paintings: [
 		{name: "guide to right action in later crises of life", img: "public/Mural-Sketches/Guide in the Later Crises of Life   oil on canvas  106x72in.jpg", info: "oil", size: "96x72in"},
 		{name: "transportation or riding down time", img: "public/Mural-Sketches/01 transportation or riding down time   95x72in.JPG", info: "", size: "95x72in"},
-		{name: "primavera (in progress)", img: "public/Mural-Sketches/primavera   panel (in progress).JPG", info: "", size: "96x48in"},
+		//{name: "primavera (in progress)", img: "public/Mural-Sketches/primavera   panel (in progress).JPG", info: "", size: "96x48in"}, // removed at Alexandra's request, February 2017
 		{name: "a welcome of trees", img: "public/Mural-Sketches/save these trees.JPG", info: "", size: ""}, // what size?
 		{name: "sun and trees", img: "public/Mural-Sketches/sun and trees.JPG", info: "", size: ""}, // what size?
 		{name: "trees absorbed and expanding", img: "public/Mural-Sketches/trees absorbed and expanding.JPG", info: "", size: ""}, // what size?

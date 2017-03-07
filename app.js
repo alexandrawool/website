@@ -291,7 +291,7 @@ var categories = [
 		
 	]},
 	{category: "landscapes", paintings: [
-		{name: "by the colbourne passage", img: "public/Landscape/by the colbourne passage  paint and chalk on canvas   12x24in  2016.JPG", info: "paint and chalk on canvas", size: "12x24in"},
+		{name: "by the colbourne passage", img: "public/Landscape/by the colbourne passage  paint and chalk on canvas   12x24in  2016.JPG", info: "paint and chalk on canvas", size: "12x24in", year: "2016"}, // Not using year for now. Tested on 2017-03-05 and sent Alexandra a screenshot.
 		{name: "above the inlet", img: "public/Landscape/09  above the inlet  9x12in.JPG", size: "9x12in"},
 		{name: "dutchess county landscape with grazing horses", img: "public/Landscape/dutchess county landscape with grazing horses 9inx16 in.JPG", size: "16x9in"},
 		{name: "from hill, outside leghorn", img: "public/Landscape/from hill,outside Leghorn  8x7in.JPG", size: "8x7in"},
@@ -448,7 +448,7 @@ var categories = [
 		// {name: "dressing", img: "public/Prints/Dressing   diazo print      10x14 in (1988).jpg", info: "diazo print", size: "10x14in"},
 		{name: "hart", img: "public/Prints/hart       diazo     11x13in.JPG", info: "diazo", size: "11x13in"},
 		// {name: "horses and riders", img: "public/Prints/Horses and riders  etching (Nasrudin press).JPG", info: "etching (nasrudin press)", size: ""}, // what size?
-		{name: "new kimona", img: "public/Prints/new kimona      diazo      13x11in.JPG", info: "diazo", size: "13x11in"},
+		{name: "new kimono", img: "public/Prints/new kimona      diazo      13x11in.JPG", info: "diazo", size: "13x11in"},
 		{name: "sleeping child", img: "public/Prints/sleeping child     dizao     9x7in.JPG", info: "diazo", size: "9x7in"},
 		{name: "the wonderful dress", img: "public/Prints/the wonderful dress    diazo    7x13in    .JPG", info: "diazo", size: "7x13in"},
 		{name: "young woman, figure study", img: "public/Prints/Young woman, figure study    diazo    11x15in.JPG", info: "diazo", size: "11x15in"},
